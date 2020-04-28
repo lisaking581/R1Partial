@@ -1,0 +1,647 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RFP</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RFPs</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount (Yr 1) --></label>
+        <name>Amount_Yr_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Anticipated Award Date --></label>
+        <name>Anticipated_Award_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CI Record Type --></label>
+        <name>CI_Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competition --></label>
+        <name>Competition__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Completed --></label>
+        <name>Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Received --></label>
+        <name>Date_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Released --></label>
+        <name>Date_Released__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent to Legal --></label>
+        <name>Date_Sent_to_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Did We Influence RFP --></label>
+        <name>Did_We_Influence_RFP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Electronic Copy --></label>
+        <name>Electronic_Copy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flash Drive --></label>
+        <name>Flash_Drive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Formatting Instructions --></label>
+        <name>Formatting_Instructions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Sourced through GovWin database --></help>
+        <label><!-- GovWin --></label>
+        <name>GovWin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hard Copy Submittal --></label>
+        <name>Hard_Copy_Submittal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Initial Legal Review Date --></label>
+        <name>Initial_Legal_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Point of Contact --></label>
+        <name>Legal_Point_of_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Status --></label>
+        <name>Legal_Status__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge_AccountName --></label>
+        <name>Merge_AccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge_OppValue --></label>
+        <name>Merge_OppValue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge_OpptyOwner --></label>
+        <name>Merge_OpptyOwner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge_Services --></label>
+        <name>Merge_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge_TargetMarket --></label>
+        <name>Merge_TargetMarket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Merge_UserEmail --></label>
+        <name>Merge_UserEmail__c</name>
+    </fields>
+    <fields>
+        <label><!-- New/Renewal --></label>
+        <name>New_Renewal__c</name>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Renewal</masterLabel>
+            <translation><!-- Renewal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Step --></label>
+        <name>Next_Step__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Onlin Login Name --></label>
+        <name>Onlin_Login_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Online Password --></label>
+        <name>Online_Password__c</name>
+    </fields>
+    <fields>
+        <label><!-- Online Submittal --></label>
+        <name>Online_Submittal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Online URL --></label>
+        <name>Online_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportinuty Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- RFP --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Add contact to &quot;R1 RCM - Product SMEs&quot;  Account to appear in this Lookup --></help>
+        <label><!-- Product SME --></label>
+        <name>Product_SME__c</name>
+        <relationshipLabel><!-- RFPs --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Solution  is now propagated from the Opportunity object for Product classification.  This field is left in place for legacy reporting only. --></help>
+        <label><!-- Legacy Products/Services --></label>
+        <name>Products_Services__c</name>
+        <picklistValues>
+            <masterLabel>AN Coding Only</masterLabel>
+            <translation><!-- AN Coding Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AN RCM</masterLabel>
+            <translation><!-- AN RCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AS - Optima ED</masterLabel>
+            <translation><!-- AS - Optima ED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AS - Prosper</masterLabel>
+            <translation><!-- AS - Prosper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air RCM</masterLabel>
+            <translation><!-- Air RCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDX - NEMSIS</masterLabel>
+            <translation><!-- CDX - NEMSIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDX - Trauma</masterLabel>
+            <translation><!-- CDX - Trauma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORES - ANS</masterLabel>
+            <translation><!-- CORES - ANS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORES - CMS</masterLabel>
+            <translation><!-- CORES - CMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORES - FNMS</masterLabel>
+            <translation><!-- CORES - FNMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORES - HAN</masterLabel>
+            <translation><!-- CORES - HAN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORES - RMS</masterLabel>
+            <translation><!-- CORES - RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Billing</masterLabel>
+            <translation><!-- ED Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Facility Coding</masterLabel>
+            <translation><!-- ED Facility Coding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Hospitalist</masterLabel>
+            <translation><!-- ED Hospitalist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Physician Coding</masterLabel>
+            <translation><!-- ED Physician Coding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED RCM</masterLabel>
+            <translation><!-- ED RCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Urgent Care</masterLabel>
+            <translation><!-- ED Urgent Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ED Wound Care</masterLabel>
+            <translation><!-- ED Wound Care --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMCredential</masterLabel>
+            <translation><!-- EMCredential --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMNotify</masterLabel>
+            <translation><!-- EMNotify --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMRegistry</masterLabel>
+            <translation><!-- EMRegistry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMResource</masterLabel>
+            <translation><!-- EMResource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS ASPP</masterLabel>
+            <translation><!-- EMS ASPP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Coding Only</masterLabel>
+            <translation><!-- EMS Coding Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Consulting</masterLabel>
+            <translation><!-- EMS Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS RCM</masterLabel>
+            <translation><!-- EMS RCM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS SaaS</masterLabel>
+            <translation><!-- EMS SaaS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Training</masterLabel>
+            <translation><!-- EMS Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMStat</masterLabel>
+            <translation><!-- EMStat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMTrack (Non Hardware)</masterLabel>
+            <translation><!-- EMTrack (Non Hardware) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMTrack Hardware</masterLabel>
+            <translation><!-- EMTrack Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ERB</masterLabel>
+            <translation><!-- ERB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Electronic - ICS (Non-Hospital)</masterLabel>
+            <translation><!-- Electronic - ICS (Non-Hospital) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Billing</masterLabel>
+            <translation><!-- Fire Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireStat</masterLabel>
+            <translation><!-- FireStat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FleetEyes</masterLabel>
+            <translation><!-- FleetEyes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital - ICS</masterLabel>
+            <translation><!-- Hospital - ICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inventory Management</masterLabel>
+            <translation><!-- Inventory Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDT</masterLabel>
+            <translation><!-- MDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Dispatch</masterLabel>
+            <translation><!-- Medical Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optima Consultancy</masterLabel>
+            <translation><!-- Optima Consultancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optima Insight</masterLabel>
+            <translation><!-- Optima Insight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optima Live</masterLabel>
+            <translation><!-- Optima Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Optima Predict</masterLabel>
+            <translation><!-- Optima Predict --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PM/EMR software</masterLabel>
+            <translation><!-- PM/EMR software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Mgmt (MSO)</masterLabel>
+            <translation><!-- Practice Mgmt (MSO) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Mgmt (full)</masterLabel>
+            <translation><!-- Practice Mgmt (full) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Mgmt (light)</masterLabel>
+            <translation><!-- Practice Mgmt (light) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Practice Mgmt AN</masterLabel>
+            <translation><!-- Practice Mgmt AN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prevention Billing</masterLabel>
+            <translation><!-- Prevention Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RCM Only</masterLabel>
+            <translation><!-- RCM Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RCM Plus</masterLabel>
+            <translation><!-- RCM Plus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Manager</masterLabel>
+            <translation><!-- Response Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TripTix</masterLabel>
+            <translation><!-- TripTix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Volunteer Mobilizer</masterLabel>
+            <translation><!-- Volunteer Mobilizer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebCUR</masterLabel>
+            <translation><!-- WebCUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WebEOC</masterLabel>
+            <translation><!-- WebEOC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Products --></label>
+        <name>Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Manager --></label>
+        <name>Proposal_Manager__c</name>
+        <picklistValues>
+            <masterLabel>Cyndi Smith</masterLabel>
+            <translation><!-- Cyndi Smith --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karin Mellow</masterLabel>
+            <translation><!-- Karin Mellow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kathleen McCollum</masterLabel>
+            <translation><!-- Kathleen McCollum --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lauri Ross</masterLabel>
+            <translation><!-- Lauri Ross --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Questions Due --></label>
+        <name>Questions_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Questions Received --></label>
+        <name>Questions_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Legacy ID --></label>
+        <name>RFP_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Is RFP Open --></help>
+        <label><!-- RFP Open --></label>
+        <name>RFP_Open__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Stage --></label>
+        <name>RFP_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Bid / No Bid</masterLabel>
+            <translation><!-- Bid / No Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Develop</masterLabel>
+            <translation><!-- Develop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finalize</masterLabel>
+            <translation><!-- Finalize --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Initiate</masterLabel>
+            <translation><!-- Initiate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kick Off</masterLabel>
+            <translation><!-- Kick Off --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost</masterLabel>
+            <translation><!-- Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk</masterLabel>
+            <translation><!-- Walk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Won</masterLabel>
+            <translation><!-- Won --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFx Number --></label>
+        <name>RFx_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFx Type --></label>
+        <name>RFx_Type__c</name>
+        <picklistValues>
+            <masterLabel>Follow-up</masterLabel>
+            <translation><!-- Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presentation</masterLabel>
+            <translation><!-- Presentation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security Questionnaire</masterLabel>
+            <translation><!-- Security Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unsolicited Proposal</masterLabel>
+            <translation><!-- Unsolicited Proposal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date range for legal to do review --></help>
+        <label><!-- Review Date From --></label>
+        <name>Review_Date_From__c</name>
+    </fields>
+    <fields>
+        <help><!-- Last date for legal to do review --></help>
+        <label><!-- Review Date To --></label>
+        <name>Review_Date_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Security and Risk Contact --></label>
+        <name>Security_and_Risk_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Required when RFx type is Security Questionnaire --></help>
+        <label><!-- Security and Risk Type --></label>
+        <name>Security_and_Risk_Type__c</name>
+        <picklistValues>
+            <masterLabel>Complex</masterLabel>
+            <translation><!-- Complex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Simple</masterLabel>
+            <translation><!-- Simple --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date this RFP needs to be shipped to meet submittal date --></help>
+        <label><!-- Ship date --></label>
+        <name>Ship_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Instructions --></label>
+        <name>Shipping_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Instructions --></label>
+        <name>Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submittal Delivered --></label>
+        <name>Submittal_Delivered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submittal Due --></label>
+        <name>Submittal_Due__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Market --></label>
+        <name>Target_Market__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Legal --></label>
+        <name>URL_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Vertical --></label>
+        <name>Vertical__c</name>
+    </fields>
+    <fields>
+        <label><!-- Wet/Ink Signature --></label>
+        <name>Wet_Ink_Signature__c</name>
+    </fields>
+    <layouts>
+        <layout>RFP Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Format Specifications --></label>
+            <section>Format Specifications</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- RFP Details --></label>
+            <section>RFP Details</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>RFP Layout - RFP Team</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Format Specifications --></label>
+            <section>Format Specifications</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Details --></label>
+            <section>Opportunity Details</section>
+        </sections>
+        <sections>
+            <label><!-- RFP Details --></label>
+            <section>RFP Details</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please select a Security and Risk Type for your Security Questionnaire RFP Type. --></errorMessage>
+        <name>Security_Type</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Submit_to_Legal --></label>
+        <name>Submit_to_Legal</name>
+    </webLinks>
+</CustomObjectTranslation>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Inside Sales</fullName>
+        <default>false</default>
+        <label>Inside Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AN - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>AN - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AN - Sales</fullName>
+        <default>false</default>
+        <label>AN - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>AS - CSM/Account Manager</fullName>
+        <default>false</default>
+        <label>AS - CSM/Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ED - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>ED - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ED Executive</fullName>
+        <default>false</default>
+        <label>ED Executive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ED - Sales</fullName>
+        <default>false</default>
+        <label>ED - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EMS - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>EMS - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>EMS - Sales</fullName>
+        <default>false</default>
+        <label>EMS - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>ERB - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>ERB - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>FE - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>FE - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDN - Account Manager</fullName>
+        <default>false</default>
+        <label>IDN - Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDN - Enterprise Sales</fullName>
+        <default>false</default>
+        <label>IDN - Enterprise Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>IDN - Modular Sales</fullName>
+        <default>false</default>
+        <label>IDN - Modular Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBB - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>OBB - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBPM - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>OBPM - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OBPM - Sales</fullName>
+        <default>false</default>
+        <label>OBPM - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity Owner</fullName>
+        <default>false</default>
+        <label>Opportunity Owner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPT - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>OPT - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PHY - Accounting Manager</fullName>
+        <default>false</default>
+        <label>PHY - Accounting Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PHY - Practice Admin</fullName>
+        <default>false</default>
+        <label>PHY - Practice Admin</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PSR - CSM/Acct Mgr</fullName>
+        <default>false</default>
+        <label>PSR - CSM/Acct Mgr</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PSR - Sales</fullName>
+        <default>false</default>
+        <label>PSR - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Leadership</fullName>
+        <default>false</default>
+        <label>Sales Leadership</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Account Manager</fullName>
+        <default>false</default>
+        <label>Account Manager</label>
+    </standardValue>
+    <standardValue>
+        <fullName>OPT - Sales</fullName>
+        <default>false</default>
+        <label>OPT - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Administrator</fullName>
+        <default>false</default>
+        <label>Administrator</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>To Be Removed</fullName>
+        <default>false</default>
+        <label>To Be Removed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Security &amp; Risk</fullName>
+        <default>false</default>
+        <label>Security &amp; Risk</label>
+    </standardValue>
+</StandardValueSet>

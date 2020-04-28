@@ -1,0 +1,36 @@
+{!Opportunity.Account}
+{!Opportunity.Name}
+{!Opportunity.OwnerFullName}
+
+Stage: {!Opportunity.StageName} {!Opportunity_History__c.Stage_History__c}
+Close:  {!Opportunity.CloseDate}
+Type:    {!Opportunity.Type}
+
+Mgt FC         {!Opportunity.Mgt_Forecast__c}
+Mgt FC Flag  {!Opportunity.EX_Mgt_FCST__c}
+Sales FC      {!Opportunity.Sales_Forecast__c}
+FC              {!Opportunity.ForecastCategoryName}
+Highest Prob: {!Opportunity.Highest_Probability__c}
+
+CP:  {!Opportunity.EX_Contract_Priority__c}
+
+Amount:  {!Opportunity.Amount}
+ARR         {!Opportunity.Calculated_Annual_Bookings__c}
+TYR          {!Opportunity.Calculated_This_Year_Revenue__c}
+M-ARR     {!Opportunity.Mgt_ARR__c}
+M-TYR     {!Opportunity.Mgt_TYR__c}
+
+Loss internal reason {!Opportunity.Internal_Lost_Reason__c}
+Loss reason {!Opportunity.Customer_Lost_Reason_1__c}
+                     {!Opportunity.Customer_Lost_Reason_2__c}
+
+
+win  reason {!Opportunity.Customer_Won_Reason__c}
+internal reason {!Opportunity.Closed_Won_Internal_Reason__c}
+
+EC: {!Opportunity.Executive_Comments__c}
+
+{!Opportunity.Manager_Comments__c}
+{!Opportunity.Link}
+
+https://r1rcm.lightning.force.com/one/one.app#/setup/CommunicationTemplatesEmail/page?address=%2F00X41000001VgF1%2Fe%3Fsetupid%3DCommunicationTemplatesEmail%26retURL%3D%252F00X41000001VgF1

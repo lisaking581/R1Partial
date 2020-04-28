@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>apps@getfunnelcake.com</contactEmail>
+    <label>FunnelCake</label>
+    <oauthConfig>
+        <callbackUrl>https://r1rcm.api.prod002.getfunnelcake.com/salesforce/authorization_callback</callbackUrl>
+        <consumerKey>3MVG93MGy9V8hF9P5tOvZXvSk6XdSBsK10AgnTJERSvBMvYESZ5oJN09GLH1841EhQI_WX6dJBVbvscWG8bin</consumerKey>
+        <isAdminApproved>false</isAdminApproved>
+        <scopes>Api</scopes>
+        <scopes>RefreshToken</scopes>
+    </oauthConfig>
+</ConnectedApp>

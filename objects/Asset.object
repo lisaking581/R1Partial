@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>Asset_Compact_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Asset_Compact_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountId</fields>
+        <fields>ContactId</fields>
+        <fields>Quantity</fields>
+        <fields>Asset_000000__c</fields>
+        <label>Asset Compact Layout</label>
+    </compactLayouts>
+    <enableFeeds>false</enableFeeds>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Accounting_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Acctg Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>AccruedUnApprovedExpenseTotal__c</fullName>
+        <externalId>false</externalId>
+        <label>Accruing/Unpaid Expense Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Acctg_Override__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check box to complete this item and clear any remaining amounts, if amount recognized does not match the order amount.</inlineHelpText>
+        <label>Acctg Override</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Amount_Year_2__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Price Year 2 from the sales order</inlineHelpText>
+        <label>Ext Amt Yr 2</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Amount_Year_3__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Price Year 3 from Sales Order</inlineHelpText>
+        <label>Ext Amt Yr 3</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Amount_Year_4__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Price Year 4 from the sales order</inlineHelpText>
+        <label>Ext Amt Yr 4</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Amount_Year_5__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Price Year 5 from the sales order</inlineHelpText>
+        <label>Ext Amt Yr 5</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>AssetLevel</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>AssetProvidedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetServicedById</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Asset_000000__c</fullName>
+        <displayFormat>Asset-{000000}</displayFormat>
+        <externalId>false</externalId>
+        <inlineHelpText>R1 staff should reference this ID when requesting Salesforce.com assistance from internal system support (e.g. Mike Lippman)</inlineHelpText>
+        <label>Asset #</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </fields>
+    <fields>
+        <fullName>Asset_Legacy_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Asset Legacy ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Contact_in_Compiere__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For reference only, data imported from Compiere</inlineHelpText>
+        <label>Invoice Contact</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Term (Yrs)</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Converted_Asset__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>For Products to Assets</description>
+        <externalId>false</externalId>
+        <label>Converted Asset</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CustId__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>ESi Customer ID</inlineHelpText>
+        <label>CustId</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Cust_ID_from_Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>Account.ESi_Cust_ID__c</formula>
+        <inlineHelpText>Auto-displayed from the Account associated to this product, for reference only.</inlineHelpText>
+        <label>Cust ID (from Account)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Delivered_Not_Invoiced__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (OR(Acctg_Override__c , ABS(Total_Amt_Invoiced__c) &gt;= ABS(Order_Amt__c)),0,
+   IF (ABS( Recognized_Amt_3_Acctg__c ) &lt;= ABS(Order_Amt__c),
+      (IF (ABS(Total_Amt_Invoiced__c) &gt; ABS(Recognized_Amt_3_Acctg__c), 0, Recognized_Amt_3_Acctg__c - Total_Amt_Invoiced__c)),
+             Order_Amt__c)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Set to 0 if Accounting Override is checked.
+Otherwise set to Recognized Amt (Acctg) - Total Amt Invoiced</inlineHelpText>
+        <label>Delivered/Not Invoiced</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Demo_Days__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If the license key will be for a trial, update number.</inlineHelpText>
+        <label>Demo Days</label>
+        <precision>2</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DigitalAssetStatus</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Environment__c</fullName>
+        <externalId>false</externalId>
+        <label>Environment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hosted Installation</fullName>
+                    <default>false</default>
+                    <label>Hosted Installation</label>
+                </value>
+                <value>
+                    <fullName>Hybrid Installation</fullName>
+                    <default>false</default>
+                    <label>Hybrid Installation</label>
+                </value>
+                <value>
+                    <fullName>Subscription</fullName>
+                    <default>false</default>
+                    <label>Subscription</label>
+                </value>
+                <value>
+                    <fullName>Local Installation</fullName>
+                    <default>false</default>
+                    <label>Local Installation</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>FinalExpenseTotal__c</fullName>
+        <externalId>false</externalId>
+        <label>Final/Paid Expense Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Full_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Full ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Hourly_Rate__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (Planned_Hours__c = 0, 0,  
+     Order_Amt__c / Planned_Hours__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Order Amount / # of Planned Hours</inlineHelpText>
+        <label>Hourly Rate</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>InstallDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Invoice_Partner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Purchase_Opportunity__r.Invoice_Partner__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Invoice Partner from Purchase Opportunity (display only)</inlineHelpText>
+        <label>Invoice Partner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Invoiced_Not_Delivered__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (OR(Acctg_Override__c , Total_Amt_Invoiced__c = 0,  Delivered_Not_Invoiced__c &gt; 0 ),0,
+    IF(ABS(Total_Amt_Invoiced__c) &gt; ABS( Recognized_Amt_3_Acctg__c ),
+       Total_Amt_Invoiced__c - Recognized_Amt_3_Acctg__c,
+       Recognized_Amt_3_Acctg__c - Total_Amt_Invoiced__c)
+
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Recognized Amt (Acctg) - Total Amt Invoiced with some exceptions.
+Set to 0 if Accounting Override is checked or Total Amt Invoiced is 0.</inlineHelpText>
+        <label>Invoiced/Not Delivered</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>IsCompetitorProduct</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>IsInternal</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Item_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISBLANK (Line_Item_ID__c), 
+ Name, 
+ Line_Item_ID__c &amp; " " &amp; Name 
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Purchased Item Name prefixed with Line ID from Sales Order, if converted from a sales order.</inlineHelpText>
+        <label>Item Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jira_Key__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Issue Key in Jira - used to integrate time tracking</inlineHelpText>
+        <label>Jira Key</label>
+        <length>500</length>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Legacy_ID__c</fullName>
+        <externalId>true</externalId>
+        <label>Legacy ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legacy_Source__c</fullName>
+        <externalId>false</externalId>
+        <label>Legacy Source</label>
+        <length>30</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Line_Item_ID__c</fullName>
+        <externalId>true</externalId>
+        <inlineHelpText>Format: [Proposal ID]-[Line Item ID]</inlineHelpText>
+        <label>Line Item ID</label>
+        <length>40</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Master_Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Master Project</label>
+        <referenceTo>Project__c</referenceTo>
+        <relationshipLabel>Purchased Items</relationshipLabel>
+        <relationshipName>Purchased_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Mx_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Maintenance amount</inlineHelpText>
+        <label>Mx Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Order_Amt__c</fullName>
+        <externalId>false</externalId>
+        <label>Order Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>PM_from_Master_Project__c</fullName>
+        <externalId>false</externalId>
+        <formula>Master_Project__r.Owner:User.FirstName &amp;  " " &amp; Master_Project__r.Owner:User.LastName</formula>
+        <inlineHelpText>Displays the Owner name from the associated Master Project</inlineHelpText>
+        <label>PM (from Master Project)</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Planned_Amount__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For services, budgeted dollar amount total for this line item</inlineHelpText>
+        <label>Planned Amount</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Planned_Hours__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>For services, number of hours budgeted</inlineHelpText>
+        <label>Planned Hours</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Planned_Margin__c</fullName>
+        <externalId>false</externalId>
+        <formula>Order_Amt__c  -  X3rd_Party_Costs__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Auto-calculated: Order Amount - 3rd Party Costs</inlineHelpText>
+        <label>Planned Margin</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Price</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Product2Id</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductDescription</fullName>
+    </fields>
+    <fields>
+        <fullName>ProductFamily</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>ProductName__c</fullName>
+        <externalId>false</externalId>
+        <label>ProductName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Project_Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>IMX Project Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tricia Nixon</fullName>
+                    <default>false</default>
+                    <label>Tricia Nixon</label>
+                </value>
+                <value>
+                    <fullName>PM 2</fullName>
+                    <default>false</default>
+                    <label>PM 2</label>
+                </value>
+                <value>
+                    <fullName>PM 3</fullName>
+                    <default>false</default>
+                    <label>PM 3</label>
+                </value>
+                <value>
+                    <fullName>PM 4</fullName>
+                    <default>false</default>
+                    <label>PM 4</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Name</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Proposal_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Purchase_Opportunity__r.Proposal_ID__c</formula>
+        <inlineHelpText>Proposal ID from the Closed Won Opportunity</inlineHelpText>
+        <label>Proposal ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PurchaseDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Purchase_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Assets converted from Opportunity Line Items should have a reference to the Purchase Opportunity.</description>
+        <externalId>false</externalId>
+        <label>Purchase Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Purchased Items</relationshipLabel>
+        <relationshipName>Purchased_Items</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Purchase_Oppty_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Purchase_Opportunity__r.Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Purchase Oppty ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quantity</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Recognized_Amt_3_Acctg__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Updated by workflow - set to Order Amount if Status is Shipped, Completed or Active, or Accounting Override is checked. Otherwise, set to Recognized Amt (T&amp;E).</inlineHelpText>
+        <label>Recognized Amt (Acctg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Remaining_Amt_Acctg__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF ( Acctg_Override__c , 0,
+(IF ( AND (ISPICKVAL (Product2.Family, "Travel &amp; Expense"),
+OR (ISPICKVAL ( Status, "Completed"), ISPICKVAL ( Status, "Cancelled"))), 0,
+IF (ABS(Total_Amt_Invoiced__c) &gt;= ABS( Order_Amt__c ), 0,
+Order_Amt__c - Total_Amt_Invoiced__c)
+)
+)
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Order Amount - Total Amount Invoiced. If item is a Travel Expense and marked Completed or Cancelled, set to 0.</inlineHelpText>
+        <label>Remaining Amt (Acctg)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Renewal_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Renewal Opportunity Lookup - only to be used with Opportunity Renwals</description>
+        <externalId>false</externalId>
+        <label>Renewal Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Assets (Renewal Opportunity)</relationshipLabel>
+        <relationshipName>Assets1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RootAssetId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>SerialNumber</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <inlineHelpText>Service &amp; Travel Expense Items: Purchased, In Progress, Completed
+Hardware &amp; Software Items: Purchased, Shipped/Delivered, Active, Inactive
+Maintenance Items: Purchased, Active, Expired, Declined, Override, Transfer, Mx Change, Cancelled</inlineHelpText>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Amt_Invoiced__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Invoice Amount total from all related invoices</inlineHelpText>
+        <label>Total Amt Invoiced</label>
+        <summarizedField>Invoice__c.Amount__c</summarizedField>
+        <summaryForeignKey>Invoice__c.Purchased_Item__c</summaryForeignKey>
+        <summaryOperation>sum</summaryOperation>
+        <trackHistory>false</trackHistory>
+        <type>Summary</type>
+    </fields>
+    <fields>
+        <fullName>Unrealized_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISPICKVAL( Status , "Completed"),
+IF( ABS( Recognized_Amt_3_Acctg__c ) &gt;= ABS(Order_Amt__c), 0,
+Order_Amt__c - Total_Amt_Invoiced__c ),
+NULL)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>If Status is Completed or Acctg Override has been checked, set to Order Amount - Total Amount Invoiced.</inlineHelpText>
+        <label>Unrealized Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>UsageEndDate</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Usage_End_Year__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (ISNULL(UsageEndDate), "NO END DATE",
+     TEXT(YEAR(UsageEndDate))
+)</formula>
+        <label>Usage End Year</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>X3rd_Party_Costs__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>3rd party or other costs that should be deducted to calculate planned margin</inlineHelpText>
+        <label>3rd Party Costs</label>
+        <precision>16</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <listViews>
+        <fullName>AllAssets</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All Assets</label>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>ASSET.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.SERIAL_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ASSET.INSTALL_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>ACCOUNT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CONTACT.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CONTACT.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.SERIAL_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ASSET.INSTALL_DATE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CONTACT.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.SERIAL_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ASSET.INSTALL_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>ACCOUNT.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CONTACT.NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

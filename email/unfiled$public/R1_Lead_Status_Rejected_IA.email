@@ -1,0 +1,7 @@
+Lead Owner, {!Lead.OwnerFullName}, has marked the following Lead Record's Lead Status to Rejected for reason of incorrect assignment. Members of the System Admin public group are expected to work with this user's manager (the only non-System Admin recipient of this email, to confirm reassignment is appropriate. If yes, then a System Admin will need to determine who best to reassign the Lead to. 
+
+
+Lead Name: {!Lead.Name}
+Lead Status: {!Lead.Status}
+Outcome Status: {!Lead.Outcome_Status__c}
+Link to record: {!Lead.Link}

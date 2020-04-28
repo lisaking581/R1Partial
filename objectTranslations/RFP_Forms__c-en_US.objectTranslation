@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RFP Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RFP Forms</value>
+    </caseValues>
+    <fields>
+        <label><!-- Location --></label>
+        <name>Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notary --></label>
+        <name>Notary__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Form Legacy ID --></label>
+        <name>RFP_Form_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP --></label>
+        <name>RFP__c</name>
+        <relationshipLabel><!-- RFP Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Signature Required --></label>
+        <name>Signature_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signature Name --></label>
+        <name>Signatures_Name__c</name>
+    </fields>
+    <layouts>
+        <layout>RFP Form Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

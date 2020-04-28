@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Queue xmlns="http://soap.sforce.com/2006/04/metadata">
+    <doesSendEmailToMembers>true</doesSendEmailToMembers>
+    <email>lking1@r1rcm.com</email>
+    <name>18 Project Team</name>
+    <queueMembers>
+        <users>
+            <user>annette@ablecloudadvisors.com.r1prod</user>
+            <user>lking1@r1rcm.com</user>
+            <user>maren.kiemen@intermedix.com.r1</user>
+            <user>michelle@malterio.com.r1</user>
+            <user>mlippman@r1rcm.com</user>
+            <user>theresa@datatherapist.com.r1prod</user>
+        </users>
+    </queueMembers>
+    <queueSobject>
+        <sobjectType>Case</sobjectType>
+    </queueSobject>
+</Queue>

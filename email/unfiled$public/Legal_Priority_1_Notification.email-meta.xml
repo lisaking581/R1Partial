@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Legal Priority Escalated to 1</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Legal Priority 1 Notification</name>
+    <style>none</style>
+    <subject>{!Opportunity.Name} Now Legal Priority of 1</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>State/Province</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>States/Provinces</value>
+    </caseValues>
+    <fields>
+        <help><!-- Contains the State/Province code value (typically 2 or 3 characters). --></help>
+        <label><!-- Code --></label>
+        <name>Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country Name --></label>
+        <name>Country_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+        <relationshipLabel><!-- States/Provinces --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Contains the local country version of the state/province long name. --></help>
+        <label><!-- Name (Alt) --></label>
+        <name>Name_Alt__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Group --></label>
+        <name>State_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- State Super Group --></label>
+        <name>State_Super_Group__c</name>
+    </fields>
+    <fields>
+        <help><!-- Value to validate State/Province against (may contain abbreviation/short name or long name). --></help>
+        <label><!-- Value to Validate --></label>
+        <name>Value_to_Validate__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

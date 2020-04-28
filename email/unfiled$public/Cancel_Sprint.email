@@ -1,0 +1,10 @@
+The following user has requested cancellation of their sprint.
+
+User: {!User.Name}
+Sprint Name:  {!Sprint__c.Sprint_Master_Name__c}
+Account: {!Sprint__c.Account__c}
+
+Cancel Reason:  {!Sprint__c.Cancel_Reason__c}
+
+
+https://r1rcm.lightning.force.com/{!Sprint__c.Id}

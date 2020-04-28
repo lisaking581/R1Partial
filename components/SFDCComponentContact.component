@@ -1,0 +1,19 @@
+<apex:component access="global" controller="TaskContactController3" >
+	<apex:attribute name="WhoID" description="This is the value for the 
+component." type="String" assignTo="{!ApexContactID}"/>
+    
+    <table >
+
+
+            <tr><b>Name: </b>{!c.Name} </tr>
+            <tr><b>Company: </b>{!c.AccountText__c} </tr>
+            <tr><b>Phone: </b>{!c.phone} </tr>
+            <tr><b>Email: </b>{!c.email} </tr>
+   
+     
+  <tr><b>Lead Source:  </b>{!c.LeadSource}</tr>
+  <tr><b>Lead Source Detail: </b>{!c.Lead_Source_Detail__c}</tr>  
+  </table>
+    
+
+</apex:component>

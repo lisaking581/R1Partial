@@ -1,0 +1,539 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>Active Lead</fullName>
+        <default>false</default>
+        <label>Active Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Customer</fullName>
+        <default>false</default>
+        <label>Attended - Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Live Webinar</fullName>
+        <default>false</default>
+        <label>Attended Live Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Live Webinar/Qualified Lead</fullName>
+        <default>false</default>
+        <label>Attended Live Webinar/Qualified Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended - Qualified Lead</fullName>
+        <default>false</default>
+        <label>Attended - Qualified Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended Workshop</fullName>
+        <default>false</default>
+        <label>Attended Workshop</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attending Conference</fullName>
+        <default>false</default>
+        <label>Attending Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Lead</fullName>
+        <default>false</default>
+        <label>Booth Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Lead/Scan</fullName>
+        <default>false</default>
+        <label>Booth Lead/Scan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Meeting</fullName>
+        <default>false</default>
+        <label>Booth Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Meeting - Tentative</fullName>
+        <default>false</default>
+        <label>Booth Meeting - Tentative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Scan</fullName>
+        <default>false</default>
+        <label>Booth Scan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Scan/Qualified Lead</fullName>
+        <default>false</default>
+        <label>Booth Scan/Qualified Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bounced</fullName>
+        <default>false</default>
+        <label>Bounced</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Can&apos;t Attend</fullName>
+        <default>false</default>
+        <label>Can&apos;t Attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked</fullName>
+        <default>false</default>
+        <label>Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Clicked Email</fullName>
+        <default>false</default>
+        <label>Clicked Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Converted</fullName>
+        <default>false</default>
+        <label>Converted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dinner</fullName>
+        <default>false</default>
+        <label>Dinner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dinner Scheduled</fullName>
+        <default>false</default>
+        <label>Dinner Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Do not contact</fullName>
+        <default>false</default>
+        <label>Do not contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded On-Demand Webinar</fullName>
+        <default>false</default>
+        <label>Downloaded On-Demand Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded Webinar</fullName>
+        <default>false</default>
+        <label>Downloaded Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded Whitepaper</fullName>
+        <default>false</default>
+        <label>Downloaded Whitepaper</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email #2 Sent</fullName>
+        <default>false</default>
+        <label>Email #2 Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Clicked</fullName>
+        <default>false</default>
+        <label>Email Clicked</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Read</fullName>
+        <default>false</default>
+        <label>Email Read</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent</fullName>
+        <default>false</default>
+        <label>Email Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent/Call</fullName>
+        <default>false</default>
+        <label>Email Sent/Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent - Personal</fullName>
+        <default>false</default>
+        <label>Email Sent - Personal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Event - Boat</fullName>
+        <default>false</default>
+        <label>Event - Boat</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exec Connection Meeting - Qualified Lead</fullName>
+        <default>false</default>
+        <label>Exec Connection Meeting - Qualified Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Identified</fullName>
+        <default>false</default>
+        <label>Identified</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Identified - Pardot</fullName>
+        <default>false</default>
+        <label>Identified - Pardot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Identified - Personal</fullName>
+        <default>false</default>
+        <label>Identified - Personal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inactive</fullName>
+        <default>false</default>
+        <label>Inactive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Innovation Hub Scan</fullName>
+        <default>false</default>
+        <label>Innovation Hub Scan</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited - Dinner</fullName>
+        <default>false</default>
+        <label>Invited - Dinner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited - Media</fullName>
+        <default>false</default>
+        <label>Invited - Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited - Meeting</fullName>
+        <default>false</default>
+        <label>Invited - Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited - Pardot</fullName>
+        <default>false</default>
+        <label>Invited - Pardot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited - Personal</fullName>
+        <default>false</default>
+        <label>Invited - Personal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invite Sent - Pardot</fullName>
+        <default>false</default>
+        <label>Invite Sent - Pardot</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invite Sent - Personal</fullName>
+        <default>false</default>
+        <label>Invite Sent - Personal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Lead</fullName>
+        <default>false</default>
+        <label>Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Marketing Outreach</fullName>
+        <default>false</default>
+        <label>Marketing Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media Interview</fullName>
+        <default>false</default>
+        <label>Media Interview</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Media Invite</fullName>
+        <default>false</default>
+        <label>Media Invite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Confirmed</fullName>
+        <default>false</default>
+        <label>Meeting Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting Scheduled</fullName>
+        <default>false</default>
+        <label>Meeting Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>NO MKTG CONTACT</fullName>
+        <default>false</default>
+        <label>NO MKTG CONTACT</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show</fullName>
+        <default>false</default>
+        <label>No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not a Lead/Competitor</fullName>
+        <default>false</default>
+        <label>Not a Lead/Competitor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Attending</fullName>
+        <default>false</default>
+        <label>Not Attending</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Attending Conference</fullName>
+        <default>false</default>
+        <label>Not Attending Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Available/Can&apos;t Come</fullName>
+        <default>false</default>
+        <label>Not Available/Can&apos;t Come</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Interested</fullName>
+        <default>false</default>
+        <label>Not Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Interested / Can&apos;t Attend</fullName>
+        <default>false</default>
+        <label>Not Interested / Can&apos;t Attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>One to One Outreach</fullName>
+        <default>false</default>
+        <label>One to One Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened</fullName>
+        <default>false</default>
+        <label>Opened</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened Email</fullName>
+        <default>false</default>
+        <label>Opened Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PEPPER Review with Dr. Hirsch</fullName>
+        <default>false</default>
+        <label>PEPPER Review with Dr. Hirsch</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Booth Mtg Confirmed</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Booth Mtg Confirmed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Booth Mtg Tentative</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Booth Mtg Tentative</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Dinner Scheduled</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Dinner Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Drinks Scheduled</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Drinks Scheduled</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Not Interested</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Not Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Pending Response</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Pending Response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pers Email Sent - Responded No Action</fullName>
+        <default>false</default>
+        <label>Pers Email Sent - Responded No Action</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Prospect Indentified</fullName>
+        <default>false</default>
+        <label>Prospect Indentified</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified Lead</fullName>
+        <default>false</default>
+        <label>Qualified Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Qualified Lead/Sales Call Requested</fullName>
+        <default>false</default>
+        <label>Qualified Lead/Sales Call Requested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Received Email</fullName>
+        <default>false</default>
+        <label>Received Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered for 1 or more sessions</fullName>
+        <default>false</default>
+        <label>Registered for 1 or more sessions</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - No Show</fullName>
+        <default>false</default>
+        <label>Registered - No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered - No-Show</fullName>
+        <default>false</default>
+        <label>Registered - No-Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>REMOVE</fullName>
+        <default>false</default>
+        <label>REMOVE</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rep Reach Out</fullName>
+        <default>false</default>
+        <label>Rep Reach Out</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Attended</fullName>
+        <default>false</default>
+        <label>RSVP - Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Event</fullName>
+        <default>false</default>
+        <label>RSVP - Event</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Maybe (Pardot)</fullName>
+        <default>false</default>
+        <label>RSVP - Maybe (Pardot)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Maybe (Personal)</fullName>
+        <default>false</default>
+        <label>RSVP - Maybe (Personal)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP No/Can&apos;t Attend</fullName>
+        <default>false</default>
+        <label>RSVP No/Can&apos;t Attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - No (Pardot)</fullName>
+        <default>false</default>
+        <label>RSVP - No (Pardot)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - No (Personal)</fullName>
+        <default>false</default>
+        <label>RSVP - No (Personal)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - No Show</fullName>
+        <default>false</default>
+        <label>RSVP - No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP Yes</fullName>
+        <default>false</default>
+        <label>RSVP Yes</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Yes (Pardot)</fullName>
+        <default>false</default>
+        <label>RSVP - Yes (Pardot)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Yes (Personal)</fullName>
+        <default>false</default>
+        <label>RSVP - Yes (Personal)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP - Yes +1 (Personal)</fullName>
+        <default>false</default>
+        <label>RSVP - Yes +1 (Personal)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSVP Yes - Boat Tour</fullName>
+        <default>false</default>
+        <label>RSVP Yes - Boat Tour</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Only Outreach</fullName>
+        <default>false</default>
+        <label>Sales Only Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled Dinner</fullName>
+        <default>false</default>
+        <label>Scheduled Dinner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled Meeting - Media</fullName>
+        <default>false</default>
+        <label>Scheduled Meeting - Media</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Scheduled Meeting - Sales</fullName>
+        <default>false</default>
+        <label>Scheduled Meeting - Sales</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Email/Call</fullName>
+        <default>false</default>
+        <label>Sent Email/Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspect Lead</fullName>
+        <default>false</default>
+        <label>Suspect Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Targeted</fullName>
+        <default>false</default>
+        <label>Targeted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Undeliverable/Inaccurate Contact Info</fullName>
+        <default>false</default>
+        <label>Undeliverable/Inaccurate Contact Info</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viewed On-Demand Webinar</fullName>
+        <default>false</default>
+        <label>Viewed On-Demand Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched On-Demand Webinar</fullName>
+        <default>false</default>
+        <label>Watched On-Demand Webinar</label>
+    </standardValue>
+</StandardValueSet>

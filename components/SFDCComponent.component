@@ -1,0 +1,16 @@
+<apex:component access="global" controller="TaskLeadController3" >
+	<apex:attribute name="WhoID" description="This is the value for the 
+component." type="String" assignTo="{!ApexLeadID}"/>
+    
+    <table >
+
+
+            <tr><b>Name: </b>{!c.Name} </tr>
+            <tr><b>Company: </b>{!c.Company} </tr>
+            <tr><b>Phone: </b>{!c.phone} </tr>
+            <tr><b>Email: </b>{!c.email} </tr>       
+       		 <tr><b>Lead Source: </b> {!c.LeadSource}</tr>
+ 			 <tr><b>Lead Source Detail: </b> {!c.Lead_Source_Detail__c}</tr>  
+  </table>
+    
+</apex:component>

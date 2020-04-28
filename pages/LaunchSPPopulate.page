@@ -1,0 +1,85 @@
+<apex:page controller="SolPortUpdateController" sidebar="false">
+    
+    This page launches the WhiteSpaceUpate class to add whitespace records to eligible accounts
+    <apex:form >
+        
+        <apex:commandbutton value="Populate SP" action="{!SolPortUpdate2}" />
+    </apex:form>
+    
+    
+    
+<apex:form >
+  <apex:pageMessages id="errors" />
+  
+  <apex:pageBlock title="Accounts to update!" mode="edit">
+    
+  <table width="1000" border="0">
+  <tr>  
+    <td width="200" valign="top">
+  
+     
+      
+      <script type="text/javascript">
+      function doSearch() {
+        searchServer(
+          document.getElementById("Name").value
+       
+  
+          );
+      }
+      </script> 
+      
+      
+      
+</td>
+    <td valign="top">
+    
+    <apex:pageBlock mode="edit" id="results">
+                
+        <apex:pageBlockTable value="{!accounts}" var="acc">
+        
+            <apex:column >
+                <apex:facet name="header">
+                    <apex:commandLink value="Name" >
+                        
+                    </apex:commandLink>
+                </apex:facet>
+                <apex:outputField value="{!acc.Name}"/>
+             </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">
+                    <apex:commandLink value="asset list" >
+                        
+                    </apex:commandLink>
+                </apex:facet>
+                <apex:outputField value="{!acc.Asset_List__c}"/>
+             </apex:column>
+            
+            <apex:column >
+                <apex:facet name="header">
+                    <apex:commandLink value="count" >
+                        
+                    </apex:commandLink>
+                </apex:facet>
+                <apex:outputField value="{!acc.CountSolPort__c}"/>
+             </apex:column>
+            
+                     
+            
+            
+        </apex:pageBlockTable>
+                
+    </apex:pageBlock>
+    
+    </td>
+  </tr>
+  </table>
+  
+  <apex:pageBlock title="Debug - SOQL" id="debug">
+      <apex:outputText value="{!debugSoql}" />           
+  </apex:pageBlock>    
+  
+  </apex:pageBlock>
+</apex:form>
+</apex:page>

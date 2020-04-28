@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notice to Users</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>R1_2019_logo</letterhead>
+    <name>Notice To Users</name>
+    <style>freeForm</style>
+    <subject>Important Salesforce Reminder</subject>
+    <textOnly>{!User.Name}
+
+As a reminder, we will be shutting down both instances of Salesforce today, January 10, 2019, at 6 PM CST.  Any updates made after this time will not be migrated to the new system.
+
+Please let me know if you have any questions or concerns.
+
+Thank you,
+
+Mike
+
+Mike Lippman
+
+Vice President, Sales Operations
+
+R1 RCM Inc. | mlippman@r1rcm.com | Tele: +1 513 252 4898
+
+401 N Michigan Ave., Suite 2700 | Chicago, IL 60611
+
+www.linkedin/in/mikelippman</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Invoices</value>
+    </caseValues>
+    <fields>
+        <help><!-- Auto-populated from the Purchased Item --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <help><!-- Amount of invoice --></help>
+        <label><!-- Invoice Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Comment --></label>
+        <name>Invoice_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Legacy ID --></label>
+        <name>Invoice_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of hours or units invoiced --></help>
+        <label><!-- Invoice Qty --></label>
+        <name>Invoice_Qty__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Auto-populated from the Purchased Item. Original IMX test formula: HYPERLINK( &quot;/&quot; &amp;  Purchased_Item__r.Purchase_Oppty_ID__c  ,  Purchased_Item__r.Purchase_Opportunity__r.Name) --></help>
+        <label><!-- Purchase Opportunity --></label>
+        <name>Purchase_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchased Item --></label>
+        <name>Purchased_Item__c</name>
+        <relationshipLabel><!-- Invoices --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

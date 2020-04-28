@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Optima Invoice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Optima Invoices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- The first day of support covered by the payment (or first day after the support period for invoices in arrears). The invoice is issued in the previous month or earlier, depending on the contract payment terms) --></help>
+        <label><!-- Invoice Date --></label>
+        <name>Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Invoice Number --></label>
+        <name>Invoice_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether the invoice has been issued. This will be automatically set when the invoice number is filled in --></help>
+        <label><!-- Invoiced --></label>
+        <name>Invoiced__c</name>
+    </fields>
+    <fields>
+        <help><!-- The date the invoice should be issued, based on the contract&apos;s payment terms --></help>
+        <label><!-- Issue date --></label>
+        <name>Issue_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Contract --></label>
+        <name>Master_Contract__c</name>
+        <relationshipLabel><!-- Optima Invoices --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>Note__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optima Invoice Legacy ID --></label>
+        <name>Optima_Invoice_Legacy_ID__c</name>
+    </fields>
+    <layouts>
+        <layout>Optima Invoice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Invoice number must be entered when the invoice has been issued --></errorMessage>
+        <name>Invoice_num_reqd_when_issued</name>
+    </validationRules>
+</CustomObjectTranslation>

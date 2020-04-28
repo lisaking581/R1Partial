@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Release</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Releases</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Releases --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Business Analyst --></label>
+        <name>Business_Analyst__c</name>
+        <relationshipLabel><!-- Releases (Business Analyst) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- This field is a simplification of the IMX contract data and is required for release reporting. It shouldn&apos;t be used for any other purpose. It refers to the account&apos;s contractual tuning requirements, not this particular release --></help>
+        <label><!-- Cust Road Tune Freq --></label>
+        <name>Cust_Road_Tune_Freq__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is a simplification of the IMX contract data and is required for release reporting. It shouldn&apos;t be used for any other purpose. It refers to the account&apos;s contractual tuning requirements, not this particular release --></help>
+        <label><!-- Cust Sim Tune Freq --></label>
+        <name>Cust_Sim_Tune_Freq__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data/script --></label>
+        <name>Data_script__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brief description of main purpose for the release and any Jira tickets that must be included --></help>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Developer --></label>
+        <name>Developer__c</name>
+        <relationshipLabel><!-- Releases (Developer) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Executable --></label>
+        <name>Executable__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the OPSC Jira ticket number for upgrades and retunes. Enter n/a for implementation releases and patches --></help>
+        <label><!-- Jira Ticket --></label>
+        <name>Jira_Ticket__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optima Customer Code --></label>
+        <name>Optima_Customer_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- True if the customer already has a release of the same main version number (e.g. 1.2) --></help>
+        <label><!-- Patch --></label>
+        <name>Patch__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Live</masterLabel>
+            <translation><!-- Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Net</masterLabel>
+            <translation><!-- Net --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predict</masterLabel>
+            <translation><!-- Predict --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theatre</masterLabel>
+            <translation><!-- Theatre --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date of delivery to customer --></help>
+        <label><!-- Release Date --></label>
+        <name>Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Release Legacy ID --></label>
+        <name>Release_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- The final (fourth) part of the version number. To be filled in when the release has been delivered --></help>
+        <label><!-- Revision --></label>
+        <name>Revision__c</name>
+    </fields>
+    <fields>
+        <label><!-- Road Tune --></label>
+        <name>Road_Tune__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sim Tune --></label>
+        <name>Sim_Tune__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Production</masterLabel>
+            <translation><!-- In Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not for Production</masterLabel>
+            <translation><!-- Not for Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planned</masterLabel>
+            <translation><!-- Planned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Projected</masterLabel>
+            <translation><!-- Projected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Superseded</masterLabel>
+            <translation><!-- Superseded --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tentative</masterLabel>
+            <translation><!-- Tentative --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Date of handover of the release for testing --></help>
+        <label><!-- Test Date --></label>
+        <name>Test_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tester --></label>
+        <name>Tester__c</name>
+        <relationshipLabel><!-- Releases (Tester) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Version --></label>
+        <name>Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether 32-bit services are included in the release --></help>
+        <label><!-- 32-bit Services --></label>
+        <name>X32_bit_Services__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether a 32-bit executable is included in the release --></help>
+        <label><!-- 32-bit --></label>
+        <name>X32_bit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether 64-bit services are included in the release --></help>
+        <label><!-- 64-bit Services --></label>
+        <name>X64_bit_Services__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether a 64-bit executable is included in the release --></help>
+        <label><!-- 64-bit --></label>
+        <name>X64_bit__c</name>
+    </fields>
+    <layouts>
+        <layout>Release Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Details --></label>
+            <section>Details</section>
+        </sections>
+        <sections>
+            <label><!-- Inclusions --></label>
+            <section>Inclusions</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Check Releases --></label>
+        <name>Check_Releases</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Business Analyst must be assigned unless status is Projected or Tentative --></errorMessage>
+        <name>Analyst_required_when_release_planned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Delivered status can only be used for Live or NET. For other products use In Production --></errorMessage>
+        <name>Delivered_status_only_for_some_products</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Developer must be assigned unless status is Projected or Tentative --></errorMessage>
+        <name>Developer_required_when_release_planned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one of Executable or Data/script must be selected for non-Projected releases --></errorMessage>
+        <name>Executable_or_data_must_be_selected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one of 32 or 64-bit must be selected for executable releases that are not Projected or Tentative --></errorMessage>
+        <name>Executable_releases_must_be_32_or_64bit</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Full version number must be entered for releases that are not Projected or Tentative --></errorMessage>
+        <name>Full_version_number_required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Jira ticket must be filled in if status is Tentative or Planned (enter n/a for implementation releases or patches) --></errorMessage>
+        <name>Jira_required_when_release_planned</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one of 32 or 64-bit services must be selected for Live executable releases that are not Projected or Tentative --></errorMessage>
+        <name>Live_exe_rel_must_have_32_or_64bit_svcs</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Revision must be filled in for executable releases which have been delivered --></errorMessage>
+        <name>Revision_required_when_delivered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- 32 and/or 64-bit services can only be selected for Live releases --></errorMessage>
+        <name>Services_only_for_Live</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Test date and release date must not be the same for Planned or Tentative releases --></errorMessage>
+        <name>Test_and_release_dates_must_be_different</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Test date must be before release date --></errorMessage>
+        <name>Test_date_must_be_before_release_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tester must be assigned unless status is Projected or Tentative --></errorMessage>
+        <name>Tester_required_when_release_planned</name>
+    </validationRules>
+</CustomObjectTranslation>

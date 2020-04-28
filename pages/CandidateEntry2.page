@@ -1,0 +1,50 @@
+<apex:page standardController="Contact"
+           extensions="CandidateContactExtension"
+           title="Candidate Entry" showHeader="false"
+           standardStylesheets="true"
+           lightningStylesheets="true">
+ 
+
+    <div style="margin: 1em;">
+        <apex:image url="{!$Resource.Logo}" height="50px" />
+        <h1 style="font-size: 3em;">Candidate Entry Form</h1>
+    
+    
+    
+
+   <apex:form styleClass="grey" >
+    <apex:messages id="error"
+                   styleClass="errorMsg"
+                   layout="table"
+                   style="margin-top:1em;"/>
+      <apex:pageBlock title=""  mode="edit">
+        <apex:pageBlockButtons >
+           <apex:commandButton value="Save"
+                               action="{!saveCandidate}"/>
+        </apex:pageBlockButtons>
+        <apex:pageBlockSection title="Candidate Info"
+                               collapsible="false"
+                               columns="1">
+            
+         <apex:inputfield label="School name" value="{!Contact.accountid}"/>
+         <apex:inputField value="{!Contact.Salutation}"/>
+        
+         <apex:inputField value="{!Contact.FirstName}"/>
+         <apex:inputField value="{!Contact.LastName}"/>
+         <apex:inputField value="{!Contact.R_Candidate_Email__c}"/>
+         <apex:inputField value="{!Contact.Phone}"/>
+
+         <apex:inputField label="Street" value="{!Contact.MailingStreet}"/>
+         <apex:inputField label="City" value="{!Contact.MailingCity}"/>
+         <apex:inputField label="State" value="{!Contact.MailingState}"/>
+         <apex:inputField label="Zip Code" value="{!Contact.MailingPostalCode}"/>
+            <apex:inputField Label="Country" value="{!Contact.MailingCountry}" required="true"/>
+            <apex:inputField Label="Major" value="{!Contact.Major__c}" required="true"/>
+            <apex:inputField Label="Expected Graduation Date" value="{!Contact.R_Graduation_Date__c}" required="true"/>
+        </apex:pageBlockSection>
+     </apex:pageBlock>
+   </apex:form>
+
+        </div>
+
+</apex:page>

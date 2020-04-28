@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>IDN Modular</fullName>
+        <default>false</default>
+        <label>IDN Modular</label>
+    </customValue>
+    <customValue>
+        <fullName>Employed Physicians</fullName>
+        <default>false</default>
+        <label>Employed Physicians</label>
+    </customValue>
+    <customValue>
+        <fullName>Independent Physicians</fullName>
+        <default>false</default>
+        <label>Independent Physicians</label>
+    </customValue>
+    <customValue>
+        <fullName>OB Modular</fullName>
+        <default>false</default>
+        <label>OB Modular</label>
+    </customValue>
+    <customValue>
+        <fullName>EMS</fullName>
+        <default>false</default>
+        <label>EMS</label>
+    </customValue>
+    <customValue>
+        <fullName>End to End</fullName>
+        <default>false</default>
+        <label>End to End</label>
+    </customValue>
+    <customValue>
+        <fullName>Optima</fullName>
+        <default>false</default>
+        <label>Optima</label>
+    </customValue>
+    <customValue>
+        <fullName>TBD</fullName>
+        <default>false</default>
+        <label>TBD</label>
+    </customValue>
+    <masterLabel>Key Values</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

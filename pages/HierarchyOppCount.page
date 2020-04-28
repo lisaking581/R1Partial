@@ -1,0 +1,14 @@
+<apex:page standardController="Account" lightningStylesheets="true">
+ 
+ 
+
+<font color="red" weight="bold">
+
+<b>This Account Hierarchy contains 
+
+<apex:outputText value="{0, number, ###,###,###,###0}">  
+     <apex:param value="{!Account.Other_Opps_in_Hierarchy__c}"/> 
+ </apex:outputText>  
+other open Opportunities.</b>
+</font>
+</apex:page>

@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Quote to Contract</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Quote to Contracts</value>
+    </caseValues>
+    <fields>
+        <label><!-- Related Account --></label>
+        <name>AccountLU__c</name>
+        <relationshipLabel><!-- Quote to Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- AccountName --></label>
+        <name>AccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Address --></label>
+        <name>Account_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account City --></label>
+        <name>Account_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account State --></label>
+        <name>Account_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Zip --></label>
+        <name>Account_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- BAA Executed --></label>
+        <name>BAA_Executed__c</name>
+    </fields>
+    <fields>
+        <label><!-- ComUpside --></label>
+        <name>ComUpside__c</name>
+    </fields>
+    <fields>
+        <label><!-- Completed Date --></label>
+        <name>Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Title --></label>
+        <name>Contact_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Term --></label>
+        <name>Contract_Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Type --></label>
+        <name>Contract_Type__c</name>
+        <picklistValues>
+            <masterLabel>New customer - IMX, Modular, PAS</masterLabel>
+            <translation><!-- New customer - IMX, Modular, PAS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New customer - Traditional end-to-end</masterLabel>
+            <translation><!-- New customer - Traditional end-to-end --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New customer- New services (licensing, strategy, JV)</masterLabel>
+            <translation><!-- New customer- New services (licensing, strategy, JV) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CountNew --></label>
+        <name>CountNew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create Month --></label>
+        <name>Create_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Create in SmartSheet? --></label>
+        <name>Create_in_SmartSheet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Category --></label>
+        <name>Customer_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Returned to Sales --></label>
+        <name>Date_Returned_to_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date to CBM --></label>
+        <name>Date_to_CBM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date to Functional Review --></label>
+        <name>Date_to_Functional_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days In Legal --></label>
+        <name>Days_In_Legal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days in CBM --></label>
+        <name>Days_in_CBM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days in Functional Review --></label>
+        <name>Days_in_Functional_Review__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days to Complete --></label>
+        <name>Days_to_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Customer Change --></label>
+        <name>Existing_Customer_Change__c</name>
+        <picklistValues>
+            <masterLabel>Amendments - Extensions (non-significant changes)</masterLabel>
+            <translation><!-- Amendments - Extensions (non-significant changes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amendments - Other (non-significant changes)</masterLabel>
+            <translation><!-- Amendments - Other (non-significant changes) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Amendments for New Services</masterLabel>
+            <translation><!-- Amendments for New Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incentive Fee Target Changes</masterLabel>
+            <translation><!-- Incentive Fee Target Changes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (New) Services</masterLabel>
+            <translation><!-- Other (New) Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Replace Existing Agreement with New Agreement</masterLabel>
+            <translation><!-- Replace Existing Agreement with New Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scope Additions/Reductions</masterLabel>
+            <translation><!-- Scope Additions/Reductions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination</masterLabel>
+            <translation><!-- Termination --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Expected Annual Revenue --></label>
+        <name>Expected_Annual_Revenue__c</name>
+    </fields>
+    <fields>
+        <help><!-- Must be a positive number --></help>
+        <label><!-- Expected Revenue --></label>
+        <name>Expected_Revenue__c</name>
+    </fields>
+    <fields>
+        <label><!-- FR% --></label>
+        <name>FR_CompletePercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- FuncReview% --></label>
+        <name>FuncReview__c</name>
+    </fields>
+    <fields>
+        <label><!-- Get Updates --></label>
+        <name>Get_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware Included --></label>
+        <name>Hardware_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Related Opp? --></label>
+        <name>Has_Related_Opp__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Status Change Date --></label>
+        <name>Last_Status_Change_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Legal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legal Reviewer --></label>
+        <name>Legal_Reviewer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Does this opportunity meet the requirements of the R1 Luminary Program --></help>
+        <label><!-- Luminary Program --></label>
+        <name>Luminary_Program__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- MSA Requested --></label>
+        <name>MSA_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- NDA Executed --></label>
+        <name>NDA_Executed__c</name>
+    </fields>
+    <fields>
+        <label><!-- NDA Type Requested --></label>
+        <name>NDA_Type_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Client Provided NDA</masterLabel>
+            <translation><!-- Client Provided NDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>R1 Template NDA Request</masterLabel>
+            <translation><!-- R1 Template NDA Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Customer Services --></label>
+        <name>New_Customer_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Open Days --></label>
+        <name>Open_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- OppSSIDComments --></label>
+        <name>OppSSIDComments__c</name>
+    </fields>
+    <fields>
+        <label><!-- OppSSIdStatus --></label>
+        <name>OppSSIdStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp ID --></label>
+        <name>Opp_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Value --></label>
+        <name>Opportunity_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Email --></label>
+        <name>Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Name --></label>
+        <name>Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- PHI/PI Accessible --></label>
+        <name>PHI_PI_Accessible__c</name>
+    </fields>
+    <fields>
+        <label><!-- Power of One --></label>
+        <name>Power_of_One__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Terms --></label>
+        <name>Pricing_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>High</masterLabel>
+            <translation><!-- High --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Low</masterLabel>
+            <translation><!-- Low --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium</masterLabel>
+            <translation><!-- Medium --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Ranking --></label>
+        <name>Ranking__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Contact --></label>
+        <name>Related_Contact__c</name>
+        <relationshipLabel><!-- Quote to Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>Related_Opportunity__c</name>
+        <relationshipLabel><!-- Quote to Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Day as String --></label>
+        <name>Request_Day_as_String__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>BAA</masterLabel>
+            <translation><!-- BAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer Modification</masterLabel>
+            <translation><!-- Existing Customer Modification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact analysis BAA</masterLabel>
+            <translation><!-- Impact analysis BAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NDA</masterLabel>
+            <translation><!-- NDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other Request</masterLabel>
+            <translation><!-- Other Request --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If applicable, enter a requested due date so that functional reviewers may prioritize their work queues. Standard expectation is 14 days. --></help>
+        <label><!-- Requested by Date --></label>
+        <name>Requested_by_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Resend Email? --></label>
+        <name>Resend_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOW Requested --></label>
+        <name>SOW_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- SmartSheetRecordID --></label>
+        <name>SmartSheetRecordID__c</name>
+    </fields>
+    <fields>
+        <label><!-- SmartSheet Comments --></label>
+        <name>SmartSheet_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Included --></label>
+        <name>Software_Included__c</name>
+    </fields>
+    <fields>
+        <label><!-- State of Incorporation --></label>
+        <name>State_of_Incorporation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancel</masterLabel>
+            <translation><!-- Cancel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Process</masterLabel>
+            <translation><!-- In Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned to Requester for Client Alignment</masterLabel>
+            <translation><!-- Returned to Requester for Client Alignment --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned to Requester with Questions</masterLabel>
+            <translation><!-- Returned to Requester with Questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Returned to Sales</masterLabel>
+            <translation><!-- Returned to Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit for CBM Review</masterLabel>
+            <translation><!-- Submit for CBM Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submit for Functional Review</masterLabel>
+            <translation><!-- Submit for Functional Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted to client by legal</masterLabel>
+            <translation><!-- Submitted to client by legal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date to Legal --></label>
+        <name>Submitted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Submitted on Behalf of --></label>
+        <name>Submitted_on_Behalf_of__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL_BASE --></label>
+        <name>URL_BASE__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL_Common --></label>
+        <name>URL_Common__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL_Custom_BAA --></label>
+        <name>URL_Custom_BAA__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL Formula --></label>
+        <name>URL_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL_ModifyExisting --></label>
+        <name>URL_ModifyExisting__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL_NDA_Custom --></label>
+        <name>URL_NDA_Custom__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL-Other --></label>
+        <name>URL_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- URL_NewCustomer_Custom --></label>
+        <name>URL__c</name>
+    </fields>
+    <layouts>
+        <layout>Q2C Page Layout</layout>
+        <sections>
+            <label><!-- BAA &amp; NDA --></label>
+            <section>BAA &amp; NDA</section>
+        </sections>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New/Existing customer --></label>
+            <section>New/Existing customer</section>
+        </sections>
+        <sections>
+            <label><!-- Timestamps --></label>
+            <section>Timestamps</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- New Quote to Contract --></label>
+        <name>New_Legal_Request</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Link_to_SmartSheet --></label>
+        <name>Link_to_SmartSheet</name>
+    </webLinks>
+</CustomObjectTranslation>

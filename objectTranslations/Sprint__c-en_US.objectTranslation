@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sprint</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sprints</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Sprints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cancel Reason --></label>
+        <name>Cancel_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- FlowUpdate --></label>
+        <name>FlowUpdate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint Assignment --></label>
+        <name>Sprint_Assignment__c</name>
+        <relationshipLabel><!-- Sprints --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sprint Description --></label>
+        <name>Sprint_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint Group --></label>
+        <name>Sprint_Group__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint Master Name --></label>
+        <name>Sprint_Master_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Leave blank to accept the Sprint Master Start and End Date --></help>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Cancellation</masterLabel>
+            <translation><!-- Pending Cancellation --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Task Scheduler --></label>
+        <name>Task_Scheduler__c</name>
+        <picklistValues>
+            <masterLabel>Assign all Tasks at Once</masterLabel>
+            <translation><!-- Assign all Tasks at Once --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Tasks</masterLabel>
+            <translation><!-- No Tasks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use Task Scheduler</masterLabel>
+            <translation><!-- Use Task Scheduler --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Sprint Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Cancel Sprint --></label>
+        <name>Cancel_Sprint</name>
+    </quickActions>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please use the &quot;Cancel Sprint&quot; button at the top of the page to cancel a Sprint for an account. --></errorMessage>
+        <name>Use_Cancel_Button</name>
+    </validationRules>
+</CustomObjectTranslation>

@@ -1,0 +1,51 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">This lead was created 3 days ago and is still in original
+status.<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Please review and update as soon as possible.<span style="mso-spacerun:yes">&nbsp; </span><o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNoSpacing" style=""><font face="arial"><span style="font-size: 12pt;">Lead Name:</span></font><span style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">&nbsp;</span><font face="arial"><o:p></o:p>{!Lead.Name}</font></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Email:&nbsp;{!Lead.Email}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Phone:&nbsp;{!Lead.Phone}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Mobile:&nbsp;{!Lead.MobilePhone}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Company:&nbsp;{!Lead.Company}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Parent Account:&nbsp;{!Lead.Parent_Account__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Owner:&nbsp;{!Lead.OwnerFullName}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Lead Status:&nbsp;{!Lead.Status}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Outcome Status:&nbsp;{!Lead.Outcome_Status__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Call Back Requested Date:&nbsp;{!Lead.Call_Back_Requested_Date__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Appointment/Meeting Date:&nbsp;{!Lead.Appointment_Meeting_Date__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Created Date:&nbsp;{!Lead.CreatedDate}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Suspect Lead Start Date:&nbsp;{!Lead.Suspect_Lead_Start_Date__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Qualified Lead Start Date:&nbsp;{!Lead.Qualified_Lead_Start_Date__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Sales Accepted Lead Start Date:&nbsp;{!Lead.Sales_Qualified_Lead_Start_Date__c}<o:p></o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Link to Lead:<o:p></o:p></p><p class="MsoNoSpacing" style=""><font face="arial">{!Lead.Link}</font></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;"><o:p>&nbsp;</o:p></p>
+
+<p class="MsoNoSpacing" style="color: rgb(0, 0, 0); font-family: arial; font-size: 12pt;">Description:&nbsp;{!Lead.Description}<o:p></o:p></p>]]></td>
+</tr>
+</table>

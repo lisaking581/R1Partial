@@ -1,0 +1,14 @@
+<apex:page standardController="Contact" lightningStylesheets="true">
+ 
+ 
+
+<font color="red" weight="bold">
+<b>
+You are not the owner of this contact.  Before reaching out,
+ please collaborate with the contact owner,  </b> 
+<b><apex:outputText value="{!Contact.Owner.Name}" /> 
+
+.</b>
+
+</font>
+</apex:page>

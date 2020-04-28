@@ -1,0 +1,80 @@
+<apex:page standardController="Account" extensions="SolPortcls" lightningStylesheets="true">
+ 
+    <apex:form >
+  
+ 
+  <apex:pageBlock >
+ 
+
+      
+      
+   <apex:repeat value="{!Groups}" var="group">
+       
+     
+        <apex:pageblocksection title="{!group.GroupedVal}" collapsible="true" columns="1" id="pb1"> 
+          <script> twistSection(document.getElementById('{!$Component.block1.section1}').getElementsByTagName('img')[0]) </script>  
+        <apex:pageBlockTable value="{!group.accs}" var="n" style="margin-left:-10px;width:1000px;">
+             
+             
+      <!--        <apex:column style="width:5px;"><apex:outputlink value="/{!n.Id}/e?">Edit</apex:outputlink></apex:column>  -->
+             
+             
+               
+       <apex:column headerValue="Solution"  style="width:200px;" >
+           <a href = "/{!n.Id}"><apex:outputfield value="{!n.Solution_Name__c}" /></a>
+           </apex:column>
+           
+                 <apex:column HeaderValue="Current" style="width:75px;">
+                <apex:image value="{!IF(n.Current__c,URLFOR($Resource.CheckIcon),URLFOR($Resource.EmptyIcon))}" width="25" height="25" title="Populated as Opportunities are marked Won"/>
+                </apex:column>
+                <apex:column HeaderValue="Former" style="width:75px;">
+                <apex:image value="{!IF(n.Former__c,URLFOR($Resource.Circleformer),URLFOR($Resource.EmptyIcon))}" width="25" height="25" title="Populated as Contracts terminate"/>
+                 
+                 </apex:column>
+                <apex:column HeaderValue="Opp" style="width:75px;">
+                <!--<apex:image value="{!IF(n.Opportunity__c,URLFOR($Resource.Dollar_y),URLFOR($Resource.EmptyIcon))}" width="25" height="25" Title="Populated by Opportunities"/>
+                -->
+                <apex:image rendered="{!IF(n.Opportunity_value__c='Current',true,false)}" value="{!URLFOR($Resource.Dollar_y)}" width="25" height="25" Title="Populated by Opportunities"/>
+                <apex:image rendered="{!IF(isnull(n.Opportunity_value__c),true,false)}"  value="{!URLFOR($Resource.EmptyIcon)}" width="25" height="25" Title="Populated by Opportunities"/> 
+                <apex:image rendered="{!IF(n.Opportunity_value__c='Closed Lost',true,false)}" value="{!URLFOR($Resource.Lost)}" width="25" height="25" Title="Populated by Opportunities"/>     
+                 <apex:image rendered="{!IF(n.Opportunity_value__c='Closed Walked',true,false)}" value="{!URLFOR($Resource.Walked)}" width="25" height="25" Title="Populated by Opportunities"/>
+                    </apex:column>
+                
+                <apex:column HeaderValue="Target?" style="width:75px;">
+                <a href="/{!n.Id}/e?" ><apex:image rendered="{!IF(isnull(n.Solution_Fit__c),true,false)}" value="{!URLFOR($Resource.EmptyIcon)}" title="Click to Modify" width="25" height="25"/></a>    
+                    <a href="/{!n.Id}/e?" ><apex:image rendered="{!IF(n.Solution_Fit__c='Undetermined',true,false)}" value="{!URLFOR($Resource.EmptyIcon)}" title="Click to Modify" width="25" height="25"/></a>
+                    <a href="/{!n.Id}/e?" ><apex:image rendered="{!IF(n.Solution_Fit__c='Target',true,false)}" value="{!URLFOR($Resource.green_target)}" title="Click to Modify" width="25" height="25"/></a>
+                    <a href="/{!n.Id}/e?" ><apex:image rendered="{!IF(n.Solution_Fit__c='Not a Fit',true,false)}" value="{!URLFOR($Resource.CheckX)}" title="Click to Modify" width="25" height="25"/></a>
+                
+                
+                    
+                   
+                </apex:column>
+                <!--<apex:column HeaderValue="Not a fit" style="width:100px;">
+                <apex:image value="{!IF(n.Not_a_Fit__c,URLFOR($Resource.CheckX),URLFOR($Resource.EmptyIcon))}" width="25" height="25"/>
+                </apex:column>  -->
+                 <apex:column HeaderValue="Competitive" style="width:75px;"> 
+                
+                     <a href="/a2Y/e?"> <apex:image rendered="{!IF(isnull(n.CountAllCompetitors__c),true,false)}" value="{!URLFOR($Resource.EmptyIcon)}" width="25" height="25" title="Click to add"/> </a>  
+                        <a href="/a2Y/e?"> <apex:image rendered="{!IF(n.CountAllCompetitors__c=0,true,false)}" value="{!URLFOR($Resource.EmptyIcon)}" width="25" height="25" title="Click to add"/> </a> 
+                     <a href="/apex/ComptInvoVFP2?id={!Account.ID}&solution={!n.Solution_Name__c}"><apex:image rendered="{!IF(AND(n.CountAllCompetitors__c=1,n.CountAllCompetitors__c != null),true,false)}" value="{!URLFOR($Resource.Blue_1)}" title="{!n.Competitors__c}" width="25" height="25"/></a>
+                <a href="/apex/ComptInvoVFP2?id={!Account.ID}&solution={!n.Solution_Name__c}"><apex:image rendered="{!IF(AND(n.CountAllCompetitors__c=2,n.CountAllCompetitors__c != null),true,false)}" value="{!URLFOR($Resource.Blue_2)}" title="{!n.Competitors__c}" width="25" height="25"/></a>
+                <a href="/apex/ComptInvoVFP2?id={!Account.ID}&solution={!n.Solution_Name__c}"><apex:image rendered="{!IF(AND(n.CountAllCompetitors__c=3,n.CountAllCompetitors__c != null),true,false)}" value="{!URLFOR($Resource.Blue_3)}" title="{!n.Competitors__c}" width="25" height="25"/></a>
+                <a href="/apex/ComptInvoVFP2?id={!Account.ID}&solution={!n.Solution_Name__c}"><apex:image rendered="{!IF(AND(n.CountAllCompetitors__c != null, n.CountAllCompetitors__c>3),true,false)}" value="{!URLFOR($Resource.Blue_4)}" title="{!n.Competitors__c}" width="25" height="25"/></a>
+                    
+          
+                
+                </apex:column>
+                              
+           <!--
+                    <apex:column HeaderValue="Details " style="width:100px;">
+                    <apex:outputlink rendered="{!IF(n.Competitors__c <>'',true,false)}" value="/apex/ComptInvoVFP2?id={!Account.ID}&solution={!n.Solution_Name__c}" target="_parent" >View Competitive</apex:outputlink>
+                    <apex:outputlink rendered="{!IF(n.Competitors__c='',true,false)}" value="/a2V/e?Related_To__c={!Account.ID}" target="_parent" >Add Competitive</apex:outputlink>
+                    </apex:column> --> 
+            </apex:pageBlockTable>
+           </apex:pageblocksection> 
+   </apex:repeat>
+
+  </apex:pageBlock>
+ </apex:form>
+</apex:page>

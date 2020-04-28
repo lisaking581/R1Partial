@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FlexiPage xmlns="http://soap.sforce.com/2006/04/metadata">
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>dashboardName</name>
+                <value>Lead_Funnel_Dashboard</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideOnError</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentName>desktopDashboards:embeddedDashboard</componentName>
+        </componentInstances>
+        <name>top</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>bottomLeft</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <name>bottomRight</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <flexiPageRegions>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>decorate</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>richTextValue</name>
+                <value>Welcome to the newly improved and unified Salesforce.com for R1 RCM. The following references have been provided to help your team utilize the new system.&lt;br /&gt;
+&amp;nbsp;
+&lt;ol&gt;
+	&lt;li style=&quot;color:#0563C1;margin-left:0in;&quot;&gt;&lt;span style=&quot;color:black;&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&quot;&gt;Need Assistance? &lt;/span&gt;&lt;/span&gt;&lt;a href=&quot;https://r1rcm.secure.force.com/W2Cinternal/&quot;&gt;&lt;u&gt;&lt;span style=&quot;font-size:10.0pt;&quot;&gt;Click here&lt;/span&gt;&lt;/u&gt;&lt;/a&gt; &lt;span style=&quot;color:black;&quot;&gt;&lt;span style=&quot;font-size:10.0pt;&quot;&gt;to create a case?&lt;/span&gt;&lt;/span&gt;&lt;/li&gt;
+	&lt;li style=&quot;color:#0563C1;margin-left:0in;&quot;&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lrY/wF16aerkmhjcaX3sObPgSwbnDm_x9heAl_SLJCHjEYA&quot;&gt;FAQ Documentation&lt;/a&gt; for Integrated MAP/CRM Platform Launch&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lrT/9CLDjRHkEDGxVgn8AfeWwPz4_hTSJzvf2LzFn8mbxS4&quot;&gt;&lt;u&gt;R1 Salesforce &lt;/u&gt;&lt;/a&gt;&lt;u&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lrT/9CLDjRHkEDGxVgn8AfeWwPz4_hTSJzvf2LzFn8mbxS4&quot;&gt;User Prep Documentation &lt;/a&gt;&lt;/u&gt;&lt;/li&gt;
+	&lt;li&gt;Complete the recommended &lt;a href=&quot;https://trailhead.salesforce.com/en/content/learn/modules/lightning-experience-for-salesforce-classic-users&quot;&gt;Trailhead Course&lt;/a&gt;: Lightening Experience for Salesforce Classic Users (see #2 Prep Doc for instructions to set up your Trailhead account)&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lw4/KZbPEJmW3I1DnbsQS8KrNASAJ65DvsJinSwRa_3pLME&quot;&gt;Minimum Requirements to Create a Lead and Contacts&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;Lead Import Worksheet &amp;ndash; &lt;i&gt;coming soon&lt;/i&gt;&lt;/li&gt;
+	&lt;li&gt;Tradeshow Process &amp;ndash; &lt;i&gt;coming soon&lt;/i&gt;&lt;/li&gt;
+	&lt;li&gt;Lead Methodology &amp;ndash; &lt;i&gt;coming soon&lt;/i&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lrO/wuQpo8i6cpmjDoFYPXWvcjEHlYU49BsmW4WiMe6B23M&quot;&gt;Campaign Naming Convention&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015liR/r_9rhNMzyED1kFeb0BLoJgZl3WX6z83mG6su1p3iV0o&quot;&gt;Products and Solutions&lt;/a&gt; &amp;ndash; Lead Product of Interest (POI) mappings&amp;nbsp;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lg2/M7.oqU0uoZKXYhrj7xoUmn_9dhpZou7.9V74R2SQntY&quot;&gt;Marketing Tracking UTM Standard&lt;/a&gt;&lt;/li&gt;
+	&lt;li&gt;&lt;a href=&quot;https://r1rcm.my.salesforce.com/sfc/p/41000002In70/a/2M0000015lg6/Ba5F1RxMawGQvUMx7TygwRZgWbIzqdQUr4EZ1yKP3Yg&quot;&gt;Marketing Glossary&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:richText</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>enableInlineEdit</name>
+                <value>true</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>entityName</name>
+                <value>Case</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>filterName</name>
+                <value>MyOpenCases</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideActionBar</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>hideSearchBar</name>
+                <value>false</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>pageSize</name>
+                <value>3</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:filterListCard</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentName>home:recentRecordContainer</componentName>
+        </componentInstances>
+        <componentInstances>
+            <componentInstanceProperties>
+                <name>entityNames</name>
+                <value>[&quot;Account&quot;]</value>
+            </componentInstanceProperties>
+            <componentInstanceProperties>
+                <name>maxRecords</name>
+                <value>3</value>
+            </componentInstanceProperties>
+            <componentName>flexipage:recentItems</componentName>
+        </componentInstances>
+        <name>sidebar</name>
+        <type>Region</type>
+    </flexiPageRegions>
+    <masterLabel>Marketing Home Page</masterLabel>
+    <template>
+        <name>home:desktopTemplate</name>
+    </template>
+    <type>HomePage</type>
+</FlexiPage>

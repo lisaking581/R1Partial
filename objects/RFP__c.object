@@ -1,0 +1,1484 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
+    <fields>
+        <fullName>Amount_Yr_1__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Amount</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Amount (Yr 1)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Anticipated_Award_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Anticipated Award Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CI_Record_Type__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.RecordType.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CI Record Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Competition__c</fullName>
+        <externalId>false</externalId>
+        <label>Competition</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Date_Completed__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Completed</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Received</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Released__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Released</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_Sent_to_Legal__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Sent to Legal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Did_We_Influence_RFP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Did We Influence RFP</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Electronic_Copy__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Electronic Copy</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Flash_Drive__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Flash Drive</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Formatting_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <label>Formatting Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>GovWin__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Sourced through GovWin database</inlineHelpText>
+        <label>GovWin</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hard_Copy_Submittal__c</fullName>
+        <externalId>false</externalId>
+        <label>Hard Copy Submittal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Initial_Legal_Review_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE(
+  MOD( Today()- DATE( 1900, 1, 8 ), 7 ),
+  0,  Today()+3,
+  1,  Today()+3,
+  2,  Today()+5,
+  3,   Today()+ 5,
+  5,  Today()+4, 
+    Today() + 3
+)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Initial Legal Review Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Legal_Point_of_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Legal Point of Contact</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Legal_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Legal Status</label>
+        <length>50</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merge_AccountName__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Merge_AccountName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merge_OppValue__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Amount</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Merge_OppValue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merge_OpptyOwner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Owner.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Merge_OpptyOwner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merge_Services__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Opportunity__r.Solution__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Merge_Services</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merge_TargetMarket__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Opportunity__r.Target_Market__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Merge_TargetMarket</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Merge_UserEmail__c</fullName>
+        <defaultValue>$User.Email</defaultValue>
+        <externalId>false</externalId>
+        <label>Merge_UserEmail</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>New_Renewal__c</fullName>
+        <externalId>false</externalId>
+        <label>New/Renewal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Renewal</fullName>
+                    <default>false</default>
+                    <label>Renewal</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Next_Step__c</fullName>
+        <externalId>false</externalId>
+        <label>Next Step</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Onlin_Login_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Onlin Login Name</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Online_Password__c</fullName>
+        <externalId>false</externalId>
+        <label>Online Password</label>
+        <length>250</length>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Online_Submittal__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Online Submittal</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Online_URL__c</fullName>
+        <externalId>false</externalId>
+        <label>Online URL</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Owner.FirstName + " " + Opportunity__r.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Opportunity__r.StageName )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportinuty Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>RFP</relationshipLabel>
+        <relationshipName>RFPs</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Product_SME__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Add contact to "R1 RCM - Product SMEs"  Account to appear in this Lookup</inlineHelpText>
+        <label>Product SME</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <value>0012M000025gQ8DQAU</value>
+            </filterItems>
+            <filterItems>
+                <field>Contact.No_Longer_with_Company__c</field>
+                <operation>notEqual</operation>
+                <value>True</value>
+            </filterItems>
+            <infoMessage>Add contact to R1 RCM - Product SMEs Account to use this Lookup</infoMessage>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>RFPs</relationshipLabel>
+        <relationshipName>ProductSME</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Products_Services__c</fullName>
+        <businessStatus>DeprecateCandidate</businessStatus>
+        <externalId>false</externalId>
+        <inlineHelpText>Solution  is now propagated from the Opportunity object for Product classification.  This field is left in place for legacy reporting only.</inlineHelpText>
+        <label>Legacy Products/Services</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Air RCM</fullName>
+                    <default>false</default>
+                    <label>Air RCM</label>
+                </value>
+                <value>
+                    <fullName>AN Coding Only</fullName>
+                    <default>false</default>
+                    <label>AN Coding Only</label>
+                </value>
+                <value>
+                    <fullName>AN RCM</fullName>
+                    <default>false</default>
+                    <label>AN RCM</label>
+                </value>
+                <value>
+                    <fullName>AS - Optima ED</fullName>
+                    <default>false</default>
+                    <label>AS - Optima ED</label>
+                </value>
+                <value>
+                    <fullName>AS - Prosper</fullName>
+                    <default>false</default>
+                    <label>AS - Prosper</label>
+                </value>
+                <value>
+                    <fullName>CAD</fullName>
+                    <default>false</default>
+                    <label>CAD</label>
+                </value>
+                <value>
+                    <fullName>CDX - NEMSIS</fullName>
+                    <default>false</default>
+                    <label>CDX - NEMSIS</label>
+                </value>
+                <value>
+                    <fullName>CDX - Trauma</fullName>
+                    <default>false</default>
+                    <label>CDX - Trauma</label>
+                </value>
+                <value>
+                    <fullName>CORES - ANS</fullName>
+                    <default>false</default>
+                    <label>CORES - ANS</label>
+                </value>
+                <value>
+                    <fullName>CORES - CMS</fullName>
+                    <default>false</default>
+                    <label>CORES - CMS</label>
+                </value>
+                <value>
+                    <fullName>CORES - FNMS</fullName>
+                    <default>false</default>
+                    <label>CORES - FNMS</label>
+                </value>
+                <value>
+                    <fullName>CORES - HAN</fullName>
+                    <default>false</default>
+                    <label>CORES - HAN</label>
+                </value>
+                <value>
+                    <fullName>CORES - RMS</fullName>
+                    <default>false</default>
+                    <label>CORES - RMS</label>
+                </value>
+                <value>
+                    <fullName>ED Billing</fullName>
+                    <default>false</default>
+                    <label>ED Billing</label>
+                </value>
+                <value>
+                    <fullName>ED Facility Coding</fullName>
+                    <default>false</default>
+                    <label>ED Facility Coding</label>
+                </value>
+                <value>
+                    <fullName>ED Hospitalist</fullName>
+                    <default>false</default>
+                    <label>ED Hospitalist</label>
+                </value>
+                <value>
+                    <fullName>ED Physician Coding</fullName>
+                    <default>false</default>
+                    <label>ED Physician Coding</label>
+                </value>
+                <value>
+                    <fullName>ED RCM</fullName>
+                    <default>false</default>
+                    <label>ED RCM</label>
+                </value>
+                <value>
+                    <fullName>ED Urgent Care</fullName>
+                    <default>false</default>
+                    <label>ED Urgent Care</label>
+                </value>
+                <value>
+                    <fullName>ED Wound Care</fullName>
+                    <default>false</default>
+                    <label>ED Wound Care</label>
+                </value>
+                <value>
+                    <fullName>Electronic - ICS (Non-Hospital)</fullName>
+                    <default>false</default>
+                    <label>Electronic - ICS (Non-Hospital)</label>
+                </value>
+                <value>
+                    <fullName>EMCredential</fullName>
+                    <default>false</default>
+                    <label>EMCredential</label>
+                </value>
+                <value>
+                    <fullName>EMNotify</fullName>
+                    <default>false</default>
+                    <label>EMNotify</label>
+                </value>
+                <value>
+                    <fullName>EMRegistry</fullName>
+                    <default>false</default>
+                    <label>EMRegistry</label>
+                </value>
+                <value>
+                    <fullName>EMResource</fullName>
+                    <default>false</default>
+                    <label>EMResource</label>
+                </value>
+                <value>
+                    <fullName>EMS ASPP</fullName>
+                    <default>false</default>
+                    <label>EMS ASPP</label>
+                </value>
+                <value>
+                    <fullName>EMS Coding Only</fullName>
+                    <default>false</default>
+                    <label>EMS Coding Only</label>
+                </value>
+                <value>
+                    <fullName>EMS Consulting</fullName>
+                    <default>false</default>
+                    <label>EMS Consulting</label>
+                </value>
+                <value>
+                    <fullName>EMS RCM</fullName>
+                    <default>false</default>
+                    <label>EMS RCM</label>
+                </value>
+                <value>
+                    <fullName>EMS SaaS</fullName>
+                    <default>false</default>
+                    <label>EMS SaaS</label>
+                </value>
+                <value>
+                    <fullName>EMStat</fullName>
+                    <default>false</default>
+                    <label>EMStat</label>
+                </value>
+                <value>
+                    <fullName>EMS Training</fullName>
+                    <default>false</default>
+                    <label>EMS Training</label>
+                </value>
+                <value>
+                    <fullName>EMTrack (Non Hardware)</fullName>
+                    <default>false</default>
+                    <label>EMTrack (Non Hardware)</label>
+                </value>
+                <value>
+                    <fullName>EMTrack Hardware</fullName>
+                    <default>false</default>
+                    <label>EMTrack Hardware</label>
+                </value>
+                <value>
+                    <fullName>ERB</fullName>
+                    <default>false</default>
+                    <label>ERB</label>
+                </value>
+                <value>
+                    <fullName>Fire Billing</fullName>
+                    <default>false</default>
+                    <label>Fire Billing</label>
+                </value>
+                <value>
+                    <fullName>FireStat</fullName>
+                    <default>false</default>
+                    <label>FireStat</label>
+                </value>
+                <value>
+                    <fullName>FleetEyes</fullName>
+                    <default>false</default>
+                    <label>FleetEyes</label>
+                </value>
+                <value>
+                    <fullName>Hospital - ICS</fullName>
+                    <default>false</default>
+                    <label>Hospital - ICS</label>
+                </value>
+                <value>
+                    <fullName>Inventory Management</fullName>
+                    <default>false</default>
+                    <label>Inventory Management</label>
+                </value>
+                <value>
+                    <fullName>MDT</fullName>
+                    <default>false</default>
+                    <label>MDT</label>
+                </value>
+                <value>
+                    <fullName>Medical Dispatch</fullName>
+                    <default>false</default>
+                    <label>Medical Dispatch</label>
+                </value>
+                <value>
+                    <fullName>Optima Consultancy</fullName>
+                    <default>false</default>
+                    <label>Optima Consultancy</label>
+                </value>
+                <value>
+                    <fullName>Optima Insight</fullName>
+                    <default>false</default>
+                    <label>Optima Insight</label>
+                </value>
+                <value>
+                    <fullName>Optima Live</fullName>
+                    <default>false</default>
+                    <label>Optima Live</label>
+                </value>
+                <value>
+                    <fullName>Optima Predict</fullName>
+                    <default>false</default>
+                    <label>Optima Predict</label>
+                </value>
+                <value>
+                    <fullName>PM/EMR software</fullName>
+                    <default>false</default>
+                    <label>PM/EMR software</label>
+                </value>
+                <value>
+                    <fullName>Practice Mgmt (full)</fullName>
+                    <default>false</default>
+                    <label>Practice Mgmt (full)</label>
+                </value>
+                <value>
+                    <fullName>Practice Mgmt (light)</fullName>
+                    <default>false</default>
+                    <label>Practice Mgmt (light)</label>
+                </value>
+                <value>
+                    <fullName>Practice Mgmt (MSO)</fullName>
+                    <default>false</default>
+                    <label>Practice Mgmt (MSO)</label>
+                </value>
+                <value>
+                    <fullName>Practice Mgmt AN</fullName>
+                    <default>false</default>
+                    <label>Practice Mgmt AN</label>
+                </value>
+                <value>
+                    <fullName>Prevention Billing</fullName>
+                    <default>false</default>
+                    <label>Prevention Billing</label>
+                </value>
+                <value>
+                    <fullName>RCM Only</fullName>
+                    <default>false</default>
+                    <label>RCM Only</label>
+                </value>
+                <value>
+                    <fullName>RCM Plus</fullName>
+                    <default>false</default>
+                    <label>RCM Plus</label>
+                </value>
+                <value>
+                    <fullName>Response Manager</fullName>
+                    <default>false</default>
+                    <label>Response Manager</label>
+                </value>
+                <value>
+                    <fullName>TripTix</fullName>
+                    <default>false</default>
+                    <label>TripTix</label>
+                </value>
+                <value>
+                    <fullName>Volunteer Mobilizer</fullName>
+                    <default>false</default>
+                    <label>Volunteer Mobilizer</label>
+                </value>
+                <value>
+                    <fullName>WebCUR</fullName>
+                    <default>false</default>
+                    <label>WebCUR</label>
+                </value>
+                <value>
+                    <fullName>WebEOC</fullName>
+                    <default>false</default>
+                    <label>WebEOC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Products__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Products</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Proposal_Manager__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposal Manager</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lauri Ross</fullName>
+                    <default>false</default>
+                    <label>Lauri Ross</label>
+                </value>
+                <value>
+                    <fullName>Karin Mellow</fullName>
+                    <default>false</default>
+                    <label>Karin Mellow</label>
+                </value>
+                <value>
+                    <fullName>Kathleen McCollum</fullName>
+                    <default>false</default>
+                    <label>Kathleen McCollum</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Cyndi Smith</fullName>
+                    <default>false</default>
+                    <label>Cyndi Smith</label>
+                </value>
+                <value>
+                    <fullName>Amanda Hill</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Amanda Hill</label>
+                </value>
+                <value>
+                    <fullName>Erin Coggins</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Erin Coggins</label>
+                </value>
+                <value>
+                    <fullName>Virginia Roberson</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Virginia Roberson</label>
+                </value>
+                <value>
+                    <fullName>Whitney Breeden</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Whitney Breeden</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Questions_Due__c</fullName>
+        <externalId>false</externalId>
+        <label>Questions Due</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Questions_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Questions Received</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>RFP_Legacy_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>RFP Legacy ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RFP_Open__c</fullName>
+        <externalId>false</externalId>
+        <formula>AND (NOT ISBLANK(CreatedDate), 
+     OR (ISPICKVAL ( RFP_Stage__c, "Initiate"), 
+         ISPICKVAL ( RFP_Stage__c, "Kick Off"),
+         ISPICKVAL ( RFP_Stage__c, "Develop"),
+         ISPICKVAL ( RFP_Stage__c, "Finalize")))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Is RFP Open</inlineHelpText>
+        <label>RFP Open</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>RFP_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>RFP Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bid / No Bid</fullName>
+                    <default>false</default>
+                    <label>Bid / No Bid</label>
+                </value>
+                <value>
+                    <fullName>Initiate</fullName>
+                    <default>false</default>
+                    <label>Initiate</label>
+                </value>
+                <value>
+                    <fullName>Kick Off</fullName>
+                    <default>false</default>
+                    <label>Kick Off</label>
+                </value>
+                <value>
+                    <fullName>Develop</fullName>
+                    <default>false</default>
+                    <label>Develop</label>
+                </value>
+                <value>
+                    <fullName>Finalize</fullName>
+                    <default>false</default>
+                    <label>Finalize</label>
+                </value>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Walk</fullName>
+                    <default>false</default>
+                    <label>Walk</label>
+                </value>
+                <value>
+                    <fullName>Lost</fullName>
+                    <default>false</default>
+                    <label>Lost</label>
+                </value>
+                <value>
+                    <fullName>Won</fullName>
+                    <default>false</default>
+                    <label>Won</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RFx_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>RFx Number</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RFx_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>RFx Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>RFI</fullName>
+                    <default>false</default>
+                    <label>RFI</label>
+                </value>
+                <value>
+                    <fullName>RFQ</fullName>
+                    <default>false</default>
+                    <label>RFQ</label>
+                </value>
+                <value>
+                    <fullName>RFP</fullName>
+                    <default>false</default>
+                    <label>RFP</label>
+                </value>
+                <value>
+                    <fullName>Unsolicited Proposal</fullName>
+                    <default>false</default>
+                    <label>Unsolicited Proposal</label>
+                </value>
+                <value>
+                    <fullName>Follow-up</fullName>
+                    <default>false</default>
+                    <label>Follow-up</label>
+                </value>
+                <value>
+                    <fullName>Presentation</fullName>
+                    <default>false</default>
+                    <label>Presentation</label>
+                </value>
+                <value>
+                    <fullName>Security Questionnaire</fullName>
+                    <default>false</default>
+                    <label>Security Questionnaire</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Review_Date_From__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date range for legal to do review</inlineHelpText>
+        <label>Review Date From</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Review_Date_To__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Last date for legal to do review</inlineHelpText>
+        <label>Review Date To</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Security_and_Risk_Contact__c</fullName>
+        <externalId>false</externalId>
+        <label>Security and Risk Contact</label>
+        <length>60</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Security_and_Risk_Type__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Required when RFx type is Security Questionnaire</inlineHelpText>
+        <label>Security and Risk Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>RFx_Type__c</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Simple</fullName>
+                    <default>false</default>
+                    <label>Simple</label>
+                </value>
+                <value>
+                    <fullName>Complex</fullName>
+                    <default>false</default>
+                    <label>Complex</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Security Questionnaire</controllingFieldValue>
+                <valueName>Simple</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Security Questionnaire</controllingFieldValue>
+                <valueName>Complex</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ship_date__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Date this RFP needs to be shipped to meet submittal date</inlineHelpText>
+        <label>Ship date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Shipping_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <label>Shipping Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Solution__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Opportunity__r.Solution__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Solution</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Special_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <label>Special Instructions</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Submittal_Delivered__c</fullName>
+        <externalId>false</externalId>
+        <label>Submittal Delivered</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Submittal_Due__c</fullName>
+        <externalId>false</externalId>
+        <label>Submittal Due</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Target_Market__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Opportunity__r.Target_Market__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Target Market</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_Legal__c</fullName>
+        <externalId>false</externalId>
+        <formula>"https://app.smartsheet.com/b/form/4f557bcba77d42e1bcde61042cb043b4?Customer%20Name=" + Opportunity__r.Account.Name+ "&amp;Requester%20Email=" +$User.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL Legal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Vertical__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.Vertical__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Vertical</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Wet_Ink_Signature__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Wet/Ink Signature</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <label>RFP</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Submittal_Due__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>CompletedTY</fullName>
+        <columns>NAME</columns>
+        <columns>Amount_Yr_1__c</columns>
+        <columns>Opportunity_Stage__c</columns>
+        <columns>Submittal_Due__c</columns>
+        <columns>RFP_Stage__c</columns>
+        <columns>Ship_date__c</columns>
+        <columns>Review_Date_From__c</columns>
+        <columns>Review_Date_To__c</columns>
+        <columns>Date_Completed__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>RFx_Number__c</columns>
+        <columns>RFx_Type__c</columns>
+        <columns>Proposal_Manager__c</columns>
+        <columns>GovWin__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RFP_Stage__c</field>
+            <operation>equals</operation>
+            <value>Completed,Walk,Lost,Won</value>
+        </filters>
+        <filters>
+            <field>Submittal_Due__c</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <label>This Year Completed</label>
+    </listViews>
+    <listViews>
+        <fullName>GovWin_RFPs</fullName>
+        <columns>NAME</columns>
+        <columns>RFP_Open__c</columns>
+        <columns>RFP_Stage__c</columns>
+        <columns>GovWin__c</columns>
+        <columns>Opportunity_Stage__c</columns>
+        <columns>New_Renewal__c</columns>
+        <columns>Solution__c</columns>
+        <columns>Vertical__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>GovWin__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>GovWin RFPs</label>
+    </listViews>
+    <listViews>
+        <fullName>Last_Year_Completed</fullName>
+        <columns>NAME</columns>
+        <columns>Amount_Yr_1__c</columns>
+        <columns>Opportunity_Stage__c</columns>
+        <columns>Submittal_Due__c</columns>
+        <columns>RFP_Stage__c</columns>
+        <columns>Ship_date__c</columns>
+        <columns>Review_Date_From__c</columns>
+        <columns>Review_Date_To__c</columns>
+        <columns>Date_Completed__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>RFx_Number__c</columns>
+        <columns>RFx_Type__c</columns>
+        <columns>Proposal_Manager__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Submittal_Due__c</field>
+            <operation>equals</operation>
+            <value>LAST_YEAR</value>
+        </filters>
+        <filters>
+            <field>RFP_Stage__c</field>
+            <operation>equals</operation>
+            <value>Completed,Walk,Lost,Won</value>
+        </filters>
+        <label>Last Year Completed</label>
+    </listViews>
+    <listViews>
+        <fullName>Open_RFPs</fullName>
+        <columns>Submittal_Due__c</columns>
+        <columns>NAME</columns>
+        <columns>New_Renewal__c</columns>
+        <columns>RFx_Type__c</columns>
+        <columns>RFP_Stage__c</columns>
+        <columns>Proposal_Manager__c</columns>
+        <columns>Amount_Yr_1__c</columns>
+        <columns>Opportunity_Stage__c</columns>
+        <columns>Ship_date__c</columns>
+        <columns>Review_Date_From__c</columns>
+        <columns>Review_Date_To__c</columns>
+        <columns>Date_Completed__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>GovWin__c</columns>
+        <columns>Hard_Copy_Submittal__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RFP_Stage__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Walk,Lost,Won</value>
+        </filters>
+        <label>Open RFPs</label>
+    </listViews>
+    <listViews>
+        <fullName>This_Year_Completed_Sec</fullName>
+        <columns>NAME</columns>
+        <columns>Amount_Yr_1__c</columns>
+        <columns>Opportunity_Stage__c</columns>
+        <columns>Submittal_Due__c</columns>
+        <columns>RFP_Stage__c</columns>
+        <columns>Ship_date__c</columns>
+        <columns>Review_Date_From__c</columns>
+        <columns>Review_Date_To__c</columns>
+        <columns>Date_Completed__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>RFx_Number__c</columns>
+        <columns>RFx_Type__c</columns>
+        <columns>Proposal_Manager__c</columns>
+        <columns>GovWin__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RFP_Stage__c</field>
+            <operation>equals</operation>
+            <value>Completed,Walk,Lost,Won</value>
+        </filters>
+        <filters>
+            <field>Submittal_Due__c</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <filters>
+            <field>RFx_Type__c</field>
+            <operation>equals</operation>
+            <value>Security Questionnaire</value>
+        </filters>
+        <label>This Year Completed Security Review</label>
+    </listViews>
+    <nameField>
+        <label>RFP Name</label>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>RFPs</pluralLabel>
+    <searchLayouts />
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>Security_Type</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(Text(RFx_Type__c)="Security Questionnaire",isblank(text(Security_and_Risk_Type__c)))</errorConditionFormula>
+        <errorDisplayField>Security_and_Risk_Type__c</errorDisplayField>
+        <errorMessage>Please select a Security and Risk Type for your Security Questionnaire RFP Type.</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Submit_to_Legal</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Submit for Review</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://app.smartsheet.com/b/form/4f557bcba77d42e1bcde61042cb043b4?Customer Name={!RFP__c.Merge_AccountName__c}&amp;Requester (Business Owner)={!$User.FirstName} {!$User.LastName}&amp;Watchers={!RFP__c.Merge_OpptyOwner__c}&amp;Customer Category=Coding Solutions=getServices&amp;Expected Annual Revenue($)=1&amp;RFP ID={!RFP__c.Id}&amp;Requested by Date (optional)={!RFP__c.Review_Date_To__c}&amp;Comments/Description={!RFP__c.Name}%0AInitial Legal Review: {!RFP__c.Initial_Legal_Review_Date__c}%0AQuestions Due: {!RFP__c.Questions_Due__c}%0AFunctional Review Completion: {!RFP__c.Review_Date_To__c}%0ASubmittal Due: {!RFP__c.Submittal_Due__c}&amp;Requester Email={!$User.Email}&amp;Target Market={!RFP__c.Merge_TargetMarket__c}&amp;Services to be Provided={!RFP__c.Merge_Services__c}&amp;Expected Annual Revenue ($)={!MCEILING( RFP__c.Merge_OppValue__c )}</url>
+        <width>1000</width>
+    </webLinks>
+</CustomObject>

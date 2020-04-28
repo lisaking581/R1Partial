@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sprint Master Task</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sprint Master Tasks</value>
+    </caseValues>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Days from Start --></label>
+        <name>Days_from_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Due Days From Start --></label>
+        <name>Due_Days_From_Start__c</name>
+    </fields>
+    <fields>
+        <label><!-- Master Name --></label>
+        <name>Master_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint Master --></label>
+        <name>Sprint_Master__c</name>
+        <relationshipLabel><!-- Sprint Master Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Text Subject --></label>
+        <name>Text_Subject__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

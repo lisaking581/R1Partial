@@ -1,0 +1,8 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="true" lightningStylesheets="true">
+    <div style="margin: 1em;">
+        <apex:image url="{!$Resource.Logo}" height="50px" />
+        <h1 style="font-size: 3em;">Submit Case for Salesforce.com Assistance</h1>
+    
+        <flow:interview name="Web_To_Case_For_Site"/>
+    </div>
+</apex:page>

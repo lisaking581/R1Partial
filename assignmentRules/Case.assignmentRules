@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><AssignmentRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <assignmentRule>
+        <fullName>Project vs Internal Cases</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <assignedTo>X18_Project_Team</assignedTo>
+            <assignedToType>Queue</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Project Case</value>
+            </criteriaItems>
+            <template>unfiled$public/SUPPORTNewassignmentnotificationSAMPLE</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>maren.kiemen@intermedix.com.r1</assignedTo>
+            <assignedToType>User</assignedToType>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Internal Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>,Campaign Email Request,HubSpot Issue/Question,New HubSpot User Request,Merge Request</value>
+            </criteriaItems>
+            <template>Case_Alerts/SUPPORT_Internal_Case_Assignment_Alert</template>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>lking1@r1rcm.com</assignedTo>
+            <assignedToType>User</assignedToType>
+            <booleanFilter>1 AND (2 OR 3 or 4)</booleanFilter>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Internal Case</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>App,Business Process- Acct,Business Process- Activity,Business Process- Lead,Business Process- Opportunity,Data,Data Issue,Feature Request,Integration Issue,New Salesforce.com User Request,Other,Page Layout,Problem,Question</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Report Creation/Edit,Report Request/Issue,Training Issue,User Permission/Profile,Merge Request</value>
+            </criteriaItems>
+            <criteriaItems>
+                <field>Case.Type</field>
+                <operation>equals</operation>
+                <value>Data Import,Data Issue,Duplicate Issue,Remove User Request</value>
+            </criteriaItems>
+            <template>Case_Alerts/SUPPORT_Internal_Case_Assignment_Alert</template>
+        </ruleEntry>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Internal Case - Assigned</value>
+            </criteriaItems>
+        </ruleEntry>
+        <ruleEntry>
+            <assignedTo>lking1@r1rcm.com</assignedTo>
+            <assignedToType>User</assignedToType>
+        </ruleEntry>
+    </assignmentRule>
+</AssignmentRules>

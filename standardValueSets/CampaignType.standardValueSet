@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account Management</fullName>
+        <default>false</default>
+        <label>Account Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaign Landing Page</fullName>
+        <default>false</default>
+        <label>Campaign Landing Page (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Campaign</fullName>
+        <default>false</default>
+        <label>Email Campaign (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound Call</fullName>
+        <default>false</default>
+        <label>Inbound Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Digital</fullName>
+        <default>false</default>
+        <label>Paid Digital (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Parent Campaign</fullName>
+        <default>false</default>
+        <label>Parent Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Podcast</fullName>
+        <default>false</default>
+        <label>Podcast (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Print Advertising</fullName>
+        <default>false</default>
+        <label>Print Advertising (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>R1 Website (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Prospecting</fullName>
+        <default>false</default>
+        <label>Sales Prospecting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Thought Leadership</fullName>
+        <default>false</default>
+        <label>Thought Leadership (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show / Event</fullName>
+        <default>false</default>
+        <label>Trade Show / Event (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dine and Learn (M)</fullName>
+        <default>false</default>
+        <label>Dine and Learn (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Dinner / Cocktail Event (M)</fullName>
+        <default>false</default>
+        <label>Dinner / Cocktail Event (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Forum (M)</fullName>
+        <default>false</default>
+        <label>Executive Forum (M)</label>
+    </standardValue>
+</StandardValueSet>

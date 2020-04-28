@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>PAS</fullName>
+        <default>false</default>
+        <label>PAS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RIS</fullName>
+        <default>false</default>
+        <label>RIS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>PX</fullName>
+        <default>false</default>
+        <label>PX</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other Mod</fullName>
+        <default>false</default>
+        <label>Other Mod</label>
+    </standardValue>
+</StandardValueSet>

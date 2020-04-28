@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Concerns or Risks --></label>
+        <name>Concerns_or_Risks__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+    </fields>
+    <fields>
+        <help><!-- Project Manager from the associated Sales Order, if any. Original IMX test formula: Sales_Order__r.Professional_Services_Contact__r.FirstName &amp; &quot; &quot; &amp;  Sales_Order__r.Professional_Services_Contact__r.LastName --></help>
+        <label><!-- PM from Opportunity --></label>
+        <name>PM_from_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proj ID --></label>
+        <name>Proj_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Description --></label>
+        <name>Project_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project End Date --></label>
+        <name>Project_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Health --></label>
+        <name>Project_Health__c</name>
+        <picklistValues>
+            <masterLabel>A - Healthy</masterLabel>
+            <translation><!-- A - Healthy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>B - Some Issues</masterLabel>
+            <translation><!-- B - Some Issues --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C - At Risk</masterLabel>
+            <translation><!-- C - At Risk --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Legacy ID --></label>
+        <name>Project_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Notes --></label>
+        <name>Project_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- Current stage of project - to be updated by project manager --></help>
+        <label><!-- Project Stage --></label>
+        <name>Project_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kickoff</masterLabel>
+            <translation><!-- Kickoff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New</masterLabel>
+            <translation><!-- New --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Parked</masterLabel>
+            <translation><!-- Parked --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Start Date --></label>
+        <name>Project_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Additional Work</masterLabel>
+            <translation><!-- Additional Work --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Board Building Hours</masterLabel>
+            <translation><!-- Board Building Hours --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modules Only</masterLabel>
+            <translation><!-- Modules Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Implementation</masterLabel>
+            <translation><!-- New Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Service Credit Plan</masterLabel>
+            <translation><!-- Service Credit Plan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staffing</masterLabel>
+            <translation><!-- Staffing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Proposal ID from Sales Order.  If blank, displays the Compiere Order/Quote # instead. Original IMX test formual: BLANKVALUE(Sales_Order__r.Proposal_ID__c
+, Sales_Order__r.Compiere_Order_Quote__c ) --></help>
+        <label><!-- Proposal ID --></label>
+        <name>Proposal_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order --></label>
+        <name>Sales_Order__c</name>
+        <relationshipLabel><!-- Master Project --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

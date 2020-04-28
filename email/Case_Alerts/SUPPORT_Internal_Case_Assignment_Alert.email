@@ -1,0 +1,14 @@
+*** NEW INTERNAL CASE CREATION ALERT ***  
+
+This internal case has been assigned to you based on the Type field. Please follow up on this Case in Salesforce.com.
+
+Case #:  {!Case.CaseNumber} 
+Case Type: {!Case.Type}
+Subject:  {!Case.Subject} 
+Created By: {!Case.CreatedBy}
+Case Link:  {!Case.Link}
+
+Description: {!Case.Description}  
+
+
+{ref:C-001}

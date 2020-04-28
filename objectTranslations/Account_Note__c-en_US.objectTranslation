@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Account Note</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Account Notes</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Note Legacy ID --></label>
+        <name>Account_Note_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Notes specific to this account (customer) e.g. progress on implementing main note --></help>
+        <label><!-- Account Specific Notes --></label>
+        <name>Account_Specific_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Account Notes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Closed --></label>
+        <name>Closed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optima Note --></label>
+        <name>Optima_Note__c</name>
+        <relationshipLabel><!-- Account Notes --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <layouts>
+        <layout>Optima Note Account Association Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

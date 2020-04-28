@@ -1,0 +1,138 @@
+<apex:page standardController="Opportunity" tabStyle="Opportunity">
+
+    <html xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" lang="en">
+        <head>
+            <style>
+                .head{
+                font-size:1.3em;
+                }
+                .slds-scope .slds-icon-standard-account {
+                background-color: #7f8de1;
+                width: 35px;
+                height: 33px;
+                margin-right: 10px;
+                margin-top: 3px;
+                }
+                .wk_btn{
+                margin: 10px 45% !important;
+                }
+                 
+            </style>
+             <style>
+            body .bPageBlock .pbBody .white .pbSubheader{
+                background-color:#ffffff;
+            }
+            body .bPageBlock .pbBody .grey .pbSubheader{
+                background-color:#ffffff;
+            }
+            body .bPageBlock .pbBody .grey .pbSubheader h3{
+                color:#000;
+            }
+        </style>
+        </head>
+        <apex:slds />
+
+        <div class = "slds-scope">
+          
+  
+            <apex:pageBlock >
+
+             <!-- 
+            <apex:form >
+                <apex:outputpanel >
+                    <apex:outputpanel styleclass="slds-col slds-p-horizontal_small slds-size_1-of-2 slds-medium-size_5-of-6 slds-large-size_8-of-12" >
+                        <div class="slds-page-header" role="banner">
+                            <div class="slds-grid">
+                                <span class="slds-icon_container slds-icon-standard-account">
+                                    <svg aria-hidden="true" class="slds-icon">
+                                        <use xlink:href="{!URLFOR($Asset.SLDS, 'assets/icons/standard-sprite/svg/symbols.svg#account')}"></use>
+                                    </svg>
+                                    <span class="slds-assistive-text">Opportunity Icon</span>
+                                </span>
+                                <div class="slds-col">
+                                    <h1 class="slds-text-heading--medium">Opportunity </h1>
+                                    <p class="slds-text-heading--label">Home</p>
+                                </div>
+                            </div> 
+                        </div>
+                    </apex:outputpanel>
+                </apex:outputpanel>
+                 
+             
+                 
+                 
+            </apex:form>
+            
+              -->
+                 <apex:form >
+     
+
+<apex:outputPanel styleClass="grey" layout="block">
+      <apex:pageBlockSection title="Aging Dates" columns="2">
+      <apex:outputField value="{!opportunity.name}"/>
+      <apex:outputField value="{!opportunity.StageName}"/>
+      <apex:outputField value="{!opportunity.Probability}"/>
+      <apex:outputField value="{!opportunity.Highest_Probability__c }"/>
+      <apex:outputField value="{!opportunity.CreatedDate}"/>
+      <apex:outputField value="{!opportunity.Days_from_Created__c}"/>
+      <apex:inputField value="{!opportunity.Stage_Change_To_Learn_Date__c}"/>
+      <apex:outputField value="{!opportunity.Days_Target__c}"/>
+      <apex:inputField value="{!opportunity.Stage_Change_to_Qualify_Date__c}"/>
+      <apex:outputField value="{!opportunity.Days_Qualify__c}"/>
+      <apex:inputField value="{!opportunity.Stage_Change_To_Execute_Date__c}"/>
+      <apex:outputField value="{!opportunity.Days_Execute__c}"/>
+      <apex:inputField value="{!opportunity.Stage_Change_To_Propose_Date__c}"/>
+      <apex:outputField value="{!opportunity.Days_Propose__c}"/>
+      <apex:inputField value="{!opportunity.Stage_Change_To_Close_Date__c}"/>
+      <apex:outputField value="{!opportunity.Days_Close__c}"/>      
+      <apex:inputField value="{!opportunity.Actual_Close_Date__c}"/>
+      <apex:outputField value="{!opportunity.Days_Open__c}"/>
+       <apex:commandButton action="{!save}" value="Save" id="SAVE"/>
+    </apex:pageBlockSection>
+    
+</apex:outputPanel>
+    
+    </apex:form>
+    
+     <apex:form >
+     <apex:outputPanel styleClass="grey" layout="block">
+    <apex:pageBlockSection title="Forecast Fields" columns="2">
+      <apex:outputField value="{!opportunity.ForecastCategoryName}"/>
+      <apex:inputField value="{!opportunity.Mgt_Forecast__c}"/>
+      <apex:inputField value="{!opportunity.Mgt_ARR__c  }"/>
+      <apex:inputField value="{!opportunity.Mgt_TYR__c}"/>
+      <apex:inputField value="{!opportunity.Mgt_TCV__c}"/>
+      <apex:inputField value="{!opportunity.Sold_Booking_Estimate__c}"/>
+      <apex:inputField value="{!opportunity.Sold_Values_Total__c}"/>
+      <apex:inputField value="{!opportunity.Sold_In_Year_Revenue__c}"/>
+      <apex:inputField value="{!opportunity.Sold_Implementation_Value__c}"/>
+      <apex:inputField value="{!opportunity.Sold_Minimum_Value__c}"/>
+      <apex:inputField value="{!opportunity.EX_Mgt_FCST__c}"/>
+      <apex:inputField value="{!opportunity.Ex_SO_Flag__c}"/>
+      <apex:inputField value="{!opportunity.Split_Credit_Count__c}"/>
+      <apex:outputField value="{!opportunity.MgtFCAmount__c}"/>
+    
+          
+      <apex:commandButton action="{!save}" value="Save" id="SAVE"/>
+
+    </apex:pageBlockSection> 
+    
+</apex:outputPanel> 
+
+<apex:outputPanel styleClass="grey" layout="block">
+
+    <apex:pageBlockSection title="Contract Fields" columns="2">
+      <apex:inputField value="{!opportunity.Contract_Priority__c}"/>
+      <apex:inputField value="{!opportunity.Contract_Comment__c}"/>
+            
+      <apex:commandButton action="{!save}" value="Save" id="SAVE"/>
+
+    </apex:pageBlockSection>  
+
+</apex:outputPanel>
+
+        </apex:form>
+        </apex:pageBlock>
+        </div>
+    </html>
+</apex:page>

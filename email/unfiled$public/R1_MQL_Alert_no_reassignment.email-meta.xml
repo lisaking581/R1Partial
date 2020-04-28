@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>R1_2019_logo</letterhead>
+    <name>R1: MQL Alert (no reassignment)</name>
+    <style>freeForm</style>
+    <subject>MQL Alert for {!Lead.OwnerFirstName} {!Lead.OwnerLastName}</subject>
+    <textOnly>You have been assigned a new lead!
+
+Lead Name:{!Lead.Salutation}  {!Lead.Name}
+Company:  {!Lead.Company}
+
+Email:  {!Lead.Email}
+Phone: {!Lead.Phone}
+Title: {!Lead.Title}
+State: {!Lead.State}
+Country: {!Lead.Country}
+
+Org Type: {!Lead.Organization_Type__c}
+Vertical: {!Lead.Vertical__c}
+
+Product/Services: {!Lead.Product_of_Interest_POI__c}
+{!Lead.Description}
+
+
+Click here to access this record in Salesforce.com:
+{!Lead.Link}
+
+Funnel Stage: {!Lead.Funnel_Stage__c}
+Lead Status: {!Lead.Status}
+Outcome Status: {!Lead.Outcome_Status__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

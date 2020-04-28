@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contract Amendment</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contract Amendments</value>
+    </caseValues>
+    <fields>
+        <label><!-- Contract --></label>
+        <name>Contract__c</name>
+        <relationshipLabel><!-- Contract Amendments --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- New Contract End Date --></label>
+        <name>New_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Renewal_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Type --></label>
+        <name>Type__c</name>
+        <picklistValues>
+            <masterLabel>Adjusted End Date</masterLabel>
+            <translation><!-- Adjusted End Date --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extension</masterLabel>
+            <translation><!-- Extension --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termination Date</masterLabel>
+            <translation><!-- Termination Date --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Contract Amendment Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Contract Renewal Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

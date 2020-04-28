@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SamlSsoConfig xmlns="http://soap.sforce.com/2006/04/metadata">
+    <identityLocation>SubjectNameId</identityLocation>
+    <identityMapping>FederationId</identityMapping>
+    <issuer>http://sts.r1rcm.com/adfs/services/trust</issuer>
+    <loginUrl>https://sts.r1rcm.com/adfs/ls/idpinitiatedsignon.htm?loginToRp=https://saml.salesforce.com</loginUrl>
+    <name>ADFS</name>
+    <oauthTokenEndpoint>https://r1rcm--partial.my.salesforce.com/services/oauth2/token?so=00D7A0000009SNE</oauthTokenEndpoint>
+    <redirectBinding>false</redirectBinding>
+    <requestSignatureMethod>1</requestSignatureMethod>
+    <requestSigningCertId>0P141000004C07t</requestSigningCertId>
+    <salesforceLoginUrl>https://r1rcm--partial.my.salesforce.com?so=00D7A0000009SNE</salesforceLoginUrl>
+    <samlEntityId>https://saml.salesforce.com</samlEntityId>
+    <samlVersion>SAML2_0</samlVersion>
+    <userProvisioning>false</userProvisioning>
+    <validationCert>MIIC1jCCAb6gAwIBAgIQHaKNpj1HS4pD+tI8TazNLDANBgkqhkiG9w0BAQsFADAnMSUwIwYDVQQDExxBREZTIFNpZ25pbmcgLSBzdHMucjFyY20uY29tMB4XDTE4MTIwNTE0NDAxMFoXDTE5MTIwNTE0NDAxMFowJzElMCMGA1UEAxMcQURGUyBTaWduaW5nIC0gc3RzLnIxcmNtLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALaIg1sURx5Q24uy5VnNV7qgb05NkWw2zBWhGnDjmOGBPlz1mqGn19c/jEU5PMiFToMX2NNwCMvrjbuT3CkmwCPr+4xt+enXjrYMixdwYehB1txQC00Hf1LWLH1+YPUDwZ2rwMcAhc9Dk/JF+nBm3NfziOStKIf2DlPlth5mQlYqyCUXoGDs0Gl4TJ/b0aIg1PewBqVZDw/4vGV41kQPTjidOWDPjrfZBK93636g3GB7VnnHGfLudKt4L54/GVIx/QgiXGYuUqj+tYy/2ICWOsI7ceb+QEoT2/jsnYJVfWu3aVOrO6kTfxxSs6myFljhKVhcekVe14mmtCbck0mp48ECAwEAATANBgkqhkiG9w0BAQsFAAOCAQEARysMzyNM3P5Uhku709upWnYykDYuab7AKoL25u40nu7Zl+Dpi6nmLIdvkydvkdu0AkxMTBM2PRdr5xFS8O17jI+MFpT62eNp1+ggFpeJM0zk4mcMkbwRnLOMoKhGGUN+lp8PVgC7c32nWgUCpJogucgYMfjCufEMQjMMi9xJn85D228QtLD4m0wyk6C/NWOUWKdyhscQiHErvpxMRKHmVtMnhIolkxoP/u8bo/de36rFv8FUaPK6phT6SnsOjltlbRPHqsT/GyI7imlF/8oWMsw9Z11/T8Pxi1mu8jw4kUu0Pce8+x9HEIVUV7/gDcejcwamIVE5WhUy9ro8fo3SDQ==</validationCert>
+</SamlSsoConfig>

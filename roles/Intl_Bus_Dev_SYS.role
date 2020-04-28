@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>OLD-Intl Bus Dev - SYS</name>
+    <opportunityAccessLevel>Edit</opportunityAccessLevel>
+    <parentRole>Intl_Bus_Dev_VP_SYS</parentRole>
+</Role>

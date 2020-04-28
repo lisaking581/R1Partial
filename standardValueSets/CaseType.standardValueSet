@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Business Process- Acct</fullName>
+        <default>false</default>
+        <label>Business Process- Acct</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Process- Activity</fullName>
+        <default>false</default>
+        <label>Business Process- Activity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Process- Lead</fullName>
+        <default>false</default>
+        <label>Business Process- Lead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Business Process- Opportunity</fullName>
+        <default>false</default>
+        <label>Business Process- Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaign Email Request</fullName>
+        <default>false</default>
+        <label>Campaign Email Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Import</fullName>
+        <default>false</default>
+        <label>Data Import</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Issue</fullName>
+        <default>false</default>
+        <label>Data Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate Issue</fullName>
+        <default>false</default>
+        <label>Duplicate/Merge Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Feature Request</fullName>
+        <default>false</default>
+        <label>Feature Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>HubSpot Issue/Question</fullName>
+        <default>false</default>
+        <label>HubSpot Issue/Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Integration Issue</fullName>
+        <default>false</default>
+        <label>Integration Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New HubSpot User Request</fullName>
+        <default>false</default>
+        <label>New HubSpot User Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Remove User Request</fullName>
+        <default>false</default>
+        <label>Offboard User Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>New Salesforce.com User Request</fullName>
+        <default>false</default>
+        <label>Onboard User Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Page Layout</fullName>
+        <default>false</default>
+        <label>Page Layout</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Password/User ID/Email issue</fullName>
+        <default>false</default>
+        <label>Password/User ID/Email issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Problem</fullName>
+        <default>false</default>
+        <label>Problem</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Question</fullName>
+        <default>false</default>
+        <label>Question</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Report Creation/Edit</fullName>
+        <default>false</default>
+        <label>Report Creation/Edit/Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Training Issue</fullName>
+        <default>false</default>
+        <label>Training Issue</label>
+    </standardValue>
+    <standardValue>
+        <fullName>User Permission/Profile</fullName>
+        <default>false</default>
+        <label>User Permission/Profile</label>
+    </standardValue>
+</StandardValueSet>

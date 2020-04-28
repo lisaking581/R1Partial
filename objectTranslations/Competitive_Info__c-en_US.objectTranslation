@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Competitive Info</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Competitive Info</value>
+    </caseValues>
+    <fields>
+        <label><!-- Competitor --></label>
+        <name>Competitor_Name__c</name>
+        <relationshipLabel><!-- Competitive Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- OLDCompetitor --></label>
+        <name>Competitor__c</name>
+        <relationshipLabel><!-- Competitive Info (Competitor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Thru Date --></label>
+        <name>Contract_Thru_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related To --></label>
+        <name>Related_To__c</name>
+        <relationshipLabel><!-- Competitive Info --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- SolutionDNU --></label>
+        <name>SolutionDNU__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution_Covered__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inactive</masterLabel>
+            <translation><!-- Inactive --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strengths --></label>
+        <name>Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weaknesses --></label>
+        <name>Weaknesses__c</name>
+    </fields>
+    <layouts>
+        <layout>Competitive Info Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

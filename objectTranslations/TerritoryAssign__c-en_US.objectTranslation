@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>TerritoryAssign</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>TerritoryAssign</value>
+    </caseValues>
+    <fields>
+        <label><!-- HB Physicians --></label>
+        <name>HB_Physicians__c</name>
+        <picklistValues>
+            <masterLabel>HB-NE</masterLabel>
+            <translation><!-- HB-NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HB-SE</masterLabel>
+            <translation><!-- HB-SE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HB-W</masterLabel>
+            <translation><!-- HB-W --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IDN_Modular --></label>
+        <name>IDN_Modular__c</name>
+        <picklistValues>
+            <masterLabel>IDN-CEN</masterLabel>
+            <translation><!-- IDN-CEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDN-MidA</masterLabel>
+            <translation><!-- IDN-MidA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDN-NE</masterLabel>
+            <translation><!-- IDN-NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDN-S</masterLabel>
+            <translation><!-- IDN-S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IDN-W</masterLabel>
+            <translation><!-- IDN-W --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OB Physicians --></label>
+        <name>OB_Physicians__c</name>
+        <picklistValues>
+            <masterLabel>OB-CEN</masterLabel>
+            <translation><!-- OB-CEN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OB-NE</masterLabel>
+            <translation><!-- OB-NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OB-S</masterLabel>
+            <translation><!-- OB-S --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OB-W</masterLabel>
+            <translation><!-- OB-W --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State --></label>
+        <name>State__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,29 @@
+Please note that the following opportunity has just been updated to a priority of 1.  
+Please contact opportunity owner and sales manager to confirm priority and timelines. 
+
+{!Opportunity.Account}
+{!Opportunity.Name}
+Opportunity Owner: {!Opportunity.OwnerFullName}
+Opportunity Manager: Rod Nichols
+Contract Priority:  {!Opportunity.EX_Contract_Priority__c}
+Contract Comments:  {!Opportunity.EX_Contract_Comments__c}
+
+Solution: {!Opportunity.Solution__c}
+Target Market: {!Opportunity.Target_Market__c}
+Vertical:  {!Opportunity.Vertical__c}
+
+
+Stage: {!Opportunity.StageName} {!Opportunity_History__c.Stage_History__c}
+Close:  {!Opportunity.CloseDate}
+Amount:  {!Opportunity.Amount}
+Mgt FC         {!Opportunity.Mgt_Forecast__c}
+Mgt FC Flag  {!Opportunity.EX_Mgt_FCST__c}
+ARR         {!Opportunity.Calculated_Annual_Bookings__c}
+TYR          {!Opportunity.Calculated_This_Year_Revenue__c}
+
+EC: {!Opportunity.Executive_Comments__c}
+
+{!Opportunity.Manager_Comments__c}
+{!Opportunity.Link}
+
+https://r1rcm.lightning.force.com/lightning/setup/CommunicationTemplatesEmail/page?address=%2F00X41000001GDMA%2Fe%3Fsetupid%3DCommunicationTemplatesEmail%26retURL%3D%252F00X41000001GDMA

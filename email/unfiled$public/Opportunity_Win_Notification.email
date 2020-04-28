@@ -1,0 +1,27 @@
+The following opportunity was Closed as Won by {!User.Name}
+
+   Opportunity: {!Opportunity.Name}
+   Opportunity ID:  {!Opportunity.Id}
+   Account::     {!Opportunity.Account}
+   Account Id:  {!Opportunity.AccountId}
+   Parent Acct:  {!Account.Parent}
+   Parent ID:      {!Account.ParentId}
+
+   Solution:       {!Opportunity.Solution__c}
+   Vertical:         {!Opportunity.Vertical__c}
+   Target Market:  {!Opportunity.Target_Market__c}
+
+   Close Date:   {!Opportunity.CloseDate}
+   Opportunity Amount: {!Opportunity.Amount}
+   Duration:  {!Opportunity.Duration__c}
+    Start Date:     {!Opportunity.Start_Date__c}
+
+   Lawson Code: {!Account.Lawson_Number__c}
+   Facility Code:  {!Account.Facility_Code__c}
+
+   Win Reason: {!Opportunity.Customer_Won_Reason__c}  {!Opportunity.Closed_Won_Internal_Reason__c}
+
+Please note, this Salesforce notice is generated automatically.  If you have any questions about the opportunity or suggestions for improvement, please contact Mike Lippman at mlippman@r1rcm.com 
+
+Salesforce Link:  {!Opportunity.Link}
+Template Link:    https://r1rcm.lightning.force.com/F00X41000001Vgcx

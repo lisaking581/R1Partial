@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>System Change</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>System Admin Notification</name>
+    <style>none</style>
+    <subject>Admin Notice - {!Opportunity.Name} Stage:{!Opportunity.StageName}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

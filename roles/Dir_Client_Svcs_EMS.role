@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Role xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseAccessLevel>Edit</caseAccessLevel>
+    <contactAccessLevel>Edit</contactAccessLevel>
+    <description>Dir Client Svcs, EMS</description>
+    <mayForecastManagerShare>false</mayForecastManagerShare>
+    <name>OLD-Dir Client Svcs, EMS</name>
+    <opportunityAccessLevel>Read</opportunityAccessLevel>
+    <parentRole>VP_Client_Svcs_EMS</parentRole>
+</Role>

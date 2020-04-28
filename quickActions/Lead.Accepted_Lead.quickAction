@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>When a lead is qualified, update:
+Update Lead Record Type to “Sales Qualified Lead”
+Change “Lead Status” to “Active Lead – In Progress”
+Change “Outcome Status” to “Continue to Nurture”
+Change the Funnel Stage to “Sales Qualified Lead”</description>
+    <flowDefinition>Update_to_Accepted_Lead</flowDefinition>
+    <label>Accepted Lead</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

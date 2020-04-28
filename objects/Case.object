@@ -1,0 +1,2043 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloneAsChild</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CloseCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>MassClose</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>NewCase</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Project_Case</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Project_Case</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <businessProcesses>
+        <fullName>R1 Case Mgmt</fullName>
+        <isActive>true</isActive>
+        <values>
+            <fullName>Awaiting Requestor%27s Review</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Closed</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>Future%2FDeferred</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>In Progress</fullName>
+            <default>false</default>
+        </values>
+        <values>
+            <fullName>New</fullName>
+            <default>true</default>
+        </values>
+        <values>
+            <fullName>On Hold</fullName>
+            <default>false</default>
+        </values>
+    </businessProcesses>
+    <compactLayoutAssignment>Project_Case</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Project_Case</fullName>
+        <fields>CaseNumber</fields>
+        <fields>Status</fields>
+        <fields>Priority</fields>
+        <fields>Subject</fields>
+        <fields>OwnerId</fields>
+        <fields>RecordTypeId</fields>
+        <label>Project Case</label>
+    </compactLayouts>
+    <enableFeeds>true</enableFeeds>
+    <externalSharingModel>Private</externalSharingModel>
+    <fields>
+        <fullName>AccountId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AssetId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>BusinessHoursId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Case_Legacy_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Case Legacy ID</label>
+        <length>18</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ClosedDate</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Closed__c</fullName>
+        <externalId>false</externalId>
+        <label>Closed Reason</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <controllingField>Status</controllingField>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Problem Resolved</fullName>
+                    <default>false</default>
+                    <label>Problem Resolved</label>
+                </value>
+                <value>
+                    <fullName>No issue/Reported in Error</fullName>
+                    <default>false</default>
+                    <label>No issue/Reported in Error</label>
+                </value>
+                <value>
+                    <fullName>Merged with another case</fullName>
+                    <default>false</default>
+                    <label>Merged with another case</label>
+                </value>
+                <value>
+                    <fullName>Duplicate</fullName>
+                    <default>false</default>
+                    <label>Duplicate</label>
+                </value>
+            </valueSetDefinition>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Problem Resolved</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>No issue/Reported in Error</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Merged with another case</valueName>
+            </valueSettings>
+            <valueSettings>
+                <controllingFieldValue>Closed</controllingFieldValue>
+                <valueName>Duplicate</valueName>
+            </valueSettings>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Comments</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Concerning_Org__c</fullName>
+        <externalId>false</externalId>
+        <label>Concerning Org/App</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>R1</fullName>
+                    <default>false</default>
+                    <label>R1</label>
+                </value>
+                <value>
+                    <fullName>Intermedix</fullName>
+                    <default>false</default>
+                    <label>Intermedix</label>
+                </value>
+                <value>
+                    <fullName>New Integrated R1</fullName>
+                    <default>false</default>
+                    <label>New Integrated R1</label>
+                </value>
+                <value>
+                    <fullName>R1 Full Sandbox</fullName>
+                    <default>false</default>
+                    <label>R1 Full Sandbox</label>
+                </value>
+                <value>
+                    <fullName>Original IMX Hubspot</fullName>
+                    <default>false</default>
+                    <label>Original IMX Hubspot</label>
+                </value>
+                <value>
+                    <fullName>New R1-IMX Hubspot</fullName>
+                    <default>false</default>
+                    <label>New R1-IMX Hubspot</label>
+                </value>
+                <value>
+                    <fullName>R1 Prod AND  Intermedix Prod</fullName>
+                    <default>false</default>
+                    <label>R1 Prod AND  Intermedix Prod</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ContactEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactFax</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ContactMobile</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>ContactPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Dependent_Case__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>ie what Case must be addressed prior to this one being reviewed or started?</inlineHelpText>
+        <label>Dependent Case</label>
+        <referenceTo>Case</referenceTo>
+        <relationshipLabel>Dependent Cases</relationshipLabel>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Expected_Completion_date__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>In_Project_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>In Project Scope</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In Scope- Low Priority</fullName>
+                    <default>false</default>
+                    <label>In Scope- Low Priority</label>
+                </value>
+                <value>
+                    <fullName>In Scope- High Priority</fullName>
+                    <default>false</default>
+                    <label>In Scope- High Priority</label>
+                </value>
+                <value>
+                    <fullName>Out of Scope</fullName>
+                    <default>false</default>
+                    <label>Out of Scope</label>
+                </value>
+                <value>
+                    <fullName>Hold</fullName>
+                    <default>false</default>
+                    <label>Hold</label>
+                </value>
+                <value>
+                    <fullName>Awaiting ML Review</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Awaiting ML Review</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>IsClosedOnCreate</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>IsEscalated</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Issue_involves_this_object__c</fullName>
+        <externalId>false</externalId>
+        <label>Issue involves this object</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Lead</fullName>
+                    <default>false</default>
+                    <label>Lead</label>
+                </value>
+                <value>
+                    <fullName>Account</fullName>
+                    <default>false</default>
+                    <label>Account</label>
+                </value>
+                <value>
+                    <fullName>Contact</fullName>
+                    <default>false</default>
+                    <label>Contact</label>
+                </value>
+                <value>
+                    <fullName>Opportunity</fullName>
+                    <default>false</default>
+                    <label>Opportunity</label>
+                </value>
+                <value>
+                    <fullName>Activity (Task or Event)</fullName>
+                    <default>false</default>
+                    <label>Activity (Task or Event)</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Campaign</fullName>
+                    <default>false</default>
+                    <label>Campaign</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Object_if_Other__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>When in doubt look at the tab you're on when issue arises.</inlineHelpText>
+        <label>Object if "Other"</label>
+        <length>30</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Origin</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ParentId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Person_Who_Requested_if_Not_R1_User__c</fullName>
+        <externalId>false</externalId>
+        <label>Person Who Requested if Not R1 User</label>
+        <length>40</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Priority</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Project_Case_Assignment__c</fullName>
+        <description>IF
+(
+AND 
+( 
+RecordType.DeveloperName  = "Project_Case", 
+TEXT( Status )= "Approved and Assigned", 
+Owner:Queue.QueueName  = "18 Project Team" 
+)
+,
+IMAGE("/img/samples/color_red.gif", "red", 30, 30),
+IMAGE("/img/samples/color_green.gif", "green", 30, 30)
+)</description>
+        <externalId>false</externalId>
+        <formula>IF
+(
+OR
+(
+(
+AND 
+( 
+RecordType.DeveloperName  = "Project_Case", 
+TEXT( Status )= "Approved and Assigned", 
+Owner:Queue.QueueName  = "18 Project Team" 
+)
+),
+(
+AND 
+( 
+RecordType.DeveloperName  = "Project_Case", 
+TEXT( Status )= "New", 
+Owner:Queue.QueueName  = "18 Project Team" 
+)
+)
+)
+,
+IMAGE("/img/samples/color_red.gif", "red", 30, 30),
+IMAGE("/img/samples/color_green.gif", "green", 30, 30)
+)</formula>
+        <inlineHelpText>If your Project Case's Status is "Approved and Assigned" it cannot be owned by the queue. please update record so a named user takes ownership.</inlineHelpText>
+        <label>Project Case Assignment</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>R1_PROD_User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>R1 User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Reason</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Record_Name_and_or_URL_for_page__c</fullName>
+        <defaultValue>"The more details you can provide, the better. If able, a) give us the name of the record, e.g. R-0235 or Able Cloud account, and/or b) copy and paste the URL for the page you're on."</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The more details you can provide, the better. If able, a) give us the name of the record, e.g. R-0235 or Able Cloud account, and/or b) copy and paste the URL for the page you're on.</inlineHelpText>
+        <label>Record Name and/or URL for page</label>
+        <length>200</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SourceId</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Subject</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Submitted_by__c</fullName>
+        <externalId>false</externalId>
+        <formula>SuppliedName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Submitted by</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SuppliedCompany</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedEmail</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedName</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>SuppliedPhone</fullName>
+        <trackTrending>false</trackTrending>
+    </fields>
+    <fields>
+        <fullName>Type</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>User__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>User</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Cases1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>debug_info__c</fullName>
+        <description>hidden field to capture workflow info</description>
+        <externalId>false</externalId>
+        <label>debug_info</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>AllOpenCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>In_Project_Scope__c</columns>
+        <columns>CASES.RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>All Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Cases_open_closed</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>In_Project_Scope__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Cases (open &amp; closed)</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Closed_This_Month</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.CLOSED_DATE</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>In_Project_Scope__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED_DATE</field>
+            <operation>equals</operation>
+            <value>THIS_YEAR</value>
+        </filters>
+        <label>Cases Closed This Year</label>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Owned_by_Annette</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>annette</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Cases Owned by Annette</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Owned_by_Maren</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>maren</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Cases Owned by Maren</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Owned_by_Michelle</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>michelle</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Cases Owned by Michelle</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Owned_by_Mike_Lippman</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CASES.ORIGIN</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>mike</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Cases Owned by Mike Lippman</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Owned_by_Theresa</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>contains</operation>
+            <value>theresa</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Cases Owned by Theresa</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_Project_Out_of_Scope_or_Hold</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>equals</operation>
+            <value>On Hold,Future</value>
+        </filters>
+        <label>Cases - Project Out of Scope or Hold</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_SalesOps_Case</fullName>
+        <filterScope>Queue</filterScope>
+        <label>Cases_SalesOps</label>
+        <queue>Cases_SalesOps</queue>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cases_i_Created_Submitted</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>OWNER_NAME</columns>
+        <columns>CASES.RECORDTYPE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATEDBY_USER.ALIAS</field>
+            <operation>equals</operation>
+            <value>Annette</value>
+        </filters>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Cases I Created/Submitted</label>
+    </listViews>
+    <listViews>
+        <fullName>MyCases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Closed,Future</value>
+        </filters>
+        <label>My Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>MyOpenCases</fullName>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.NAME</columns>
+        <columns>NAME</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>CASES.RECORDTYPE</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>CASES.RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Case.Internal_Case_No_reassignment_rules</value>
+        </filters>
+        <label>My Open Cases</label>
+    </listViews>
+    <listViews>
+        <fullName>New_Cases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>NAME</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.CREATED_DATE_DATE_ONLY</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>In_Project_Scope__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CREATED_DATE_DATE_ONLY</field>
+            <operation>greaterOrEqual</operation>
+            <value>N_DAYS_AGO:3</value>
+        </filters>
+        <label>New Cases Last 3 Days</label>
+    </listViews>
+    <listViews>
+        <fullName>Project_Cases</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>Concerning_Org__c</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>Project_Case_Assignment__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>Project Cases</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Project_Issues_Open</fullName>
+        <columns>CASES.CASE_NUMBER</columns>
+        <columns>CASES.SUBJECT</columns>
+        <columns>CASES.STATUS</columns>
+        <columns>CASES.PRIORITY</columns>
+        <columns>CASES.TYPE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CASES.CLOSED</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>Project Issues - Open</label>
+    </listViews>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>AA_test</fullName>
+        <active>false</active>
+        <businessProcess>R1 Case Mgmt</businessProcess>
+        <label>AA test</label>
+        <picklistValues>
+            <picklist>Closed__c</picklist>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No issue%2FReported in Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Resolved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Concerning_Org__c</picklist>
+            <values>
+                <fullName>Intermedix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Integrated R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New R1-IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Original IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Full Sandbox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Prod AND  Intermedix Prod</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>In_Project_Scope__c</picklist>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- High Priority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- Low Priority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_involves_this_object__c</picklist>
+            <values>
+                <fullName>Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activity %28Task or Event%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michelle Alterio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Business Process- Acct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process- Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process- Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process- Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Page Layout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Creation%2FEdit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Permission%2FProfile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Internal_Case</fullName>
+        <active>true</active>
+        <businessProcess>R1 Case Mgmt</businessProcess>
+        <description>For users in IMX or R1 to request assistance, changes, etc</description>
+        <label>Internal Case</label>
+        <picklistValues>
+            <picklist>Closed__c</picklist>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No issue%2FReported in Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Resolved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Concerning_Org__c</picklist>
+            <values>
+                <fullName>Intermedix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Integrated R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New R1-IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Original IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Full Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>In_Project_Scope__c</picklist>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- High Priority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- Low Priority</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_involves_this_object__c</picklist>
+            <values>
+                <fullName>Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activity %28Task or Event%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User created in SF</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Campaign Email Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HubSpot Issue%2FQuestion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New HubSpot User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Salesforce%2Ecom User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password%2FUser ID%2FEmail issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remove User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Creation%2FEdit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Permission%2FProfile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Internal_Case_No_reassignment_rules</fullName>
+        <active>true</active>
+        <businessProcess>R1 Case Mgmt</businessProcess>
+        <label>Internal Case - Assigned</label>
+        <picklistValues>
+            <picklist>Closed__c</picklist>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No issue%2FReported in Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Resolved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Concerning_Org__c</picklist>
+            <values>
+                <fullName>Intermedix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Integrated R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New R1-IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Original IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Full Sandbox</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>In_Project_Scope__c</picklist>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- High Priority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- Low Priority</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_involves_this_object__c</picklist>
+            <values>
+                <fullName>Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activity %28Task or Event%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Process Builder</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User created in SF</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Campaign Email Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HubSpot Issue%2FQuestion</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New HubSpot User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Salesforce%2Ecom User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Password%2FUser ID%2FEmail issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remove User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Creation%2FEdit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Permission%2FProfile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Project_Case</fullName>
+        <active>true</active>
+        <businessProcess>R1 Case Mgmt</businessProcess>
+        <label>Project Case</label>
+        <picklistValues>
+            <picklist>Closed__c</picklist>
+            <values>
+                <fullName>Duplicate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Merged with another case</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>No issue%2FReported in Error</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem Resolved</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Concerning_Org__c</picklist>
+            <values>
+                <fullName>Intermedix</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Integrated R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New R1-IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Original IMX Hubspot</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Full Sandbox</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Prod AND  Intermedix Prod</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>In_Project_Scope__c</picklist>
+            <values>
+                <fullName>Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- High Priority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Scope- Low Priority</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Issue_involves_this_object__c</picklist>
+            <values>
+                <fullName>Account</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Activity %28Task or Event%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Campaign</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contact</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Origin</picklist>
+            <values>
+                <fullName>Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Michelle Alterio</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User created in SF</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Web</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>Out of Scope</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TBD</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Reason</picklist>
+            <values>
+                <fullName>Complex functionality</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Instructions not clear</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User didn%27t attend training</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Type</picklist>
+            <values>
+                <fullName>Business Process- Acct</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process- Activity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process- Lead</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Process- Opportunity</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Import</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Duplicate Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Feature Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Integration Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Salesforce%2Ecom User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Page Layout</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Problem</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Question</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Remove User Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Report Creation%2FEdit</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Training Issue</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>User Permission%2FProfile</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>CASES.CASE_NUMBER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.SUBJECT</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CASES.PRIORITY</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.CASE_NUMBER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.SUBJECT</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>ACCOUNT.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CASES.STATUS</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.CASE_NUMBER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.SUBJECT</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>ACCOUNT.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CASES.STATUS</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CASE_NUMBER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.SUBJECT</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CASES.CREATED_DATE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>Private</sharingModel>
+    <validationRules>
+        <fullName>If_Case_Closed_Reason_is_Required</fullName>
+        <active>true</active>
+        <errorConditionFormula>and(text(Status)="Closed",text(Closed__c)="")</errorConditionFormula>
+        <errorDisplayField>Closed__c</errorDisplayField>
+        <errorMessage>Please complete the closed reason field.</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>If_Other_Type_the_Description_required</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+TEXT( Type )="Other",
+ISBLANK( Description ))</errorConditionFormula>
+        <errorDisplayField>Description</errorDisplayField>
+        <errorMessage>If your "Type" is Other please provide details in the Description field so we can further assist you. The more details you provide, the better. Thank you!</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>PRJ_if_assigned_cannot_be_queue_owner</fullName>
+        <active>false</active>
+        <description>Owner:Queue.QueueName = "X18_Project_Team"</description>
+        <errorConditionFormula>AND
+( 
+RecordTypeId = "01241000000ve96",
+TEXT( Status )= "Approved and Assigned",
+Owner:Queue.QueueName = "18 Project Team"
+)</errorConditionFormula>
+        <errorDisplayField>OwnerId</errorDisplayField>
+        <errorMessage>Once a Project Case has been Approved &amp; Assigned it cannot be owned by the 18 Project Team queue. It must be assigned to a user.</errorMessage>
+    </validationRules>
+</CustomObject>

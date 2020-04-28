@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>Extend_Modify_All</fullName>
+        <accessLevel>All</accessLevel>
+        <label>Extend Modify All</label>
+        <sharedTo>
+            <group>Campaign_Modify_All</group>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>Global_Visibility</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>R_W_by_Sys_Admin_Public_Group</fullName>
+        <accessLevel>All</accessLevel>
+        <label>R/W by Sys Admin Public Group</label>
+        <sharedTo>
+            <group>System_Admins</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

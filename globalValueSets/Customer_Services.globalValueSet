@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Ambulance Supplemental Payment Program ASPP</fullName>
+        <default>false</default>
+        <label>Ambulance Supplemental Payment Program ASPP</label>
+    </customValue>
+    <customValue>
+        <fullName>Anesthesia - Coding Services</fullName>
+        <default>false</default>
+        <label>Anesthesia - Coding Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Anesthesia - Practice Management Services</fullName>
+        <default>false</default>
+        <label>Anesthesia - Practice Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Anesthesia - Revenue Cycle Management Services</fullName>
+        <default>false</default>
+        <label>Anesthesia - Revenue Cycle Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Business Office Solutions</fullName>
+        <default>false</default>
+        <label>Business Office Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Clinical Documentation Improvement Solutions</fullName>
+        <default>false</default>
+        <label>Clinical Documentation Improvement Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Coding Management Solutions</fullName>
+        <default>false</default>
+        <label>Coding Management Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Medicine - Coding Services</fullName>
+        <default>false</default>
+        <label>Emergency Medicine - Coding Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Medicine - Practice Management Services</fullName>
+        <default>false</default>
+        <label>Emergency Medicine - Practice Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Medicine - Revenue Cycle Management Services</fullName>
+        <default>false</default>
+        <label>Emergency Medicine - Revenue Cycle Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Revenue Cycle Management Full Operating Partnership</fullName>
+        <default>false</default>
+        <label>Enterprise Revenue Cycle Management Full Operating Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>Enterprise Revenue Cycle Mgmt Co-Managed Partnership</fullName>
+        <default>false</default>
+        <label>Enterprise Revenue Cycle Mgmt Co-Managed Partnership</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Medicine - Coding Services</fullName>
+        <default>false</default>
+        <label>Hospital Medicine - Coding Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Medicine - Practice Management Services</fullName>
+        <default>false</default>
+        <label>Hospital Medicine - Practice Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital Medicine - Revenue Cycle Management Services</fullName>
+        <default>false</default>
+        <label>Hospital Medicine - Revenue Cycle Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Optima Consulting Solutions</fullName>
+        <default>false</default>
+        <label>Optima Consulting Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Optima Live</fullName>
+        <default>false</default>
+        <label>Optima Live</label>
+    </customValue>
+    <customValue>
+        <fullName>Optima Managed Analytics Solutions</fullName>
+        <default>false</default>
+        <label>Optima Managed Analytics Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Optima Predict</fullName>
+        <default>false</default>
+        <label>Optima Predict</label>
+    </customValue>
+    <customValue>
+        <fullName>Patient Access Solutions</fullName>
+        <default>false</default>
+        <label>Patient Access Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Physician Advisory Solutions</fullName>
+        <default>false</default>
+        <label>Physician Advisory Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Practice Management Services</fullName>
+        <default>false</default>
+        <label>Practice Management Services</label>
+    </customValue>
+    <customValue>
+        <fullName>Revenue Cycle Management Services- EMS</fullName>
+        <default>false</default>
+        <label>Revenue Cycle Management Services- EMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Revenue Cycle Management Services OB</fullName>
+        <default>false</default>
+        <label>Revenue Cycle Management Services OB</label>
+    </customValue>
+    <customValue>
+        <fullName>Revenue Integrity Solutions</fullName>
+        <default>false</default>
+        <label>Revenue Integrity Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>TripTix</fullName>
+        <default>false</default>
+        <label>TripTix</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Patient Experience Solutions</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Patient Experience Solutions</label>
+    </customValue>
+    <masterLabel>Customer Services</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

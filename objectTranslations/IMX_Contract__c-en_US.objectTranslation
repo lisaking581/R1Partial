@@ -1,0 +1,1263 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Contract</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Contracts</value>
+    </caseValues>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Accepts Hardship Requests --></label>
+        <name>Accepts_Hardship_Requests__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Accepts Lifetime Signatures --></label>
+        <name>Accepts_Lifetime_Signatures__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer --></help>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Contracts --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Contract conditions for increasing annual fees. To be read in conjunction with Fixed Fees and Inflation Country fields --></help>
+        <label><!-- Annual Increase Conditions --></label>
+        <name>Annual_Increase_Conditions__c</name>
+        <picklistValues>
+            <masterLabel>Annual review</masterLabel>
+            <translation><!-- Annual review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, 14 days' notice</masterLabel>
+            <translation><!-- Annual review, 14 days&apos; notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, 60 days' notice, limit 5%</masterLabel>
+            <translation><!-- Annual review, 60 days&apos; notice, limit 5% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, limit CPI</masterLabel>
+            <translation><!-- Annual review, limit CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, limit greater of CPI or 5%</masterLabel>
+            <translation><!-- Annual review, limit greater of CPI or 5% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, one month's notice</masterLabel>
+            <translation><!-- Annual review, one month&apos;s notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic increase, lesser of 3% or CPI</masterLabel>
+            <translation><!-- Automatic increase, lesser of 3% or CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic increase, lesser of 5% or CPI</masterLabel>
+            <translation><!-- Automatic increase, lesser of 5% or CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic increase, limit 3% pa</masterLabel>
+            <translation><!-- Automatic increase, limit 3% pa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic increase, limit CPI</masterLabel>
+            <translation><!-- Automatic increase, limit CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic increase, limit CPI or 90 days' notice</masterLabel>
+            <translation><!-- Automatic increase, limit CPI or 90 days&apos; notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No provision for increases</masterLabel>
+            <translation><!-- No provision for increases --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Whether invoices are issued in arrears --></help>
+        <label><!-- Arrears --></label>
+        <name>Arrears__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether the contract will automatically renew each year without any action by either party --></help>
+        <label><!-- Auto Renew --></label>
+        <name>Auto_Renew__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bad Debt Write-Off Policy --></label>
+        <name>Bad_Debt_Write_Off_Policy__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Bill for Dead on Scene --></label>
+        <name>Bill_for_Dead_on_Scene__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Bill for Supplemental Charges --></label>
+        <name>Bill_for_Supplemental_Charges__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Bill for TWT --></label>
+        <name>Bill_for_TWT__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Associate Agreement --></label>
+        <name>Business_Associate_Agreement__c</name>
+        <picklistValues>
+            <masterLabel>BAA (Intermedix as Business Associate)</masterLabel>
+            <translation><!-- BAA (Intermedix as Business Associate) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAA (Intermedix as Covered Entity)</masterLabel>
+            <translation><!-- BAA (Intermedix as Covered Entity) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BAA (Intermedix as Subcontractor)</masterLabel>
+            <translation><!-- BAA (Intermedix as Subcontractor) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This is the last date of support, not the date we receive notification of cancellation e.g. if the customer notifies us in March that they don&apos;t want to renew, but they are already paid up until June, then the cancellation date will be 30 June --></help>
+        <label><!-- Cancel Date --></label>
+        <name>Cancel_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Coding Only --></label>
+        <name>Coding_Only__c</name>
+    </fields>
+    <fields>
+        <help><!-- The conditions attached to the included consulting hours, usually relating to rollover of hours from one year to the next --></help>
+        <label><!-- Consulting conditions --></label>
+        <name>Consulting_Conditions__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the number of annual consulting hours included in the customer&apos;s support and maintenance fee --></help>
+        <label><!-- Consulting hours --></label>
+        <name>Consulting_hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Start Date PLUS the Contract Term (Months)=original term of the contract. All renewal yrs should be noted in the # of Renewal Years field.  Subsequent renewals shall be recorded by using &quot;New Contract Renewal&quot; button to create renewal records. --></help>
+        <label><!-- Contract End Date (calculated) --></label>
+        <name>Contract_End_Date_calc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Expires On --></label>
+        <name>Contract_Expires_On__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should only be used when the contract has been signed but there are problems that need to be resolved e.g. missing pages or appendices, or if the agreement is for a fixed period and we need to remember to renew it --></help>
+        <label><!-- Contract Problems --></label>
+        <name>Contract_Problems__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date contract was signed --></help>
+        <label><!-- Contract Start Date --></label>
+        <name>Contract_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Term of the contract in total months --></help>
+        <label><!-- Contract Term (Months) --></label>
+        <name>Contract_Term_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contracted Billing Fee --></label>
+        <name>Contracted_Billing_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Contracts with Hospitals/Facilities --></label>
+        <name>Contracts_with_Hospitals_Facilities__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cooperative Purchasing --></label>
+        <name>Cooperative_Purchasing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Credit Card Acceptance --></label>
+        <name>Credit_Card_Acceptance__c</name>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZPay</masterLabel>
+            <translation><!-- ZPay --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Currency --></label>
+        <name>Currency__c</name>
+        <picklistValues>
+            <masterLabel>AUD</masterLabel>
+            <translation><!-- AUD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DKK</masterLabel>
+            <translation><!-- DKK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EUR</masterLabel>
+            <translation><!-- EUR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GBP</masterLabel>
+            <translation><!-- GBP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZD</masterLabel>
+            <translation><!-- NZD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QAR</masterLabel>
+            <translation><!-- QAR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USD</masterLabel>
+            <translation><!-- USD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Billing Fee --></label>
+        <name>Current_Billing_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is being phased out.  Please create a &quot;New Contract Renewal&quot; to indicate a renewal has been executed and record the new date on that record.  This field will soon be removed as the renewal records are completed.. --></help>
+        <label><!-- Current Contract Expiration Date --></label>
+        <name>Current_Contract_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Insurance --></label>
+        <name>Custom_Insurance__c</name>
+    </fields>
+    <fields>
+        <help><!-- Contract Start Date PLUS the Contract Term (Months)=original term of the contract.  All renewal yrs should be noted in the # of Renewal Years field and if any supplemental extensions have been made, the Current Contract Expiration Date should be updated. --></help>
+        <label><!-- DNU_Contract End Date --></label>
+        <name>DNU_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Restrictions --></label>
+        <name>Data_Restrictions__c</name>
+        <picklistValues>
+            <masterLabel>Access/Transmit/Store Data outside US</masterLabel>
+            <translation><!-- Access/Transmit/Store Data outside US --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>De-identification of PHI</masterLabel>
+            <translation><!-- De-identification of PHI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Use of Data (not PHI)</masterLabel>
+            <translation><!-- Use of Data (not PHI) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- EMS Contract Status --></label>
+        <name>EMS_Contract_Status__c</name>
+        <picklistValues>
+            <masterLabel>Contract Expired</masterLabel>
+            <translation><!-- Contract Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Contract</masterLabel>
+            <translation><!-- Current Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementing</masterLabel>
+            <translation><!-- Implementing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost RFP</masterLabel>
+            <translation><!-- Lost RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed by Client - Amicable</masterLabel>
+            <translation><!-- Termed by Client - Amicable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed by Client - Contentious</masterLabel>
+            <translation><!-- Termed by Client - Contentious --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Termed by R1/IMX</masterLabel>
+            <translation><!-- Termed by R1/IMX --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The fee that IMX is charging for EMS RCM services. --></help>
+        <label><!-- EMS RCM Fee --></label>
+        <name>EMS_RCM_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- The fee that IMX is charging for the TripTix product. --></help>
+        <label><!-- EMS TripTix Fee --></label>
+        <name>EMS_TripTix_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select all vehicle types used by the client --></help>
+        <label><!-- EMS Type of Vehicles --></label>
+        <name>EMS_Type_of_Vehicles__c</name>
+        <picklistValues>
+            <masterLabel>ALS</masterLabel>
+            <translation><!-- ALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLS</masterLabel>
+            <translation><!-- BLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Critical Care Unit</masterLabel>
+            <translation><!-- Critical Care Unit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Wing</masterLabel>
+            <translation><!-- Fixed Wing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Helicopter</masterLabel>
+            <translation><!-- Helicopter --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evergreen Contract --></label>
+        <name>Evergreen_Contract__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date when the contract expires and a completely new one is required --></help>
+        <label><!-- Expiry Date --></label>
+        <name>Expiry_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Facility Code --></label>
+        <name>Facility_Code__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field should not normally be used, and is only for temporary agreements with customers not to increase fees. For any permanent information, the main conditions picklist should be updated rather than using this field --></help>
+        <label><!-- Fee Increase Notes --></label>
+        <name>Fee_Increase_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Fee --></label>
+        <name>Fixed_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of years following support start for which annual fees are fixed --></help>
+        <label><!-- Fixed Fees (yr) --></label>
+        <name>Fixed_Fees_yr__c</name>
+    </fields>
+    <fields>
+        <label><!-- Force Update --></label>
+        <name>Force_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Restricitions --></label>
+        <name>General_Restricitions__c</name>
+        <picklistValues>
+            <masterLabel>Foreign Personnel</masterLabel>
+            <translation><!-- Foreign Personnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Offshoring</masterLabel>
+            <translation><!-- Offshoring --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publicity</masterLabel>
+            <translation><!-- Publicity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subcontracting</masterLabel>
+            <translation><!-- Subcontracting --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Contract conditions for increasing hourly rates --></help>
+        <label><!-- Hourly Increase Conditions --></label>
+        <name>Hourly_Increase_Conditions__c</name>
+        <picklistValues>
+            <masterLabel>Annual review</masterLabel>
+            <translation><!-- Annual review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, limit CPI</masterLabel>
+            <translation><!-- Annual review, limit CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, one month's notice</masterLabel>
+            <translation><!-- Annual review, one month&apos;s notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, three months' notice</masterLabel>
+            <translation><!-- Annual review, three months&apos; notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Annual review, written notice</masterLabel>
+            <translation><!-- Annual review, written notice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Automatic increase, lesser of 5% or CPI</masterLabel>
+            <translation><!-- Automatic increase, lesser of 5% or CPI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No hourly rate mentioned</masterLabel>
+            <translation><!-- No hourly rate mentioned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No provision for increases</masterLabel>
+            <translation><!-- No provision for increases --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prevailing rates apply</masterLabel>
+            <translation><!-- Prevailing rates apply --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IMX Contract Legacy ID --></label>
+        <name>IMX_Contract_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- In District Billing Policy --></label>
+        <name>In_District_Billing_Policy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Increase after Term Date --></label>
+        <name>Increase_after_Term_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- The country to be used for inflation calculations. This must be set to NZ unless otherwise specified in the contract --></help>
+        <label><!-- Inflation Country --></label>
+        <name>Inflation_Country__c</name>
+        <picklistValues>
+            <masterLabel>AU</masterLabel>
+            <translation><!-- AU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DK</masterLabel>
+            <translation><!-- DK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EU</masterLabel>
+            <translation><!-- EU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NZ</masterLabel>
+            <translation><!-- NZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>US</masterLabel>
+            <translation><!-- US --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inflation Since Annual Increase --></label>
+        <name>Inflation_Since_Annual_Increase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inflation Since Hourly Increase --></label>
+        <name>Inflation_Since_Hourly_Increase__c</name>
+    </fields>
+    <fields>
+        <help><!-- Include any information here which might be needed when invoices are generated e.g. information to be included in the invoice description --></help>
+        <label><!-- Invoice Details --></label>
+        <name>Invoice_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Number of invoices per year --></help>
+        <label><!-- # Invoices --></label>
+        <name>Invoices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Annual Fee History Amount --></label>
+        <name>Latest_Annual_Fee_History_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Annual Fee History Date --></label>
+        <name>Latest_Annual_Fee_History_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Hourly Fee History Amount --></label>
+        <name>Latest_Hourly_Fee_History_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Latest Hourly Fee History Date --></label>
+        <name>Latest_Hourly_Fee_History_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select all levels performed by the client --></help>
+        <label><!-- Level of Service Provided --></label>
+        <name>Level_of_Service_Provided__c</name>
+        <picklistValues>
+            <masterLabel>ALS</masterLabel>
+            <translation><!-- ALS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ALS2</masterLabel>
+            <translation><!-- ALS2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Air</masterLabel>
+            <translation><!-- Air --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BLS</masterLabel>
+            <translation><!-- BLS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SCT</masterLabel>
+            <translation><!-- SCT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Max Contract Expire --></label>
+        <name>Max_Contract_Expire__c</name>
+    </fields>
+    <fields>
+        <help><!-- The fee that IMX is charging for processing Medicaid claims. --></help>
+        <label><!-- Medicaid Fee --></label>
+        <name>Medicaid_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Favored Pricing --></label>
+        <name>Most_Favored_Pricing__c</name>
+    </fields>
+    <fields>
+        <help><!-- The fee that IMX is charging for sending the Notice of Privacy Practice documents (if applicable) --></help>
+        <label><!-- NOPP Fee --></label>
+        <name>NOPP_Fee__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate if the NOPP is sent by the Client or Intermedix.  If Intermedix is selected, you must update the NOPP Fee field. --></help>
+        <label><!-- NOPP Sent --></label>
+        <name>NOPP_Sent__c</name>
+        <picklistValues>
+            <masterLabel>by Client</masterLabel>
+            <translation><!-- by Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>by Intermedix</masterLabel>
+            <translation><!-- by Intermedix --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Next Invoice Date --></label>
+        <name>Next_Invoice_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Non-Standard Terms &amp; Conditions --></label>
+        <name>Non_Standard_Terms_Conditions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes/Special Terms --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- OBB Finance Agreement --></label>
+        <name>OBB_Finance_Agreement__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- OBB Monthly Amount --></label>
+        <name>OBB_Monthly_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Optima Customer Code --></label>
+        <name>Optima_Customer_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Contract End Date --></label>
+        <name>Original_Contract_End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate the number of days prior to the CURRENT CONTRACT EXPIRATION DATE that you would like to be notified by Salesforce of the pending term date of the contract. --></help>
+        <label><!-- Owner Expiration Notice --></label>
+        <name>Owner_Expiration_Notice__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expiry date of current purchase order. If unsure, enter date of next invoice and add an explanation to the PO Process field --></help>
+        <label><!-- PO Expiry --></label>
+        <name>PO_Expiry__c</name>
+    </fields>
+    <fields>
+        <help><!-- Purchase order number --></help>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Process for obtaining a purchase order number, including contact details --></help>
+        <label><!-- PO Process --></label>
+        <name>PO_Process__c</name>
+    </fields>
+    <fields>
+        <help><!-- Whether a purchase order is required on invoices under this contract. If unsure, use To be confirmed --></help>
+        <label><!-- PO Status --></label>
+        <name>PO_Status__c</name>
+        <picklistValues>
+            <masterLabel>Not required</masterLabel>
+            <translation><!-- Not required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Required</masterLabel>
+            <translation><!-- Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To be confirmed</masterLabel>
+            <translation><!-- To be confirmed --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- PSR Billing Fee --></label>
+        <name>PSR_Billing_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- PSR --></label>
+        <name>PSR__c</name>
+    </fields>
+    <fields>
+        <help><!-- The fee that IMX is charging for sending Patient Surveys (if applicable) --></help>
+        <label><!-- Patient Survey Fee --></label>
+        <name>Patient_Survey_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patient Survey Mailed --></label>
+        <name>Patient_Survey_Mailed__c</name>
+        <picklistValues>
+            <masterLabel>by Client</masterLabel>
+            <translation><!-- by Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>by Intermedix</masterLabel>
+            <translation><!-- by Intermedix --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Provide details of the payment plan options provided by the client, if applicable --></help>
+        <label><!-- Payment Plan Details --></label>
+        <name>Payment_Plan_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- The number of days after receipt of the invoice that the customer will pay it. Unless otherwise specified in the agreement, this should be set to 30 (one month) --></help>
+        <label><!-- Payment terms --></label>
+        <name>Payment_terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performance Bond --></label>
+        <name>Performance_Bond__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+        <picklistValues>
+            <masterLabel>Embedded resource</masterLabel>
+            <translation><!-- Embedded resource --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live</masterLabel>
+            <translation><!-- Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Predict</masterLabel>
+            <translation><!-- Predict --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Theatre</masterLabel>
+            <translation><!-- Theatre --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RCM --></label>
+        <name>RCM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Geographic region covered by contract. This should only be populated if the account has multiple contracts for different regions --></help>
+        <label><!-- Region --></label>
+        <name>Region__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date by which the contract must be physically renewed --></help>
+        <label><!-- Renewal Date --></label>
+        <name>Renewal_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Renewal Status --></label>
+        <name>Renewal_Status__c</name>
+        <picklistValues>
+            <masterLabel>Auto-Renew (Month-to-Month)</masterLabel>
+            <translation><!-- Auto-Renew (Month-to-Month) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto-Renew (Other)</masterLabel>
+            <translation><!-- Auto-Renew (Other) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Auto-Renew (Year-to-Year)</masterLabel>
+            <translation><!-- Auto-Renew (Year-to-Year) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fixed Term</masterLabel>
+            <translation><!-- Fixed Term --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Option Year</masterLabel>
+            <translation><!-- Option Year --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Whether additional work is chargeable, s&amp;m processes conditions apply etc. Also any dependence on embedded resource agreements --></help>
+        <label><!-- Retune Conditions --></label>
+        <name>Retune_Conditions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Frequency of included road network retunes in months --></help>
+        <label><!-- Road Tunes (months) --></label>
+        <name>Road_Tunes_months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rollover End Date --></label>
+        <name>Rollover_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SBE/DBE Set Aside --></label>
+        <name>SBE_DBE_Set_Aside__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Levels --></label>
+        <name>Service_Levels__c</name>
+        <picklistValues>
+            <masterLabel>SLAs: Custom</masterLabel>
+            <translation><!-- SLAs: Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SLAs: Standard</masterLabel>
+            <translation><!-- SLAs: Standard --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Frequency of included simulation retunes in months --></help>
+        <label><!-- Sim Tunes (months) --></label>
+        <name>Sim_Tunes_months__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution --></label>
+        <name>Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source Code Escrow --></label>
+        <name>Source_Code_Escrow__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Terms (Details) --></label>
+        <name>Special_Terms_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Liquidated Damages
+Pricing (escalation formula, volume discounting, schedule pricing, etc.)
+Transition Requirements (free text)
+General --></help>
+        <label><!-- Special Terms --></label>
+        <name>Special_Terms__c</name>
+        <picklistValues>
+            <masterLabel>General</masterLabel>
+            <translation><!-- General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liquidated Damages</masterLabel>
+            <translation><!-- Liquidated Damages --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transition Requirements</masterLabel>
+            <translation><!-- Transition Requirements --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Expired</masterLabel>
+            <translation><!-- Contract Expired --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Current Contract</masterLabel>
+            <translation><!-- Current Contract --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Implementing</masterLabel>
+            <translation><!-- Implementing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated by Client</masterLabel>
+            <translation><!-- Terminated by Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Terminated by R1/IMX</masterLabel>
+            <translation><!-- Terminated by R1/IMX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>To be Deleted</masterLabel>
+            <translation><!-- To be Deleted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown Status</masterLabel>
+            <translation><!-- Unknown Status --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- Subscription Program --></label>
+        <name>Subscription_Program__c</name>
+    </fields>
+    <fields>
+        <help><!-- Delivery date of final release, or go live date (which one is used depends on the terms of the contract, but it&apos;s usually the delivery date). First day of work for embedded resource agreements --></help>
+        <label><!-- Support Start Date --></label>
+        <name>Support_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Percentage tax to be added to support and maintenance invoices (GST, VAT etc) --></help>
+        <label><!-- Tax Percent --></label>
+        <name>Tax_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Termination Letter Date --></label>
+        <name>Termination_Letter_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Transport Type --></label>
+        <name>Transport_Type__c</name>
+        <picklistValues>
+            <masterLabel>Emergency</masterLabel>
+            <translation><!-- Emergency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interfacility</masterLabel>
+            <translation><!-- Interfacility --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Non-Emergency</masterLabel>
+            <translation><!-- Non-Emergency --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Update --></label>
+        <name>Update__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicate YES, by checking this box --></help>
+        <label><!-- iStream Client --></label>
+        <name>iStream_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Billable Providers --></label>
+        <name>of_Billable_Providers_OBB__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- # of Billable Users --></label>
+        <name>of_Billable_Users_OBB__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If applicable, indicate the number of years the contract is renewable.  Do not adjust after the renewal is used.  If the renewal has been executed, create a Renewal Record by clicking &quot;New Contract Renewal&quot;.  The New contract end date will be used. --></help>
+        <label><!-- # of Renewal Years --></label>
+        <name>of_Renewal_Years__c</name>
+    </fields>
+    <layouts>
+        <layout>EMS Contract Layout</layout>
+        <sections>
+            <label><!-- Client Setup Summary --></label>
+            <section>Client Setup Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>ENT Contract Layout</layout>
+        <sections>
+            <label><!-- Additional Details --></label>
+            <section>Additional Details</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>HB Contract Layout</layout>
+        <sections>
+            <label><!-- Comments --></label>
+            <section>Comments</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>OBB Contract Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Optima Contract Layout</layout>
+        <sections>
+            <label><!-- Conditions --></label>
+            <section>Conditions</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fee Details --></label>
+            <section>Fee Details</section>
+        </sections>
+        <sections>
+            <label><!-- Inclusions --></label>
+            <section>Inclusions</section>
+        </sections>
+        <sections>
+            <label><!-- Latest Fee History (do not edit, these fields are updated automatically) --></label>
+            <section>Latest Fee History (do not edit, these fields are updated automatically)</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+        <sections>
+            <label><!-- Purchase Orders --></label>
+            <section>Purchase Orders</section>
+        </sections>
+    </layouts>
+    <quickActions>
+        <label><!-- Check Contracts --></label>
+        <name>Check_Contracts</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- New Contract Renewal --></label>
+        <name>NewContractRenewal</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Fee History --></label>
+        <name>Update_Fee_History</name>
+    </quickActions>
+    <quickActions>
+        <label><!-- Update Inflation --></label>
+        <name>Update_Inflation</name>
+    </quickActions>
+    <recordTypes>
+        <label><!-- EMS Contract --></label>
+        <name>EMS_Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- ENT Contract --></label>
+        <name>ENT_Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- HB Contract --></label>
+        <name>HB_Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- OBB Contract --></label>
+        <name>OBB_Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Optima Contract --></label>
+        <name>Optima_Contract</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- PAS Contract --></label>
+        <name>PAS_Contract</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+    <validationRules>
+        <errorMessage><!-- Annual increase conditions is required when there is a contract start date --></errorMessage>
+        <name>Annual_cond_required_with_contract_start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Cancel date must be entered when status is Cancelled --></errorMessage>
+        <name>Cancel_date_reqd_with_cancel_status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If the NOPP Sent is &quot;by Intermedix&quot; then make sure NOPP Fee is completed --></errorMessage>
+        <name>Contract_NOPP_Fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If the Patient Survey Mailed is &quot;by Intermedix&quot; then make sure Patient Survey Fee is completed --></errorMessage>
+        <name>Contract_Patient_Survey_Fee</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Fixed fee years is required when there is a contract start date --></errorMessage>
+        <name>Fixed_fees_required_with_contract_start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Hourly increase conditions is required when there is a contract start date --></errorMessage>
+        <name>Hourly_cond_required_with_contract_start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Number of invoices is required when there is a contract start date --></errorMessage>
+        <name>Invoices_required_with_contract_start</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status must be Cancelled when cancel date is entered --></errorMessage>
+        <name>New_status_reqd_with_cancel_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Status must not be Implementing when support start date is entered --></errorMessage>
+        <name>New_status_reqd_with_support_start_date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Purchase order expiry must be entered unless status is Not required --></errorMessage>
+        <name>PO_expiry_required_with_this_PO_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Purchase order process must be entered when status is Required --></errorMessage>
+        <name>PO_process_required_with_this_PO_Status</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Renewal date and expiry date must not be set for auto-renew contracts --></errorMessage>
+        <name>Renewal_and_expiry_not_for_auto_renew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If entered, renewal date must be before expiry date --></errorMessage>
+        <name>Renewal_before_expiry</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- At least one of renewal date or expiry date must be set for contracts that don&apos;t auto-renew --></errorMessage>
+        <name>Renewal_or_expiry_reqd_non_auto_renew</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Retune conditions must be populated when sim tunes are included --></errorMessage>
+        <name>Retune_conditions_required_with_sim_tune</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Road retune frequency must be less than or equal to sim retune frequency --></errorMessage>
+        <name>Road_tunes_less_than_sim_tunes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Road retune frequency can only be set for Predict and Live contracts --></errorMessage>
+        <name>Road_tunes_only_for_Predict_Live</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Road retune frequency must be set if sim retune frequency is positive --></errorMessage>
+        <name>Road_tunes_reqd_with_sim_tunes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Simulation retune frequency can only be set for Predict contracts --></errorMessage>
+        <name>Sim_tunes_only_for_Predict</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Support start date must be entered when status is Active --></errorMessage>
+        <name>Support_start_date_required_for_active_c</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Road and sim retune frequency must not be zero (but can be left blank) --></errorMessage>
+        <name>Tunes_not_zero</name>
+    </validationRules>
+</CustomObjectTranslation>

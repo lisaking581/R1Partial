@@ -1,0 +1,41 @@
+<apex:page standardController="Opportunity" tabStyle="Opportunity">
+  <apex:pageBlock title="My Content" mode="edit">
+     <apex:form >
+      <apex:commandButton action="{!save}" value="Save" id="SAVE"/>
+
+
+      <apex:pageBlockSection title="Other Data" columns="2">
+      <apex:outputField value="{!opportunity.name}"/>
+      <apex:outputField value="{!opportunity.StageName}"/>
+      <apex:outputField value="{!opportunity.Probability}"/>
+      <apex:outputField value="{!opportunity.Highest_Probability__c }"/>
+      <apex:outputField value="{!opportunity.CreatedDate}"/>
+      <apex:inputField value="{!opportunity.Strategic_Pursuits__c}"/>
+      <apex:inputField value="{!opportunity.Special_Program__c}"/>
+      <apex:inputField value="{!opportunity.True_Up_Effective_Date__c}"/>
+      <apex:inputField value="{!opportunity.Opportunity_to_True_Up__c}"/>
+   
+    </apex:pageBlockSection>
+    
+    </apex:form>
+  
+
+    <apex:form >
+    <apex:pageBlockSection title="Forecast Fields" columns="2">
+      <apex:outputField value="{!opportunity.ForecastCategoryName}"/>
+      <apex:outputField value="{!opportunity.Related_Opp_Type__c}"/>
+      <apex:inputField value="{!opportunity.Mgmt_Forecast__c}"/>
+      <apex:inputField value="{!opportunity.EX_Mgt_FCST__c}"/>
+      <apex:inputField value="{!opportunity.Ex_SO_Flag__c}"/>
+      <apex:inputField value="{!opportunity.Split_Credit_Count__c}"/>
+    
+          
+      <apex:commandButton action="{!save}" value="Save" id="SAVE"/>
+
+    </apex:pageBlockSection>  
+
+
+    </apex:form>
+  </apex:pageBlock>
+  <!-- End Default Content REMOVE THIS -->
+</apex:page>

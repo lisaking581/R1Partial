@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Buyer</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Buyers</value>
+    </caseValues>
+    <fields>
+        <label><!-- Buyer Attribute --></label>
+        <name>Buyer_Attribute__c</name>
+        <picklistValues>
+            <masterLabel>Guide</masterLabel>
+            <translation><!-- Guide --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informant</masterLabel>
+            <translation><!-- Informant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sniper</masterLabel>
+            <translation><!-- Sniper --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Buyer Legacy ID --></label>
+        <name>Buyer_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Have you met this Buyer yet? --></help>
+        <label><!-- Buyer Met --></label>
+        <name>Buyer_Met__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select one from this list. --></help>
+        <label><!-- Buyer Position --></label>
+        <name>Buyer_Position__c</name>
+        <picklistValues>
+            <masterLabel>Daily Player</masterLabel>
+            <translation><!-- Daily Player --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Executive Spec</masterLabel>
+            <translation><!-- Executive Spec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Funds Keeper</masterLabel>
+            <translation><!-- Funds Keeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spec</masterLabel>
+            <translation><!-- Spec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Rate this Buyer&apos;s enthusiasm for our solution from highly supportive (+5) to highly opposed (-5). --></help>
+        <label><!-- Buyer Rating --></label>
+        <name>Buyer_Rating__c</name>
+        <picklistValues>
+            <masterLabel>+1</masterLabel>
+            <translation><!-- +1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+2</masterLabel>
+            <translation><!-- +2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+3</masterLabel>
+            <translation><!-- +3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+4</masterLabel>
+            <translation><!-- +4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>+5</masterLabel>
+            <translation><!-- +5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-1</masterLabel>
+            <translation><!-- -1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-2</masterLabel>
+            <translation><!-- -2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-3</masterLabel>
+            <translation><!-- -3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-4</masterLabel>
+            <translation><!-- -4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>-5</masterLabel>
+            <translation><!-- -5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Buyer Title --></label>
+        <name>Buyer_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Buyer Name --></label>
+        <name>Contact_to_Buyers__c</name>
+        <relationshipLabel><!-- Buyers --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- DSO --></label>
+        <name>DSO_to_Buyers__c</name>
+        <relationshipLabel><!-- Buyers --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- What does this Buyer want to accomplish through this decision process? (Think verbs). --></help>
+        <label><!-- Desired Business Outcome --></label>
+        <name>Desired_Business_Outcome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reports To --></label>
+        <name>Reports_To__c</name>
+    </fields>
+    <fields>
+        <help><!-- Select one of the options. --></help>
+        <label><!-- State of Motivation --></label>
+        <name>State_of_Motivation__c</name>
+        <picklistValues>
+            <masterLabel>Out-of-Bounds</masterLabel>
+            <translation><!-- Out-of-Bounds --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pain</masterLabel>
+            <translation><!-- Pain --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pursuit</masterLabel>
+            <translation><!-- Pursuit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zero</masterLabel>
+            <translation><!-- Zero --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Buyer Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

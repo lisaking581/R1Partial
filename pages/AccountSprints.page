@@ -1,0 +1,21 @@
+<apex:page standardController="Account"   recordSetVar="AllAccs"    
+           title="Sprint Selection" showHeader="false"
+           standardStylesheets="true"
+           lightningStylesheets="true">
+        
+        
+        
+
+
+<apex:repeat value="{!AllAccs}" var="row" rendered="false">
+    {!row.id}{row.AccountId}
+</apex:repeat>
+    
+    
+<flow:interview name="SprintBatch" >
+    <apex:param name="varSelectedAccs" value="{!Selected}"/>
+    </flow:interview>
+    
+
+
+</apex:page>

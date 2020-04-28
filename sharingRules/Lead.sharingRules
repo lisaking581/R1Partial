@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>Sales_Can_Claim_Any_HubSpot_Owned_Lead</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sales can change any lead - 1/13/20 changed from "hubspot owned"</description>
+        <label>Sales Can Claim Any Lead</label>
+        <sharedTo>
+            <group>Sales_Reps</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>startsWith</operation>
+            <value>005</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sales_Can_Claim_Any_Queue_Owned_Lead</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Sales Can Claim Any Queue Owned Lead</label>
+        <sharedTo>
+            <group>Sales_Reps</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>startsWith</operation>
+            <value>00G</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Sales_Leaders</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Sales leaders can claim any lead regardless of owner (1/13/20 changed from "if owned by hubspot")</description>
+        <label>Sales Leaders</label>
+        <sharedTo>
+            <group>Sales_Mgt</group>
+        </sharedTo>
+        <criteriaItems>
+            <field>OwnerId</field>
+            <operation>startsWith</operation>
+            <value>005</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>OB_EMS_Leadership</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>OB EMS Leadership</label>
+        <sharedTo>
+            <role>OB_Inside_Sales_Reps</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>OB_EMS_Sales_Leadership</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>ShareEMS</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share EMS Leads with sales reps</description>
+        <label>ShareEMS</label>
+        <sharedTo>
+            <role>OB_Inside_Sales_Reps</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>EMS_Sales_Reps</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_HB_Rep_owned</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Share HB Rep owned with Inside Sales</description>
+        <label>Share HB Rep owned with Inside Sales</label>
+        <sharedTo>
+            <role>HB_Inside_Sales_Reps</role>
+        </sharedTo>
+        <sharedFrom>
+            <roleAndSubordinates>HB_Sales_Reps</roleAndSubordinates>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Share_OB_Rep</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Share OB Rep owned with Inside Sales</label>
+        <sharedTo>
+            <role>OB_Inside_Sales_Reps</role>
+        </sharedTo>
+        <sharedFrom>
+            <role>OB_Sales_Reps</role>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

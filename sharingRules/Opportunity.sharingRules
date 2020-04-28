@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingCriteriaRules>
+        <fullName>CHris_Callsen_edit_any_Optima_Opp</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Created 1.12.2019</description>
+        <label>Chris Callsen edit any Optima Opp</label>
+        <sharedTo>
+            <role>Optima_Leadership</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Optima</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Opps_Read_Only</fullName>
+        <accessLevel>Read</accessLevel>
+        <label>Opps Read Only</label>
+        <sharedTo>
+            <roleAndSubordinates>Global_Visibility</roleAndSubordinates>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Office Based Physician Services,Optima,Enterprise,EMS,Hospital Physician Services,Modular,Historical IMX Opp Record Type</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingCriteriaRules>
+        <fullName>Optima_McHugh</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>Optima-MchHugh</label>
+        <sharedTo>
+            <role>OB_EMS_Sales_Leadership</role>
+        </sharedTo>
+        <criteriaItems>
+            <field>RecordTypeId</field>
+            <operation>equals</operation>
+            <value>Optima</value>
+        </criteriaItems>
+    </sharingCriteriaRules>
+    <sharingOwnerRules>
+        <fullName>X18_Project</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>18 Project</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <allInternalUsers></allInternalUsers>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

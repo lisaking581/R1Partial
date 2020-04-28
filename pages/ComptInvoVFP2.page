@@ -1,0 +1,63 @@
+<apex:page standardController="Account" extensions="CompetitiveInfoExtensionClass" lightningStylesheets="true">
+<script>
+window.opener.top.location.reload();
+window.close();
+</script>
+
+
+<apex:pageBlock id="myPageBlock" title="Competitive Information">
+ <apex:form >
+
+<!--<div style="margin-left: 30%;"><apex:commandLink value="New Competitive Entry" action="{!newCompetitive}" target="_parent"  styleClass="btn" style="text-decoration:none;padding:4px;"/></div> -->        
+</apex:form>
+
+    
+    
+
+    <h4><b>Solution:&nbsp;&nbsp; <apex:repeat value="{!CIList}" var="n" rows="1">{!n.Solution_Covered__c}
+        <br>
+		<apex:outputlink value="/a2V/e?Related_To__c={!n.Related_To__c}&returl=/apex/ComptInvoVFP2?id={!n.Related_To__c}&solution={!n.Solution_Covered__c}">Add New Entry</apex:outputlink>
+        </br>
+        </apex:repeat></b>
+	</h4>
+    <p>
+        
+    </p>
+    
+
+   <apex:pageBlockTable value="{!CIList}" var="n" style="margin-left:-10px;width:1000px;" title="Link" >
+       <apex:repeat rows="1">
+       <apex:column style="width:5px;"> 
+       <apex:outputlink value="/a26/e?Related_To__c={!n.Related_To__c}&returl=/apex/ComptInvoVFP2?id={!n.Related_To__c}&solution={!n.Solution_Covered__c}">New</apex:outputlink>
+    
+       </apex:column>
+     </apex:repeat>
+   </apex:pageBlockTable>
+  
+    <apex:pageBlockTable value="{!CIList}" var="n" style="margin-left:-10px;width:1000px;" >
+     	<apex:column style="width:5px;">
+        
+                  </apex:column>
+     		<apex:column style="width:25px;">
+                     <apex:outputlink value="/{!n.Id}/e?returl=/apex/ComptInvoVFP2?id={!n.Related_To__c}&solution={!n.Solution_Covered__c}">Edit</apex:outputlink>
+
+                  </apex:column>
+        
+   
+      			<apex:column headerValue="Competitor" value="{!n.Competitor_Name__c}" style="width:200px;" />
+                <apex:column headerValue="Status" value="{!n.Status__c}" style="width:200px;" />
+                <apex:column headerValue="Contract Thru Date" value="{!n.Contract_Thru_Date__c}" style="width:200px;" />
+             	<apex:column headerValue="Strengths" value="{!n.Strengths__c}" style="width:200px;" />
+                <apex:column headerValue="Weaknesses" value="{!n.Weaknesses__c}" style="width:200px;" />
+                
+            </apex:pageBlockTable>
+         
+
+
+ 
+  </apex:pageBlock>
+
+<a href="javascript:history.back()">Back to Solution Portfolio</a>
+ 
+
+</apex:page>

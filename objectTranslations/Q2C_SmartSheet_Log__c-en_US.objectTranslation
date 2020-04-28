@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Q2C SmartSheet Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Q2C SmartSheet Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- SS Created Date --></label>
+        <name>SS_Created_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- SS Link to SFDC --></label>
+        <name>SS_Link_to_SFDC__c</name>
+    </fields>
+    <fields>
+        <label><!-- SS Ref Number --></label>
+        <name>SS_Ref_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- SS Row ID --></label>
+        <name>SS_Row_ID__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

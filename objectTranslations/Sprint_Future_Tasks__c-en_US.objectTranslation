@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sprint Future Task</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sprint Future Tasks</value>
+    </caseValues>
+    <fields>
+        <label><!-- AccountID --></label>
+        <name>AccountID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Activity Date --></label>
+        <name>Activity_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sprint ID --></label>
+        <name>Sprint_ID__c</name>
+        <relationshipLabel><!-- Sprint Future Tasks --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Sprint Master Name --></label>
+        <name>Sprint_Master_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Subject --></label>
+        <name>Task_Subject__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

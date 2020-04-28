@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?><SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>X18_Project</fullName>
+        <accessLevel>Edit</accessLevel>
+        <label>18 Project</label>
+        <sharedTo>
+            <group>X18_Integration_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>X18_Integration_Team</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Fee History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Fee History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Effective Date --></label>
+        <name>Effective_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee History Legacy ID --></label>
+        <name>Fee_History_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee History # --></label>
+        <name>Fee_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fee Type --></label>
+        <name>Fee_Type__c</name>
+        <picklistValues>
+            <masterLabel>Annual</masterLabel>
+            <translation><!-- Annual --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation><!-- Hourly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- IMX Contract --></label>
+        <name>Master_Contract__c</name>
+        <relationshipLabel><!-- Fee History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Note --></label>
+        <name>Note__c</name>
+    </fields>
+    <layouts>
+        <layout>Fee History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Note --></label>
+            <section>Note</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

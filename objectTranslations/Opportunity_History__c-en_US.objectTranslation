@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity History</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity History</value>
+    </caseValues>
+    <fields>
+        <label><!-- Amount --></label>
+        <name>Amount__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Exit Date is blank, then &quot;Today - Created Date&quot;. If Exit Date is populated, then &quot;Exit Date --></help>
+        <label><!-- Days in Stage --></label>
+        <name>Days_in_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enter DateTime --></label>
+        <name>Enter_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Enter Date --></label>
+        <name>Enter_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exit DateTime --></label>
+        <name>Exit_DateTime__c</name>
+    </fields>
+    <fields>
+        <label><!-- Exit Date --></label>
+        <name>Exit_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Milestone --></label>
+        <name>MIlestone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity History Legacy ID --></label>
+        <name>Opportunity_History_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity History --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Stage History --></label>
+        <name>Stage_History__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stage change --></label>
+        <name>Stage_change__c</name>
+    </fields>
+    <fields>
+        <label><!-- Age at Change --></label>
+        <name>Total_Days_Open__c</name>
+    </fields>
+    <layouts>
+        <layout>Opportunity History Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

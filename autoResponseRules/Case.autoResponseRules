@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?><AutoResponseRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <autoResponseRule>
+        <fullName>R1 Case Auto Responses</fullName>
+        <active>true</active>
+        <ruleEntry>
+            <criteriaItems>
+                <field>Case.RecordTypeId</field>
+                <operation>equals</operation>
+                <value>Internal Case</value>
+            </criteriaItems>
+            <notifyCcRecipients>false</notifyCcRecipients>
+            <replyToEmail>sfsupport@r1rcm.com</replyToEmail>
+            <senderEmail>mlippman@r1rcm.com</senderEmail>
+            <senderName>Internal Salesforce.com Support</senderName>
+            <template>Case_Alerts/SUPPORTWebtoCaseemailresponseSAMPLE</template>
+        </ruleEntry>
+    </autoResponseRule>
+</AutoResponseRules>

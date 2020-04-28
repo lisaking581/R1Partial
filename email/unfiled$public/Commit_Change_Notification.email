@@ -1,0 +1,21 @@
+This opportunity is forecasted  (Commit or Upside) for the current quarter, but has pushed its close date. 
+
+Please review this opportunity with your manager immediately.  
+
+{!Opportunity.Account}
+{!Opportunity.Name}
+{!Opportunity.OwnerFullName}
+{!Opportunity.Amount}
+
+Vertical:  {!Opportunity.Vertical__c}
+Target Market:  {!Opportunity.Target_Market__c}
+
+Stage: {!Opportunity.StageName} Close:  {!Opportunity.CloseDate}
+
+Mgt FC          {!Opportunity.Mgmt_Forecast__c}
+Mgt FC Flag  {!Opportunity.EX_Mgt_FCST__c}
+Sales FC       {!Opportunity.Sales_Forecast__c}
+
+{!Opportunity.Executive_Comments__c}
+
+{!Opportunity.Link}

@@ -1,0 +1,4 @@
+Michelle, please advise what instructions / message should be provided here. 
+
+Lead Name: {!Lead.Name}
+Link to record: {!Lead.Link}

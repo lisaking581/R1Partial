@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>R1 Lead Alert – Inactive three days since create [Lead Name]</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>R1_2019_logo</letterhead>
+    <name>R1 Lead Alert – Inactive three days since create [Lead Name]</name>
+    <style>freeForm</style>
+    <subject>R1 Lead Alert – {!Lead.Name} inactive for three days since create</subject>
+    <textOnly>This lead was created 3 days ago and is still in original status.
+
+Please review and update as soon as possible.
+
+
+Lead Name: {!Lead.Name}
+
+Email: {!Lead.Email}
+
+Phone: {!Lead.Phone}
+
+Mobile: {!Lead.MobilePhone}
+
+Company: {!Lead.Company}
+
+Parent Account: {!Lead.Parent_Account__c}
+
+
+Owner: {!Lead.OwnerFullName}
+
+Lead Status: {!Lead.Status}
+
+Outcome Status: {!Lead.Outcome_Status__c}
+
+Call Back Requested Date: {!Lead.Call_Back_Requested_Date__c}
+
+Appointment/Meeting Date: {!Lead.Appointment_Meeting_Date__c}
+
+Created Date: {!Lead.CreatedDate}
+
+Suspect Lead Start Date: {!Lead.Suspect_Lead_Start_Date__c}
+
+Qualified Lead Start Date: {!Lead.Qualified_Lead_Start_Date__c}
+
+Sales Accepted Lead Start Date: {!Lead.Sales_Qualified_Lead_Start_Date__c}
+
+
+Link to Lead:
+
+{!Lead.Link}
+
+
+Description: {!Lead.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

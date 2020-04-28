@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>Hospitals and Health Systems</fullName>
+        <default>false</default>
+        <label>Hospitals and Health Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Office-Based Physicians</fullName>
+        <default>false</default>
+        <label>Office-Based Physicians</label>
+    </customValue>
+    <customValue>
+        <fullName>Hospital-Based Physicians</fullName>
+        <default>false</default>
+        <label>Hospital-Based Physicians</label>
+    </customValue>
+    <customValue>
+        <fullName>FD, Municipalities</fullName>
+        <default>false</default>
+        <label>FD, Municipalities</label>
+    </customValue>
+    <customValue>
+        <fullName>Physicians - Hospital Based - Emergency Medicine</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physicians - Hospital Based - Emergency Medicine</label>
+    </customValue>
+    <customValue>
+        <fullName>Physicians Hospital-Based - Hospital Medicine</fullName>
+        <default>false</default>
+        <isActive>false</isActive>
+        <label>Physicians Hospital-Based - Hospital Medicine</label>
+    </customValue>
+    <masterLabel>Customer Category</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

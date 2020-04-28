@@ -1,0 +1,33 @@
+<messaging:emailTemplate subject="Sales Call Requested" recipientType="User"     relatedToType="Task">
+<messaging:htmlEmailBody >
+
+<br><apex:image id="logo" 
+value="https://r1rcm--c.documentforce.com/servlet/servlet.ImageServer?id=0152M0000044MZ0&oid=00D41000002In70"
+width="100" height="55"/></br>
+<br></br>
+
+
+
+Dear {!relatedTo.Owner.Name},
+<br>You have a Sales Call requested by a Contact you own.</br>
+<br>Subject: {!relatedTo.Subject}</br>
+Created Date: 
+<apex:outputText value="{0, date, MMMM d','  yyyy}">
+    <apex:param value="{!relatedto.CreatedDate}" />
+</apex:outputText>
+<br>Due Date: 
+<apex:outputText value="{0, date, MMMM d','  yyyy}">
+    <apex:param value="{!relatedto.ActivityDate}" />
+</apex:outputText></br>
+
+<br><b>Contact Information:</b></br>
+<c:SFDCComponentContact WhoId="{!relatedTo.whoId}" >
+</c:SFDCComponentContact>
+
+
+
+<br>Link to Task:--><apex:outputlink value="{!LEFT($Api.Partner_Server_URL_140,FIND('.com',$Api.Partner_Server_URL_140)+4)+relatedTo.Id}">{!relatedTo.Subject}</apex:outputlink></br>
+<br>Link to Contact:--><apex:outputlink value="{!LEFT($Api.Partner_Server_URL_140,FIND('.com',$Api.Partner_Server_URL_140)+4)+relatedTo.WhoId}">{!relatedTo.Who.Name}</apex:outputlink></br>
+
+</messaging:htmlEmailBody>
+</messaging:emailTemplate>

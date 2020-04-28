@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Account Management</fullName>
+        <default>false</default>
+        <label>Account Management</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Campaign Landing Page</fullName>
+        <default>false</default>
+        <label>Campaign Landing Page (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Campaign</fullName>
+        <default>false</default>
+        <label>Email Campaign (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Referral</fullName>
+        <default>false</default>
+        <label>External Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inbound call</fullName>
+        <default>false</default>
+        <label>Inbound call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Organic Search</fullName>
+        <default>false</default>
+        <label>Organic Search (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Paid Digital</fullName>
+        <default>false</default>
+        <label>Paid Digital (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner Referral</fullName>
+        <default>false</default>
+        <label>Partner Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Podcast</fullName>
+        <default>false</default>
+        <label>Podcast (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Print Advertising</fullName>
+        <default>false</default>
+        <label>Print Advertising (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>R1 Website</fullName>
+        <default>false</default>
+        <label>R1 Website (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFP - Solicited</fullName>
+        <default>false</default>
+        <label>RFP - Solicited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFP - Unsolicited</fullName>
+        <default>false</default>
+        <label>RFP - Unsolicited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Prospecting</fullName>
+        <default>false</default>
+        <label>Sales Prospecting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Social Media</fullName>
+        <default>false</default>
+        <label>Social Media (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Thought Leadership</fullName>
+        <default>false</default>
+        <label>Thought Leadership (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show / Event</fullName>
+        <default>false</default>
+        <label>Trade Show / Event (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar (M)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Data Enrichment</fullName>
+        <default>false</default>
+        <label>Data Enrichment</label>
+    </standardValue>
+</StandardValueSet>

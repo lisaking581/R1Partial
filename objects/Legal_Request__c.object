@@ -1,0 +1,2160 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Large</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <formFactor>Small</formFactor>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <comment>Action override created by Lightning App Builder during activation.</comment>
+        <content>Legal_Request_Record_Page</content>
+        <formFactor>Large</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <content>Legal_Request_Record_Page</content>
+        <formFactor>Small</formFactor>
+        <skipRecordTypeSelect>false</skipRecordTypeSelect>
+        <type>Flexipage</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>Custom_Layout</compactLayoutAssignment>
+    <compactLayouts>
+        <fullName>Custom_Layout</fullName>
+        <fields>Name</fields>
+        <fields>AccountName__c</fields>
+        <fields>Requested_by_Date__c</fields>
+        <fields>Request_Type__c</fields>
+        <fields>Priority__c</fields>
+        <fields>Related_Opportunity__c</fields>
+        <label>Custom Layout</label>
+    </compactLayouts>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableLicensing>false</enableLicensing>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <externalSharingModel>ReadWrite</externalSharingModel>
+    <fields>
+        <fullName>AccountLU__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipName>Legal_Request</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>AccountName__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountLU__r.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>AccountName</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Address__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountLU__r.BillingStreet+ BR()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Address</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_City__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountLU__r.BillingCity+BR()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account City</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_State__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountLU__r.BillingState+BR()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account State</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Account_Zip__c</fullName>
+        <externalId>false</externalId>
+        <formula>AccountLU__r.BillingPostalCode+BR()</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account Zip</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BAA_Executed__c</fullName>
+        <externalId>false</externalId>
+        <label>BAA Executed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>YesNo</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ComUpside__c</fullName>
+        <externalId>false</externalId>
+        <label>ComUpside</label>
+        <length>10</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Completed_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Completed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Contact_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>Related_Contact__r.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Contact Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Term__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Term</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contract_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Contract Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New customer - Traditional end-to-end</fullName>
+                    <default>false</default>
+                    <label>New customer - Traditional end-to-end</label>
+                </value>
+                <value>
+                    <fullName>New customer - IMX, Modular, PAS</fullName>
+                    <default>false</default>
+                    <label>New customer - IMX, Modular, PAS</label>
+                </value>
+                <value>
+                    <fullName>New customer- New services (licensing, strategy, JV)</fullName>
+                    <default>false</default>
+                    <label>New customer- New services (licensing, strategy, JV)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CountNew__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(ispickval(Request_Type__c,'New Customer'),1,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CountNew</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Create_Month__c</fullName>
+        <externalId>false</externalId>
+        <formula>Text(Year(datevalue(CreatedDate)) )+ "/" + Text(Month(datevalue(CreatedDate)))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Create Month</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Create_in_SmartSheet__c</fullName>
+        <defaultValue>true</defaultValue>
+        <externalId>false</externalId>
+        <label>Create in SmartSheet?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Customer_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Customer Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Customer_Category</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Date_Returned_to_Sales__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Returned to Sales</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_to_CBM__c</fullName>
+        <externalId>false</externalId>
+        <label>Date to CBM</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Date_to_Functional_Review__c</fullName>
+        <externalId>false</externalId>
+        <label>Date to Functional Review</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Days_In_Legal__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(and(isblank(Date_to_Functional_Review__c),isblank(Completed_Date__c), isblank(Date_to_CBM__c)), Today()-datevalue(Submitted_Date__c),
+
+if(not(isblank(Date_to_Functional_Review__c)), datevalue(Date_to_Functional_Review__c)-datevalue(Submitted_Date__c),
+if(not(isblank(Date_to_CBM__c)), datevalue(Date_to_CBM__c)-datevalue(Submitted_Date__c),
+if(not(isblank(Completed_Date__c)), datevalue(Completed_Date__c)-datevalue(Submitted_Date__c),0))))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days In Legal</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_in_CBM__c</fullName>
+        <externalId>false</externalId>
+        <formula>0</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in CBM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_in_Functional_Review__c</fullName>
+        <externalId>false</externalId>
+        <formula>if(text(Status__c) ="Submit for Functional Review", today()-datevalue(Date_to_Functional_Review__c),
+if(not(isblank(Date_to_CBM__c)),datevalue(Date_to_CBM__c)-datevalue(Date_to_Functional_Review__c),0))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days in Functional Review</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Days_to_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (ispickval(Status__c,'Complete'),Completed_Date__c-CreatedDate,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Days to Complete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Existing_Customer_Change__c</fullName>
+        <externalId>false</externalId>
+        <label>Existing Customer Change</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Amendments for New Services</fullName>
+                    <default>false</default>
+                    <label>Amendments for New Services</label>
+                </value>
+                <value>
+                    <fullName>Amendments - Extensions (non-significant changes)</fullName>
+                    <default>false</default>
+                    <label>Amendments - Extensions (non-significant changes)</label>
+                </value>
+                <value>
+                    <fullName>Amendments - Other (non-significant changes)</fullName>
+                    <default>false</default>
+                    <label>Amendments - Other (non-significant changes)</label>
+                </value>
+                <value>
+                    <fullName>Scope Additions/Reductions</fullName>
+                    <default>false</default>
+                    <label>Scope Additions/Reductions</label>
+                </value>
+                <value>
+                    <fullName>Incentive Fee Target Changes</fullName>
+                    <default>false</default>
+                    <label>Incentive Fee Target Changes</label>
+                </value>
+                <value>
+                    <fullName>Replace Existing Agreement with New Agreement</fullName>
+                    <default>false</default>
+                    <label>Replace Existing Agreement with New Agreement</label>
+                </value>
+                <value>
+                    <fullName>Termination</fullName>
+                    <default>false</default>
+                    <label>Termination</label>
+                </value>
+                <value>
+                    <fullName>Other (New) Services</fullName>
+                    <default>false</default>
+                    <label>Other (New) Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Expected_Annual_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Annual Revenue</label>
+        <length>25</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Expected_Revenue__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Must be a positive number</inlineHelpText>
+        <label>Expected Revenue</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>FR_CompletePercent__c</fullName>
+        <externalId>false</externalId>
+        <label>FR%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>FuncReview__c</fullName>
+        <externalId>false</externalId>
+        <formula>FR_CompletePercent__c*100</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>FuncReview%</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Get_Updates__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Get Updates</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Hardware_Included__c</fullName>
+        <externalId>false</externalId>
+        <label>Hardware Included</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>YesNo</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Has_Related_Opp__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (isblank(Related_Opportunity__c), "No","Yes")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Has Related Opp?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Last_Status_Change_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Last Status Change Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Legal_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Comments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Legal_Reviewer__c</fullName>
+        <externalId>false</externalId>
+        <label>Legal Reviewer</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Luminary_Program__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Does this opportunity meet the requirements of the R1 Luminary Program</inlineHelpText>
+        <label>Luminary Program</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MSA_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>MSA Requested</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>NDA_Executed__c</fullName>
+        <externalId>false</externalId>
+        <label>NDA Executed</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>YesNo</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>NDA_Type_Requested__c</fullName>
+        <externalId>false</externalId>
+        <label>NDA Type Requested</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Client Provided NDA</fullName>
+                    <default>false</default>
+                    <label>Client Provided NDA</label>
+                </value>
+                <value>
+                    <fullName>R1 Template NDA Request</fullName>
+                    <default>false</default>
+                    <label>R1 Template NDA Request</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>true</default>
+                    <label>N/A</label>
+                </value>
+                <value>
+                    <fullName>Mutual</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Mutual</label>
+                </value>
+                <value>
+                    <fullName>Unilateral (Customer)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unilateral (Customer)</label>
+                </value>
+                <value>
+                    <fullName>Unilateral (R1)</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Unilateral (R1)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>New_Customer_Services__c</fullName>
+        <externalId>false</externalId>
+        <label>New Customer Services</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>Customer_Services</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Open_Days__c</fullName>
+        <externalId>false</externalId>
+        <formula>if (Not(or(ispickval(Status__c,'Cancel'),ispickval(Status__c,'Complete'))),now()-CreatedDate,0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Open Days</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OppSSIDComments__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(text(Request_Type__c),'New Customer', 'N/E-' + Legal_Comments__c +'['+ SmartSheetRecordID__c +']',
+'Existing Customer Modification', 'N/E-' + Legal_Comments__c +'['+ SmartSheetRecordID__c +']','BAA', 'BAA-' + Legal_Comments__c +'['+ SmartSheetRecordID__c +']','NDA', 'NDA-' + Legal_Comments__c +'['+ SmartSheetRecordID__c +']',Legal_Comments__c +'['+ SmartSheetRecordID__c +']')</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OppSSIDComments</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OppSSIdStatus__c</fullName>
+        <externalId>false</externalId>
+        <formula>text(Status__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>OppSSIdStatus</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opp_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>Related_Opportunity__r.SFID__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opp ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Owner__c</fullName>
+        <externalId>false</externalId>
+        <formula>Related_Opportunity__r.Owner.FirstName + ' ' +Related_Opportunity__r.Owner.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Owner</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>Related_Opportunity__r.Amount</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Email__c</fullName>
+        <description>if(len(Submitted_on_Behalf_of__c)&gt;4,
+$User.Email + "," + Submitted_on_Behalf_of__c, $User.Email)</description>
+        <externalId>false</externalId>
+        <formula>Owner:User.Email</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Email</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>Owner:User.FirstName+ ' ' + Owner:User.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PHI_PI_Accessible__c</fullName>
+        <externalId>false</externalId>
+        <label>PHI/PI Accessible</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>YesNo</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Power_of_One__c</fullName>
+        <externalId>false</externalId>
+        <formula>1</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Power of One</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Pricing_Terms__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing Terms</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Priority__c</fullName>
+        <defaultValue>"Medium"</defaultValue>
+        <externalId>false</externalId>
+        <label>Priority</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>High</fullName>
+                    <default>false</default>
+                    <label>High</label>
+                </value>
+                <value>
+                    <fullName>Medium</fullName>
+                    <default>false</default>
+                    <label>Medium</label>
+                </value>
+                <value>
+                    <fullName>Low</fullName>
+                    <default>false</default>
+                    <label>Low</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Ranking__c</fullName>
+        <description>Used to rank priority of requests</description>
+        <externalId>false</externalId>
+        <label>Ranking</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Related_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.AccountLU__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Legal_Request</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Related_Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Related Opportunity</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Opportunity.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.AccountLU__c</valueField>
+            </filterItems>
+            <isOptional>false</isOptional>
+        </lookupFilter>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Quote to Contracts</relationshipLabel>
+        <relationshipName>Legal_Requests</relationshipName>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Request_Day_as_String__c</fullName>
+        <externalId>false</externalId>
+        <formula>"this " + text(Day(Requested_by_Date__c))+ " of " +
+Case(Month(Requested_by_Date__c),1, "January", 
+2, "February", 
+3, "March", 
+4, "April", 
+5, "May", 
+6, "June", 
+7, "July", 
+8, "August", 
+9, "September", 
+10, "October", 
+11, "November", 
+12, "December", 
+"None") + ", " + Text(Year(Requested_by_Date__c))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Request Day as String</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Request_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New Customer</fullName>
+                    <default>false</default>
+                    <label>New Customer</label>
+                </value>
+                <value>
+                    <fullName>Existing Customer Modification</fullName>
+                    <default>false</default>
+                    <label>Existing Customer Modification</label>
+                </value>
+                <value>
+                    <fullName>NDA</fullName>
+                    <default>false</default>
+                    <label>NDA</label>
+                </value>
+                <value>
+                    <fullName>BAA</fullName>
+                    <default>false</default>
+                    <label>BAA</label>
+                </value>
+                <value>
+                    <fullName>Impact analysis BAA</fullName>
+                    <default>false</default>
+                    <label>Impact analysis BAA</label>
+                </value>
+                <value>
+                    <fullName>Other Request</fullName>
+                    <default>false</default>
+                    <label>Other Request</label>
+                </value>
+                <value>
+                    <fullName>Litigation/Potential Litigation</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Litigation/Potential Litigation</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Requested_by_Date__c</fullName>
+        <defaultValue>today()+ 14</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>If applicable, enter a requested due date so that functional reviewers may prioritize their work queues. Standard expectation is 14 days.</inlineHelpText>
+        <label>Requested by Date</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Resend_Email__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Resend Email?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SOW_Requested__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>SOW Requested</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SmartSheetRecordID__c</fullName>
+        <caseSensitive>false</caseSensitive>
+        <externalId>true</externalId>
+        <label>SmartSheetRecordID</label>
+        <length>20</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>SmartSheet_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>SmartSheet Comments</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Software_Included__c</fullName>
+        <externalId>false</externalId>
+        <label>Software Included</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>YesNo</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>State_of_Incorporation__c</fullName>
+        <externalId>false</externalId>
+        <label>State of Incorporation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetName>X2_Letter_State</valueSetName>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <defaultValue>"New"</defaultValue>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>New</fullName>
+                    <default>false</default>
+                    <label>New</label>
+                </value>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>In Process</fullName>
+                    <default>false</default>
+                    <label>In Process</label>
+                </value>
+                <value>
+                    <fullName>Submit for Functional Review</fullName>
+                    <default>false</default>
+                    <label>Submit for Functional Review</label>
+                </value>
+                <value>
+                    <fullName>Submit for CBM Review</fullName>
+                    <default>false</default>
+                    <label>Submit for CBM Review</label>
+                </value>
+                <value>
+                    <fullName>Submitted to client by legal</fullName>
+                    <default>false</default>
+                    <label>Submitted to client by legal</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+                <value>
+                    <fullName>Cancel</fullName>
+                    <default>false</default>
+                    <label>Cancel</label>
+                </value>
+                <value>
+                    <fullName>Returned to Sales</fullName>
+                    <default>false</default>
+                    <label>Returned to Sales</label>
+                </value>
+                <value>
+                    <fullName>Returned to Requester with Questions</fullName>
+                    <default>false</default>
+                    <label>Returned to Requester with Questions</label>
+                </value>
+                <value>
+                    <fullName>Returned to Requester for Client Alignment</fullName>
+                    <default>false</default>
+                    <label>Returned to Requester for Client Alignment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submitted_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Date to Legal</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Submitted_on_Behalf_of__c</fullName>
+        <externalId>false</externalId>
+        <label>Submitted on Behalf of</label>
+        <length>100</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_BASE__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(Request_Type__c,
+   "BAA","https://app.smartsheet.com/b/form/9630bcab40a74bc9877e12a3be83e23a",
+   "NDA", "https://app.smartsheet.com/b/form/746ed374ef6647189ad30cd66b752004",
+   "Litigation/Potential Litigation","https://app.smartsheet.com/b/form/4dc8032619f141f9bf7c658a1aa07694",
+   "New Customer", "https://app.smartsheet.com/b/form/b11c49a042164c708267b75a70f45b1a",
+   "Existing Customer Modification","https://app.smartsheet.com/b/form/67f97c5d59a9419da1f3bb5e41c6c66b",
+   "Other Request", "https://app.smartsheet.com/b/form/f3760e1da66544e0ba14e3d3080410b4",
+   "Impact Analysis BAA", "https://app.smartsheet.com/b/form/44a4f0eb73f647c5984a9a195100995b",
+   "error")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL_BASE</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_Common__c</fullName>
+        <externalId>false</externalId>
+        <formula>URL_BASE__c+"?Requested%20by%20Date%20(optional)=" + text(Requested_by_Date__c) + 
+"&amp;Requester%20(Business%20Owner)="+Owner:User.FirstName+"%20"+Owner:User.LastName +
+"&amp;Requester%20Email="+Owner_Email__c+
+ "&amp;Customer%20Name="+substitute(AccountName__c," ","+") +
+ "&amp;Target%20Market="+Substitute(Substitute(Text(Customer_Category__c),"&amp;","%26")," ","+")
+  +"&amp;Customer%20State%20of%20Incorporation="+Text(State_of_Incorporation__c) + 
+  "&amp;Salesforce%20Opportunity%20ID%20(Optional)=" + Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL_Common</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_Custom_BAA__c</fullName>
+        <externalId>false</externalId>
+        <formula>URL_Common__c+"&amp;Services%20to%20be%20Provided="+Substitute(text(New_Customer_Services__c)," ","+") +
+
+"&amp;Target%20Market="+text(Customer_Category__c) +
+"&amp;Contract%20Term%20in%20Months=" + text(Contract_Term__c)+ 
+"&amp;City="+substitute(AccountLU__r.BillingCity," ","+") +
+"&amp;State=" +substitute(AccountLU__r.State_Province__r.Name," ","+")+
+"&amp;Zip%20Code=" +left(Account_Zip__c,5) + 
+"&amp;Client%20E-Mail%20Address(es)=" + Related_Contact__r.Email +
+"&amp;Business%20Contact%20Names(s)%20and%20Title(s)="+ Related_Contact__r.FirstName + "%20" + Related_Contact__r.LastName + "%20" + substitute(Related_Contact__r.Title ," ","+")+ 
+"&amp;Expected%20Annual%20Revenue%20($)=" + text(Expected_Revenue__c) +
+"&amp;Solution=" + text(New_Customer_Services__c) + 
+"&amp;Customer%20State%20of%20Incorporation=" + Text(State_of_Incorporation__c) + 
+"&amp;Client%20Telephone%20Number="+ substitute(Related_Contact__r.Phone," ","+")+ 
+"&amp;Comments/Description="+ComUpside__c+' '+ Substitute(Legal_Comments__c," ","+") +
+"&amp;Street%20Address="+ Substitute(Account_Address__c," ","+")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL_Custom_BAA</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_Formula__c</fullName>
+        <externalId>false</externalId>
+        <formula>"https://app.smartsheet.com/b/form/876977cdf6f643fc853a61ecdabc8f90?"
++
+"&amp;Contract%20Type%20per%20Contract%20Boundary%20Matrix=" + substitute(TEXT(Contract_Type__c)," ","+")+
+"&amp;Luminary%20Program="+ text(Luminary_Program__c) +
+"&amp;Requested%20by%20Date%20(optional)=" + text(Requested_by_Date__c) +
+"&amp;Expected%20Annual%20Revenue%20($)=" + text(Opportunity_Value__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL Formula</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_ModifyExisting__c</fullName>
+        <externalId>false</externalId>
+        <formula>URL_Common__c+"&amp;Existing%20Customer%20Change="+Substitute(text(Existing_Customer_Change__c)," ","+") + 
+"&amp;Luminary%20Program="+text(Luminary_Program__c) + 
+"&amp;Software%20Included=" + text(Software_Included__c) + 
+"&amp;Hardware%20Included="+text(Hardware_Included__c) + 
+"&amp;Contract%20Term%20in%20Months=" + text(Related_Opportunity__r.Duration__c) + 
+"&amp;City="+substitute(AccountLU__r.BillingCity," ","+") + 
+"&amp;State=" +substitute(AccountLU__r.State_Province__r.Name," ","+")+ 
+"&amp;Zip%20Code=" +left(Account_Zip__c,5) + 
+"&amp;Client%20E-Mail%20Address(es)=" + Related_Contact__r.Email + 
+"&amp;NDA%20Executed=" + text(NDA_Executed__c) + 
+"&amp;BAA%20Executed="+text(BAA_Executed__c)+ 
+"&amp;PHI/PI%20Accessible="+text(PHI_PI_Accessible__c)+ 
+"&amp;Business%20Contact%20Names(s)%20and%20Title(s)="+ Related_Contact__r.FirstName + "%20" + Related_Contact__r.LastName + "%20" + substitute(Related_Contact__r.Title ," ","+")+ 
+"&amp;Expected%20Annual%20Revenue%20($)=" + Expected_Annual_Revenue__c + 
+"&amp;Start%20Date%20(Optional)="+text(Related_Opportunity__r.Start_Date__c) + 
+"&amp;Pricing%20Terms=" +substitute( Pricing_Terms__c," ","+") + 
+"&amp;Client%20Telephone%20Number="+ substitute(Related_Contact__r.Phone," ","+")+ 
+"&amp;Comments/Description=" +ComUpside__c + ' ' + Substitute(Legal_Comments__c," ","+") + 
+"&amp;Street%20Address="+ Substitute(Account_Address__c," ","+")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL_ModifyExisting</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_NDA_Custom__c</fullName>
+        <externalId>false</externalId>
+        <formula>URL_Common__c+"&amp;NDA%20Type%20Requested="+text(NDA_Type_Requested__c) +
+ "&amp;Luminary%20Program="+text(Luminary_Program__c) + 
+"&amp;Software%20Included=" + text(Software_Included__c) + 
+"&amp;Hardware%20Included="+text(Hardware_Included__c) + 
+"&amp;Contract%20Term%20in%20Months=" + text(Related_Opportunity__r.Duration__c) + 
+"&amp;City="+substitute(AccountLU__r.BillingCity," ","+") + 
+"&amp;State=" +substitute(AccountLU__r.State_Province__r.Name," ","+")+ 
+"&amp;Zip%20Code=" +left(Account_Zip__c,5) + 
+"&amp;Client%20E-Mail%20Address(es)=" + Related_Contact__r.Email + 
+"&amp;NDA%20Executed=" + text(NDA_Executed__c) + 
+"&amp;BAA%20Executed="+text(BAA_Executed__c)+ 
+"&amp;PHI/PI%20Accessible="+text(PHI_PI_Accessible__c)+ 
+"&amp;Business%20Contact%20Names(s)%20and%20Title(s)="+ Related_Contact__r.FirstName + "%20" + Related_Contact__r.LastName + "%20" + substitute(Related_Contact__r.Title ," ","+")+ 
+"&amp;Expected%20Annual%20Revenue%20($)=" + Expected_Annual_Revenue__c + 
+"&amp;Start%20Date="+text(Related_Opportunity__r.Start_Date__c) + 
+"&amp;Pricing%20Terms=" +substitute( Pricing_Terms__c," ","+") + 
+"&amp;Client%20Telephone%20Number="+ substitute(Related_Contact__r.Phone," ","+")+ 
+"&amp;Existing%20Customer%20Change="+substitute(text(Existing_Customer_Change__c)," ","+") + 
+"&amp;Comments/Description="+ ComUpside__c + ' ' + Substitute(Legal_Comments__c," ","+") + 
+"&amp;Street%20Address="+ Substitute(Account_Address__c," ","+")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL_NDA_Custom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL_Other__c</fullName>
+        <externalId>false</externalId>
+        <formula>"https://app.smartsheet.com/b/form/f3760e1da66544e0ba14e3d3080410b4?Name="+Owner:User.FirstName+"%20"+Owner:User.LastName+"&amp;Email="+Owner_Email__c+"&amp;Comments/Description="+substitute(Legal_Comments__c," ","+")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL-Other</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>URL__c</fullName>
+        <externalId>false</externalId>
+        <formula>URL_Common__c+"&amp;Services%20to%20be%20Provided="+Substitute(text(New_Customer_Services__c)," ","+") +
+"&amp;Luminary%20Program="+text(Luminary_Program__c) +
+"&amp;Software%20Included=" + text(Software_Included__c) + 
+"&amp;Hardware%20Included="+text(Hardware_Included__c) +
+"&amp;Contract%20Term%20in%20Months=" + text(Related_Opportunity__r.Duration__c) + 
+"&amp;City="+substitute(AccountLU__r.BillingCity," ","+") +
+"&amp;State=" +substitute(AccountLU__r.State_Province__r.Name," ","+")+
+"&amp;Zip%20Code=" +left(Account_Zip__c,5) + 
+"&amp;Client%20E-Mail%20Address(es)=" + Related_Contact__r.Email +
+"&amp;NDA%20Executed=" + text(NDA_Executed__c) +
+"&amp;BAA%20Executed="+text(BAA_Executed__c)+
+"&amp;PHI/PI%20Accessible="+text(PHI_PI_Accessible__c)+
+"&amp;Business%20Contact%20Names(s)%20and%20Title(s)="+ Related_Contact__r.FirstName + "%20" + Related_Contact__r.LastName + "%20" + substitute(Related_Contact__r.Title ," ","+")+ 
+"&amp;Expected%20Annual%20Revenue%20($)=" + text(Expected_Revenue__c) +
+"&amp;Start%20Date="+text(Related_Opportunity__r.Start_Date__c) +
+"&amp;Pricing%20Terms=" +substitute( Pricing_Terms__c," ","+") + 
+"&amp;Client%20Telephone%20Number="+ substitute(Related_Contact__r.Phone," ","+")+ 
+"&amp;Existing%20Customer%20Change="+substitute(text(Existing_Customer_Change__c)," ","+") +
+"&amp;Comments/Description="+ComUpside__c+' '+ Substitute(Legal_Comments__c," ","+") +
+"&amp;Street%20Address="+ Substitute(Account_Address__c," ","+")</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>URL_NewCustomer_Custom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Quote to Contract</label>
+    <listViews>
+        <fullName>Active_Q2C</fullName>
+        <columns>NAME</columns>
+        <columns>SmartSheetRecordID__c</columns>
+        <columns>AccountName__c</columns>
+        <columns>OWNER.FIRST_NAME</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Requested_by_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Request_Type__c</columns>
+        <columns>LAST_UPDATE</columns>
+        <columns>FuncReview__c</columns>
+        <columns>Legal_Reviewer__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountName__c</field>
+            <operation>notEqual</operation>
+            <value>SAM Test Account</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Legal_Request__c.New_Legal_Request</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>New,Not Started,In Process,Submit for Functional Review,Submit for CBM Review,Returned to Sales,Returned to Requester with Questions,Returned to Requester for Client Alignment</value>
+        </filters>
+        <label>Active Q2C</label>
+    </listViews>
+    <listViews>
+        <fullName>Active_Q2C_Aging</fullName>
+        <columns>NAME</columns>
+        <columns>SmartSheetRecordID__c</columns>
+        <columns>AccountName__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Requested_by_Date__c</columns>
+        <columns>Status__c</columns>
+        <columns>Request_Type__c</columns>
+        <columns>Days_In_Legal__c</columns>
+        <columns>Days_in_Functional_Review__c</columns>
+        <columns>Days_in_CBM__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountName__c</field>
+            <operation>notEqual</operation>
+            <value>SAM Test Account</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Legal_Request__c.New_Legal_Request</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>New,In Process,Submit for Functional Review,Submit for CBM Approval</value>
+        </filters>
+        <label>Active Q2C Aging</label>
+    </listViews>
+    <listViews>
+        <fullName>CBM_Review</fullName>
+        <columns>Last_Status_Change_Date__c</columns>
+        <columns>SmartSheetRecordID__c</columns>
+        <columns>AccountName__c</columns>
+        <columns>Status__c</columns>
+        <columns>Legal_Reviewer__c</columns>
+        <columns>Legal_Comments__c</columns>
+        <columns>FuncReview__c</columns>
+        <columns>Owner_Name__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submit for CBM Review</value>
+        </filters>
+        <label>CBM Review</label>
+    </listViews>
+    <listViews>
+        <fullName>Complete_Q2C_Aging</fullName>
+        <columns>NAME</columns>
+        <columns>SmartSheetRecordID__c</columns>
+        <columns>AccountName__c</columns>
+        <columns>CREATED_DATE</columns>
+        <columns>Status__c</columns>
+        <columns>Request_Type__c</columns>
+        <columns>Days_to_Complete__c</columns>
+        <columns>Days_In_Legal__c</columns>
+        <columns>Days_in_Functional_Review__c</columns>
+        <columns>Days_in_CBM__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>AccountName__c</field>
+            <operation>notEqual</operation>
+            <value>SAM Test Account</value>
+        </filters>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Legal_Request__c.New_Legal_Request</value>
+        </filters>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Complete</value>
+        </filters>
+        <label>Complete Q2C Aging</label>
+        <sharedTo>
+            <group>System_Admins</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Created_Today</fullName>
+        <columns>NAME</columns>
+        <columns>AccountName__c</columns>
+        <columns>Legal_Comments__c</columns>
+        <columns>Create_in_SmartSheet__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <columns>NDA_Executed__c</columns>
+        <columns>BAA_Executed__c</columns>
+        <columns>Opp_ID__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Created Today</label>
+    </listViews>
+    <listViews>
+        <fullName>Functional_Review</fullName>
+        <columns>Last_Status_Change_Date__c</columns>
+        <columns>SmartSheetRecordID__c</columns>
+        <columns>AccountName__c</columns>
+        <columns>Status__c</columns>
+        <columns>Legal_Reviewer__c</columns>
+        <columns>Legal_Comments__c</columns>
+        <columns>FuncReview__c</columns>
+        <columns>Owner_Name__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>Submit for Functional Review</value>
+        </filters>
+        <label>Functional Review</label>
+    </listViews>
+    <listViews>
+        <fullName>In_Process</fullName>
+        <columns>Last_Status_Change_Date__c</columns>
+        <columns>SmartSheetRecordID__c</columns>
+        <columns>AccountName__c</columns>
+        <columns>Status__c</columns>
+        <columns>Legal_Reviewer__c</columns>
+        <columns>Legal_Comments__c</columns>
+        <columns>FuncReview__c</columns>
+        <columns>Owner_Name__c</columns>
+        <columns>NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Status__c</field>
+            <operation>equals</operation>
+            <value>In Process</value>
+        </filters>
+        <label>In Process</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Q2C-{00000}</displayFormat>
+        <label>Quote to Contract ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Quote to Contracts</pluralLabel>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>New_Legal_Request</fullName>
+        <active>true</active>
+        <label>New Quote to Contract</label>
+        <picklistValues>
+            <picklist>BAA_Executed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Contract_Type__c</picklist>
+            <values>
+                <fullName>New customer - IMX%2C Modular%2C PAS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New customer - Traditional end-to-end</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New customer- New services %28licensing%2C strategy%2C JV%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Customer_Category__c</picklist>
+            <values>
+                <fullName>FD%2C Municipalities</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital-Based Physicians</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospitals and Health Systems</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Office-Based Physicians</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Existing_Customer_Change__c</picklist>
+            <values>
+                <fullName>Amendments - Extensions %28non-significant changes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amendments - Other %28non-significant changes%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Amendments for New Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Incentive Fee Target Changes</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other %28New%29 Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Replace Existing Agreement with New Agreement</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Scope Additions%2FReductions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Termination</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Hardware_Included__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Luminary_Program__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>NDA_Executed__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>NDA_Type_Requested__c</picklist>
+            <values>
+                <fullName>Client Provided NDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>N%2FA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>R1 Template NDA Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>New_Customer_Services__c</picklist>
+            <values>
+                <fullName>Ambulance Supplemental Payment Program ASPP</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anesthesia - Coding Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anesthesia - Practice Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Anesthesia - Revenue Cycle Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Business Office Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Clinical Documentation Improvement Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Coding Management Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Emergency Medicine - Coding Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Emergency Medicine - Practice Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Emergency Medicine - Revenue Cycle Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Revenue Cycle Management Full Operating Partnership</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Enterprise Revenue Cycle Mgmt Co-Managed Partnership</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital Medicine - Coding Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital Medicine - Practice Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Hospital Medicine - Revenue Cycle Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optima Consulting Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optima Live</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optima Managed Analytics Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Optima Predict</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Patient Access Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Physician Advisory Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Practice Management Services</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revenue Cycle Management Services OB</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revenue Cycle Management Services- EMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Revenue Integrity Solutions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TripTix</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>PHI_PI_Accessible__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Priority__c</picklist>
+            <values>
+                <fullName>High</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Low</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Medium</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Type__c</picklist>
+            <values>
+                <fullName>BAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Existing Customer Modification</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Impact analysis BAA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NDA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New Customer</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other Request</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Software_Included__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>State_of_Incorporation__c</picklist>
+            <values>
+                <fullName>AK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>AZ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>HI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ID</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IL</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>KY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>LA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ME</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>MT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ND</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NJ</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>NY</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Non-US</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OH</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OK</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>OR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>PA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SC</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>SD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TN</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>TX</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>UT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VT</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WI</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WV</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>WY</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Cancel</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Process</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>New</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Returned to Requester for Client Alignment</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Returned to Requester with Questions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Returned to Sales</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submit for CBM Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submit for Functional Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted to client by legal</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts />
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Link_to_SmartSheet</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Open SmartSheet</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://app.smartsheet.com/reports/Fj2RxqXHhRrrqJxq3V75HR7C3JhV7cXMGcjhpRc1?view=grid</url>
+    </webLinks>
+</CustomObject>

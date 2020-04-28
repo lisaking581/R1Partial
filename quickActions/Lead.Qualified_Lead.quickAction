@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<QuickAction xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>When the Lead’s Record Type = Suspect the user can click this button and it will:
+Update Lead Record Type to “Qualified”
+Change “Lead Status” to “Active Lead – In Progress”
+Change “Outcome Status” to “Continue to Nurture”
+Funnel Stage = Qualified Lead</description>
+    <flowDefinition>Update_To_Qualified_Lead</flowDefinition>
+    <label>Qualified Lead</label>
+    <optionsCreateFeedItem>false</optionsCreateFeedItem>
+    <type>Flow</type>
+</QuickAction>

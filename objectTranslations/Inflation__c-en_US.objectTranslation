@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Inflation</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Inflation</value>
+    </caseValues>
+    <fields>
+        <label><!-- Country --></label>
+        <name>Country__c</name>
+    </fields>
+    <fields>
+        <help><!-- See the first record for this country to get the data source information --></help>
+        <label><!-- Data Source --></label>
+        <name>Data_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inflation Legacy ID --></label>
+        <name>Inflation_Legacy_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percentage --></label>
+        <name>Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Year --></label>
+        <name>Year__c</name>
+    </fields>
+    <layouts>
+        <layout>Inflation Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Notes --></label>
+            <section>Notes</section>
+        </sections>
+    </layouts>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>
